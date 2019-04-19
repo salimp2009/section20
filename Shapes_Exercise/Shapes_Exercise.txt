@@ -1,0 +1,1 @@
+./Debug/Shapes.cpp.o ./Debug/Triangle.cpp.o ./Debug/Vector3.cpp.o ./Debug/Shapes_Utility.cpp.o ./Debug/Circle.cpp.o ./Debug/I_Draw.cpp.o ./Debug/main.cpp.o

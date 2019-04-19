@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section20" Database="" Version="10.0.0">
+  <Project Name="FunctionTemplate" Path="FunctionTemplate/FunctionTemplate.project" Active="No"/>
+  <Project Name="Atomics_01" Path="Atomics_01/Atomics_01.project" Active="No"/>
+  <Project Name="Assertion_Test" Path="Assertion_Test/Assertion_Test.project" Active="No"/>
+  <Project Name="Copyfile_1" Path="Copyfile_1/Copyfile_1.project" Active="No"/>
+  <Project Name="CustomDeleters" Path="CustomDeleters/CustomDeleters.project" Active="No"/>
+  <Project Name="FunctionObjects" Path="FunctionObjects/FunctionObjects.project" Active="No"/>
+  <Project Name="FutureAsync" Path="FutureAsync/FutureAsync.project" Active="No"/>
+  <Project Name="FutureWaitingTwoTasks" Path="FutureWaitingTwoTasks/FutureWaitingTwoTasks.project" Active="No"/>
+  <Project Name="Mutex_Condition_Variable1" Path="Mutex_Condition_Variable1/Mutex_Condition_Variable1.project" Active="No"/>
+  <Project Name="Mutex_Condition_Variable2" Path="Mutex_Condition_Variable2/Mutex_Condition_Variable2.project" Active="No"/>
+  <Project Name="Mutex1" Path="Mutex1/Mutex1.project" Active="No"/>
+  <Project Name="MutexRecursiveLock" Path="MutexRecursiveLock/MutexRecursiveLock.project" Active="No"/>
+  <Project Name="PrebuildFunctions_STL" Path="PrebuildFunctions_STL/PrebuildFunctions_STL.project" Active="No"/>
+  <Project Name="Shapes_Exercise" Path="Shapes_Exercise/Shapes_Exercise.project" Active="No"/>
+  <Project Name="SharedFutures" Path="SharedFutures/SharedFutures.project" Active="No"/>
+  <Project Name="SharedPointers" Path="SharedPointers/SharedPointers.project" Active="No"/>
+  <Project Name="STL_Bind" Path="STL_Bind/STL_Bind.project" Active="No"/>
+  <Project Name="STLErrors" Path="STLErrors/STLErrors.project" Active="No"/>
+  <Project Name="StringStream" Path="StringStream/StringStream.project" Active="No"/>
+  <Project Name="SwapBigEndianLittleEndian" Path="SwapBigEndianLittleEndian/SwapBigEndianLittleEndian.project" Active="No"/>
+  <Project Name="Template_Stack2" Path="Template_Stack2/Template_Stack2.project" Active="No"/>
+  <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="No"/>
+  <Project Name="Thread_Join" Path="Thread_Join/Thread_Join.project" Active="No"/>
+  <Project Name="Thread_PackagedTask_Future" Path="Thread_PackagedTask_Future/Thread_PackagedTask_Future.project" Active="No"/>
+  <Project Name="Thread_Promise_Future" Path="Thread_Promise_Future/Thread_Promise_Future.project" Active="No"/>
+  <Project Name="VariadicTemplates" Path="VariadicTemplates/VariadicTemplates.project" Active="No"/>
+  <Project Name="Atomics_Spinlock" Path="Atomics_Spinlock/Atomics_Spinlock.project" Active="No"/>
+  <Project Name="ClassTemplates" Path="ClassTemplates/ClassTemplates.project" Active="No"/>
+  <Project Name="NonAtomic_ConditionalVar" Path="Atomics_ConditionVar/Atomics_ConditionVar.project" Active="No"/>
+  <Project Name="Atomics_ConditionalVar" Path="Atomics_ConditionalVar/Atomics_ConditionalVar.project" Active="No"/>
+  <Project Name="Template_StackNonType" Path="Template_StackNonType/Template_StackNonType.project" Active="No"/>
+  <Project Name="ClassTemplateArray" Path="ClassTemplateArray/ClassTemplateArray.project" Active="No"/>
+  <Project Name="Semaphore_Pthreads" Path="Semaphore_Pthreads/Semaphore_Pthreads.project" Active="No"/>
+  <Project Name="Iterators" Path="Iterators/Iterators.project" Active="No"/>
+  <Project Name="Type_Traits_01" Path="Type_Traits_01/Type_Traits_01.project" Active="No"/>
+  <Project Name="Atomic-SpinlockMemoryOrder" Path="Spinlock_Memory_Order/Spinlock_Memory_Order.project" Active="No"/>
+  <Project Name="MemoryOrderRelease_Transistivity" Path="MemoryOrderRelease_Transistivity/MemoryOrderRelease_Transistivity.project" Active="No"/>
+  <Project Name="Algorithms" Path="Algorithms/Algorithms.project" Active="No"/>
+  <Project Name="MemoryOrderRelease_NoWaiting" Path="MemoryOrderRelease_NoWaiting/MemoryOrderRelease_NoWaiting.project" Active="No"/>
+  <Project Name="MemoryOrderRelease_Consume" Path="MemoryOrderRelease_Consume/MemoryOrderRelease_Consume.project" Active="No"/>
+  <Project Name="Array" Path="Array/Array.project" Active="No"/>
+  <Project Name="Memory_Order_Relaxed" Path="Memory_Order_Relaxed/Memory_Order_Relaxed.project" Active="No"/>
+  <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
+  <Project Name="MemoryOrder_Thread_Fence" Path="MemoryOrder_Thread_Fence/MemoryOrder_Thread_Fence.project" Active="No"/>
+  <Project Name="MemoryOrder_Signal_Fence" Path="MemoryOrder_Signal_Fence/MemoryOrder_Signal_Fence.project" Active="No"/>
+  <Project Name="Deque" Path="Deque/Deque.project" Active="No"/>
+  <Project Name="Thread_Creation" Path="Thread_Creation/Thread_Creation.project" Active="No"/>
+  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="No"/>
+  <Project Name="Challenge_1_Soln" Path="Challenge_1_Soln/Challenge_1_Soln.project" Active="No"/>
+  <Project Name="ThreadArguments" Path="ThreadArguments/ThreadArguments.project" Active="No"/>
+  <Project Name="List" Path="List/List.project" Active="No"/>
+  <Project Name="Thread_SharedData" Path="Thread_SharedData/Thread_SharedData.project" Active="No"/>
+  <Project Name="Thread_Mutex_UniqueLock" Path="Thread_Mutex_UniqueLock/Thread_Mutex_UniqueLock.project" Active="No"/>
+  <Project Name="Challenge_2" Path="Challenge_2/Challenge_2.project" Active="No"/>
+  <Project Name="Set" Path="Set/Set.project" Active="No"/>
+  <Project Name="Thread_SharedMutex_SharedLock" Path="Thread_SharedMutex_SharedLock/Thread_SharedMutex_SharedLock.project" Active="No"/>
+  <Project Name="Map" Path="Map/Map.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Assertion_Test" ConfigName="Debug"/>
+      <Project Name="Atomics_01" ConfigName="Debug"/>
+      <Project Name="Atomics_ConditionalVar" ConfigName="Debug"/>
+      <Project Name="Atomics_Spinlock" ConfigName="Debug"/>
+      <Project Name="ClassTemplateArray" ConfigName="Debug"/>
+      <Project Name="ClassTemplates" ConfigName="Debug"/>
+      <Project Name="Copyfile_1" ConfigName="Debug"/>
+      <Project Name="CustomDeleters" ConfigName="Debug"/>
+      <Project Name="FunctionObjects" ConfigName="Debug"/>
+      <Project Name="FunctionTemplate" ConfigName="Debug"/>
+      <Project Name="FutureAsync" ConfigName="Debug"/>
+      <Project Name="FutureWaitingTwoTasks" ConfigName="Debug"/>
+      <Project Name="Mutex1" ConfigName="Debug"/>
+      <Project Name="MutexRecursiveLock" ConfigName="Debug"/>
+      <Project Name="Mutex_Condition_Variable1" ConfigName="Debug"/>
+      <Project Name="Mutex_Condition_Variable2" ConfigName="Debug"/>
+      <Project Name="NonAtomic_ConditionalVar" ConfigName="Debug"/>
+      <Project Name="PrebuildFunctions_STL" ConfigName="Debug"/>
+      <Project Name="STLErrors" ConfigName="Debug"/>
+      <Project Name="STL_Bind" ConfigName="Debug"/>
+      <Project Name="Semaphore_Pthreads" ConfigName="Debug"/>
+      <Project Name="Shapes_Exercise" ConfigName="Debug"/>
+      <Project Name="SharedFutures" ConfigName="Debug"/>
+      <Project Name="SharedPointers" ConfigName="Debug"/>
+      <Project Name="StringStream" ConfigName="Debug"/>
+      <Project Name="SwapBigEndianLittleEndian" ConfigName="Debug"/>
+      <Project Name="TemplateDefaultArguments" ConfigName="Debug"/>
+      <Project Name="Template_Stack2" ConfigName="Debug"/>
+      <Project Name="Template_StackNonType" ConfigName="Debug"/>
+      <Project Name="Thread_Join" ConfigName="Debug"/>
+      <Project Name="Thread_PackagedTask_Future" ConfigName="Debug"/>
+      <Project Name="Thread_Promise_Future" ConfigName="Debug"/>
+      <Project Name="VariadicTemplates" ConfigName="Debug"/>
+      <Project Name="Iterators" ConfigName="Debug"/>
+      <Project Name="Type_Traits_01" ConfigName="Debug"/>
+      <Project Name="Atomic-SpinlockMemoryOrder" ConfigName="Debug"/>
+      <Project Name="MemoryOrderRelease_Transistivity" ConfigName="Debug"/>
+      <Project Name="Algorithms" ConfigName="Debug"/>
+      <Project Name="MemoryOrderRelease_NoWaiting" ConfigName="Debug"/>
+      <Project Name="MemoryOrderRelease_Consume" ConfigName="Debug"/>
+      <Project Name="Array" ConfigName="Debug"/>
+      <Project Name="Memory_Order_Relaxed" ConfigName="Debug"/>
+      <Project Name="Vector" ConfigName="Debug"/>
+      <Project Name="MemoryOrder_Thread_Fence" ConfigName="Debug"/>
+      <Project Name="MemoryOrder_Signal_Fence" ConfigName="Debug"/>
+      <Project Name="Deque" ConfigName="Debug"/>
+      <Project Name="Thread_Creation" ConfigName="Debug"/>
+      <Project Name="Challenge_1" ConfigName="Debug"/>
+      <Project Name="Challenge_1_Soln" ConfigName="Debug"/>
+      <Project Name="ThreadArguments" ConfigName="Debug"/>
+      <Project Name="List" ConfigName="Debug"/>
+      <Project Name="Thread_SharedData" ConfigName="Debug"/>
+      <Project Name="Thread_Mutex_UniqueLock" ConfigName="Debug"/>
+      <Project Name="Challenge_2" ConfigName="Debug"/>
+      <Project Name="Set" ConfigName="Debug"/>
+      <Project Name="Thread_SharedMutex_SharedLock" ConfigName="Debug"/>
+      <Project Name="Map" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="FunctionTemplate" ConfigName="Release"/>
+      <Project Name="Atomics_01" ConfigName="Release"/>
+      <Project Name="Assertion_Test" ConfigName="Release"/>
+      <Project Name="Copyfile_1" ConfigName="Release"/>
+      <Project Name="CustomDeleters" ConfigName="Release"/>
+      <Project Name="FunctionObjects" ConfigName="Release"/>
+      <Project Name="FutureAsync" ConfigName="Release"/>
+      <Project Name="FutureWaitingTwoTasks" ConfigName="Release"/>
+      <Project Name="Mutex_Condition_Variable1" ConfigName="Release"/>
+      <Project Name="Mutex_Condition_Variable2" ConfigName="Release"/>
+      <Project Name="Mutex1" ConfigName="Release"/>
+      <Project Name="MutexRecursiveLock" ConfigName="Release"/>
+      <Project Name="PrebuildFunctions_STL" ConfigName="Release"/>
+      <Project Name="Shapes_Exercise" ConfigName="Release"/>
+      <Project Name="SharedFutures" ConfigName="Release"/>
+      <Project Name="SharedPointers" ConfigName="Release"/>
+      <Project Name="STL_Bind" ConfigName="Release"/>
+      <Project Name="STLErrors" ConfigName="Release"/>
+      <Project Name="StringStream" ConfigName="Release"/>
+      <Project Name="SwapBigEndianLittleEndian" ConfigName="Release"/>
+      <Project Name="Template_Stack2" ConfigName="Release"/>
+      <Project Name="TemplateDefaultArguments" ConfigName="Release"/>
+      <Project Name="Thread_Join" ConfigName="Release"/>
+      <Project Name="Thread_PackagedTask_Future" ConfigName="Release"/>
+      <Project Name="Thread_Promise_Future" ConfigName="Release"/>
+      <Project Name="VariadicTemplates" ConfigName="Release"/>
+      <Project Name="Atomics_Spinlock" ConfigName="Release"/>
+      <Project Name="ClassTemplates" ConfigName="Release"/>
+      <Project Name="NonAtomic_ConditionalVar" ConfigName="Release"/>
+      <Project Name="Atomics_ConditionalVar" ConfigName="Release"/>
+      <Project Name="Template_StackNonType" ConfigName="Release"/>
+      <Project Name="ClassTemplateArray" ConfigName="Release"/>
+      <Project Name="Semaphore_Pthreads" ConfigName="Release"/>
+      <Project Name="Iterators" ConfigName="Release"/>
+      <Project Name="Type_Traits_01" ConfigName="Release"/>
+      <Project Name="Atomic-SpinlockMemoryOrder" ConfigName="Release"/>
+      <Project Name="MemoryOrderRelease_Transistivity" ConfigName="Release"/>
+      <Project Name="Algorithms" ConfigName="Release"/>
+      <Project Name="MemoryOrderRelease_NoWaiting" ConfigName="Release"/>
+      <Project Name="MemoryOrderRelease_Consume" ConfigName="Release"/>
+      <Project Name="Array" ConfigName="Release"/>
+      <Project Name="Memory_Order_Relaxed" ConfigName="Release"/>
+      <Project Name="Vector" ConfigName="Release"/>
+      <Project Name="MemoryOrder_Thread_Fence" ConfigName="Release"/>
+      <Project Name="MemoryOrder_Signal_Fence" ConfigName="Release"/>
+      <Project Name="Deque" ConfigName="Release"/>
+      <Project Name="Thread_Creation" ConfigName="Release"/>
+      <Project Name="Challenge_1" ConfigName="Release"/>
+      <Project Name="Challenge_1_Soln" ConfigName="Release"/>
+      <Project Name="ThreadArguments" ConfigName="Release"/>
+      <Project Name="List" ConfigName="Release"/>
+      <Project Name="Thread_SharedData" ConfigName="Release"/>
+      <Project Name="Thread_Mutex_UniqueLock" ConfigName="Release"/>
+      <Project Name="Challenge_2" ConfigName="Release"/>
+      <Project Name="Set" ConfigName="Release"/>
+      <Project Name="Thread_SharedMutex_SharedLock" ConfigName="Release"/>
+      <Project Name="Map" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
