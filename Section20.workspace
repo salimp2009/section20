@@ -56,7 +56,8 @@
   <Project Name="Challenge_2" Path="Challenge_2/Challenge_2.project" Active="No"/>
   <Project Name="Set" Path="Set/Set.project" Active="No"/>
   <Project Name="Thread_SharedMutex_SharedLock" Path="Thread_SharedMutex_SharedLock/Thread_SharedMutex_SharedLock.project" Active="No"/>
-  <Project Name="Map" Path="Map/Map.project" Active="Yes"/>
+  <Project Name="Map" Path="Map/Map.project" Active="No"/>
+  <Project Name="Thread_Safe_Initiliaze" Path="Thread_Safe_Initiliaze/Thread_Safe_Initiliaze.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -117,6 +118,7 @@
       <Project Name="Set" ConfigName="Debug"/>
       <Project Name="Thread_SharedMutex_SharedLock" ConfigName="Debug"/>
       <Project Name="Map" ConfigName="Debug"/>
+      <Project Name="Thread_Safe_Initiliaze" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -177,6 +179,7 @@
       <Project Name="Set" ConfigName="Release"/>
       <Project Name="Thread_SharedMutex_SharedLock" ConfigName="Release"/>
       <Project Name="Map" ConfigName="Release"/>
+      <Project Name="Thread_Safe_Initiliaze" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

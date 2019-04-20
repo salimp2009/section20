@@ -6,11 +6,11 @@
 void display(const std::map<std::string, std::set<int>>& m) {
     std::cout<<"[";
     for(const auto& elem:m) {
-        std::cout<<elem.first<<", [";
+        std::cout<<elem.first<<":[";
         for(const auto set_elem:elem.second) {
             std::cout<<set_elem<<" ";
         }
-        std::cout<<"]";
+        std::cout<<"] ";
     }
     std::cout<<"]\n";
 }
@@ -51,16 +51,42 @@ void test1() {
    std::cout<<"\nCount for Salim: "<<m.count("Salim")<<'\n';
    std::cout<<"\nCount for Rob: "<<m.count("Rob")<<'\n';
    
-   
+   auto it=m.find("Demir");    // search with the key value;
+   if(it!=m.end())
+       std::cout<<"\nFound "<<it->first<<": "<<it->second<<'\n';
 
     m.clear();              // erases all elements 
     display(m);         
+}
+
+void test2() {
+    std::cout<<"\n===============Test2==================\n";
     
+    std::map<std::string, std::set<int>>grades{
+        {"Demir", {100,90,80}},
+        {"Salim", {95}},
+        {"Sema", {95,99,100}}
+    };
+    
+    display(grades);
+    
+    grades["Salim"].insert(98);  // [key] return reference to the value and value is a set
+                                 // using sets insert() method to add to the set
+    
+    auto it=grades.find("Sema");            // search for the key; returns an iterator
+    if(it!=grades.end())
+        it->second.insert({1000, 12}); // dereference iterator to get second element; 
+                                            // it->first=key and it->second=value
+                                            // second element is a set; use insert for set to add value
+                                            // to the set
+   display(grades);                                         
+   
 }
 
 int main()
 {
     test1();
+    test2();
     
  
  
