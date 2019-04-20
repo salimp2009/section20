@@ -21,15 +21,16 @@ private:
     double myVal1;
     double myVal2;
 public:
-    
-    
-}
+    constexpr MyDouble(double v1, double v2): myVal1{std::move(v1)}, myVal2{std::move(v2)} { }
+    constexpr double getSum() const {return myVal1+myVal2;} 
+};
 
 
 int main()
 {
-    
-
- 
+    constexpr double myval=2.2;
+    constexpr MyDouble mydouble(5.4, myval);
+    constexpr double sum=mydouble.getSum();
+    std::cout<<sum<<'\n';
  return 0;
 }
