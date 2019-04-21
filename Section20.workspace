@@ -18,7 +18,7 @@
   <Project Name="SharedPointers" Path="SharedPointers/SharedPointers.project" Active="No"/>
   <Project Name="STL_Bind" Path="STL_Bind/STL_Bind.project" Active="No"/>
   <Project Name="STLErrors" Path="STLErrors/STLErrors.project" Active="No"/>
-  <Project Name="StringStream" Path="StringStream/StringStream.project" Active="No"/>
+  <Project Name="StringStream" Path="StringStream/StringStream.project" Active="Yes"/>
   <Project Name="SwapBigEndianLittleEndian" Path="SwapBigEndianLittleEndian/SwapBigEndianLittleEndian.project" Active="No"/>
   <Project Name="Template_Stack2" Path="Template_Stack2/Template_Stack2.project" Active="No"/>
   <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="No"/>
@@ -60,7 +60,7 @@
   <Project Name="Thread_Safe_Initiliaze" Path="Thread_Safe_Initiliaze/Thread_Safe_Initiliaze.project" Active="No"/>
   <Project Name="Thread_Call_Once_Flag" Path="Thread_Call_Once_Flag/Thread_Call_Once_Flag.project" Active="No"/>
   <Project Name="Challenge_3" Path="Challenge_3/Challenge_3.project" Active="No"/>
-  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="Yes"/>
+  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
