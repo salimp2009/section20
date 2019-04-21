@@ -311,8 +311,13 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/StringStream/main.cpp" Name="FileName"/>
+<<<<<<< HEAD
       <int Value="11" Name="FirstVisibleLine"/>
       <int Value="9" Name="CurrentLine"/>
+=======
+      <int Value="7" Name="FirstVisibleLine"/>
+      <int Value="6" Name="CurrentLine"/>
+>>>>>>> concurency
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -534,6 +539,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Map/main.cpp" Name="FileName"/>
+<<<<<<< HEAD
       <int Value="7" Name="FirstVisibleLine"/>
       <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
@@ -564,6 +570,10 @@
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_3/words.txt" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="6" Name="CurrentLine"/>
+=======
+      <int Value="59" Name="FirstVisibleLine"/>
+      <int Value="73" Name="CurrentLine"/>
+>>>>>>> concurency
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
