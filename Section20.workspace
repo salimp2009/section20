@@ -59,7 +59,8 @@
   <Project Name="Map" Path="Map/Map.project" Active="No"/>
   <Project Name="Thread_Safe_Initiliaze" Path="Thread_Safe_Initiliaze/Thread_Safe_Initiliaze.project" Active="No"/>
   <Project Name="Thread_Call_Once_Flag" Path="Thread_Call_Once_Flag/Thread_Call_Once_Flag.project" Active="No"/>
-  <Project Name="Challenge_3" Path="Challenge_3/Challenge_3.project" Active="Yes"/>
+  <Project Name="Challenge_3" Path="Challenge_3/Challenge_3.project" Active="No"/>
+  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -123,6 +124,7 @@
       <Project Name="Thread_Safe_Initiliaze" ConfigName="Debug"/>
       <Project Name="Thread_Call_Once_Flag" ConfigName="Debug"/>
       <Project Name="Challenge_3" ConfigName="Debug"/>
+      <Project Name="Thread_Singleton_OnceFlag" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -186,6 +188,7 @@
       <Project Name="Thread_Safe_Initiliaze" ConfigName="Release"/>
       <Project Name="Thread_Call_Once_Flag" ConfigName="Release"/>
       <Project Name="Challenge_3" ConfigName="Release"/>
+      <Project Name="Thread_Singleton_OnceFlag" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
