@@ -4,6 +4,10 @@
 #include <limits>
 #include <iomanip>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90f4e9262ef2bbaf71f7f62ffa634be692beed87
 
 int main()
 {
