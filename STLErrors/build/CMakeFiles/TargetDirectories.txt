@@ -1,0 +1,3 @@
+/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors/build/CMakeFiles/rebuild_cache.dir
+/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors/build/CMakeFiles/edit_cache.dir
+/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors/build/CMakeFiles/intro.dir
