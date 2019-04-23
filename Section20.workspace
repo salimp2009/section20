@@ -18,7 +18,7 @@
   <Project Name="SharedPointers" Path="SharedPointers/SharedPointers.project" Active="No"/>
   <Project Name="STL_Bind" Path="STL_Bind/STL_Bind.project" Active="No"/>
   <Project Name="STLErrors" Path="STLErrors/STLErrors.project" Active="No"/>
-  <Project Name="StringStream" Path="StringStream/StringStream.project" Active="Yes"/>
+  <Project Name="StringStream" Path="StringStream/StringStream.project" Active="No"/>
   <Project Name="SwapBigEndianLittleEndian" Path="SwapBigEndianLittleEndian/SwapBigEndianLittleEndian.project" Active="No"/>
   <Project Name="Template_Stack2" Path="Template_Stack2/Template_Stack2.project" Active="No"/>
   <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="No"/>
@@ -47,7 +47,7 @@
   <Project Name="MemoryOrder_Signal_Fence" Path="MemoryOrder_Signal_Fence/MemoryOrder_Signal_Fence.project" Active="No"/>
   <Project Name="Deque" Path="Deque/Deque.project" Active="No"/>
   <Project Name="Thread_Creation" Path="Thread_Creation/Thread_Creation.project" Active="No"/>
-  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="No"/>
+  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="Yes"/>
   <Project Name="Challenge_1_Soln" Path="Challenge_1_Soln/Challenge_1_Soln.project" Active="No"/>
   <Project Name="ThreadArguments" Path="ThreadArguments/ThreadArguments.project" Active="No"/>
   <Project Name="List" Path="List/List.project" Active="No"/>
@@ -61,6 +61,10 @@
   <Project Name="Thread_Call_Once_Flag" Path="Thread_Call_Once_Flag/Thread_Call_Once_Flag.project" Active="No"/>
   <Project Name="Challenge_3" Path="Challenge_3/Challenge_3.project" Active="No"/>
   <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="No"/>
+  <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
+  <Project Name="Thread_Singleton_Scott_Meyers" Path="Thread_Singleton_Scott_Meyers/Thread_Singleton_Scott_Meyers.project" Active="No"/>
+  <Project Name="Thread_Local_Data" Path="Thread_Local_Data/Thread_Local_Data.project" Active="No"/>
+  <Project Name="Que" Path="Que/Que.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -125,6 +129,10 @@
       <Project Name="Thread_Call_Once_Flag" ConfigName="Debug"/>
       <Project Name="Challenge_3" ConfigName="Debug"/>
       <Project Name="Thread_Singleton_OnceFlag" ConfigName="Debug"/>
+      <Project Name="Stack" ConfigName="Debug"/>
+      <Project Name="Thread_Singleton_Scott_Meyers" ConfigName="Debug"/>
+      <Project Name="Thread_Local_Data" ConfigName="Debug"/>
+      <Project Name="Que" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -189,6 +197,10 @@
       <Project Name="Thread_Call_Once_Flag" ConfigName="Release"/>
       <Project Name="Challenge_3" ConfigName="Release"/>
       <Project Name="Thread_Singleton_OnceFlag" ConfigName="Release"/>
+      <Project Name="Stack" ConfigName="Release"/>
+      <Project Name="Thread_Singleton_Scott_Meyers" ConfigName="Release"/>
+      <Project Name="Thread_Local_Data" ConfigName="Release"/>
+      <Project Name="Que" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
