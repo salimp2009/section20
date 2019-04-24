@@ -47,7 +47,7 @@
   <Project Name="MemoryOrder_Signal_Fence" Path="MemoryOrder_Signal_Fence/MemoryOrder_Signal_Fence.project" Active="No"/>
   <Project Name="Deque" Path="Deque/Deque.project" Active="No"/>
   <Project Name="Thread_Creation" Path="Thread_Creation/Thread_Creation.project" Active="No"/>
-  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="Yes"/>
+  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="No"/>
   <Project Name="Challenge_1_Soln" Path="Challenge_1_Soln/Challenge_1_Soln.project" Active="No"/>
   <Project Name="ThreadArguments" Path="ThreadArguments/ThreadArguments.project" Active="No"/>
   <Project Name="List" Path="List/List.project" Active="No"/>
@@ -65,6 +65,10 @@
   <Project Name="Thread_Singleton_Scott_Meyers" Path="Thread_Singleton_Scott_Meyers/Thread_Singleton_Scott_Meyers.project" Active="No"/>
   <Project Name="Thread_Local_Data" Path="Thread_Local_Data/Thread_Local_Data.project" Active="No"/>
   <Project Name="Que" Path="Que/Que.project" Active="No"/>
+  <Project Name="Thread_Local_Scope_State" Path="Thread_Local_Scope_State/Thread_Local_Scope_State.project" Active="No"/>
+  <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="No"/>
+  <Project Name="Priority_Queue" Path="Priority_Queue/Priority_Queue.project" Active="Yes"/>
+  <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -133,6 +137,10 @@
       <Project Name="Thread_Singleton_Scott_Meyers" ConfigName="Debug"/>
       <Project Name="Thread_Local_Data" ConfigName="Debug"/>
       <Project Name="Que" ConfigName="Debug"/>
+      <Project Name="Thread_Local_Scope_State" ConfigName="Debug"/>
+      <Project Name="Challenge_4" ConfigName="Debug"/>
+      <Project Name="Priority_Queue" ConfigName="Debug"/>
+      <Project Name="Thread_Safe_Stack" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -201,6 +209,10 @@
       <Project Name="Thread_Singleton_Scott_Meyers" ConfigName="Release"/>
       <Project Name="Thread_Local_Data" ConfigName="Release"/>
       <Project Name="Que" ConfigName="Release"/>
+      <Project Name="Thread_Local_Scope_State" ConfigName="Release"/>
+      <Project Name="Challenge_4" ConfigName="Release"/>
+      <Project Name="Priority_Queue" ConfigName="Release"/>
+      <Project Name="Thread_Safe_Stack" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
