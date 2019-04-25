@@ -7,5 +7,4 @@ Additional Study for Concurency;
  - Threads, Mutexes, Locks
  - Memory Model; acquire-release symantics
  - Fences, Scoped_Locks, Shared Mutexes
- 
- Note: it is an going stduy ; 2 weeks left as of 19 April 2019
+ Finished my Udemy C++ Class
