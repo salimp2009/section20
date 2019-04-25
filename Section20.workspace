@@ -67,8 +67,8 @@
   <Project Name="Que" Path="Que/Que.project" Active="No"/>
   <Project Name="Thread_Local_Scope_State" Path="Thread_Local_Scope_State/Thread_Local_Scope_State.project" Active="No"/>
   <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="No"/>
-  <Project Name="Priority_Queue" Path="Priority_Queue/Priority_Queue.project" Active="Yes"/>
-  <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="No"/>
+  <Project Name="Priority_Queue" Path="Priority_Queue/Priority_Queue.project" Active="No"/>
+  <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

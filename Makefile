@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Priority_Queue - Debug ]----------"
-	@cd "Priority_Queue" && "$(MAKE)" -f  "Priority_Queue.mk"
+	@echo "----------Building project:[ Thread_Safe_Stack - Debug ]----------"
+	@cd "Thread_Safe_Stack" && "$(MAKE)" -f  "Thread_Safe_Stack.mk"
 clean:
-	@echo "----------Cleaning project:[ Priority_Queue - Debug ]----------"
-	@cd "Priority_Queue" && "$(MAKE)" -f  "Priority_Queue.mk" clean
+	@echo "----------Cleaning project:[ Thread_Safe_Stack - Debug ]----------"
+	@cd "Thread_Safe_Stack" && "$(MAKE)" -f  "Thread_Safe_Stack.mk" clean
