@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=VariadicTemplates
 ConfigurationName      :=Debug
-WorkspacePath          :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section19
-ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section19/VariadicTemplates
+WorkspacePath          :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20
+ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/VariadicTemplates
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=SALIM PAMUKCU
-Date                   :=26/03/2019
+Date                   :=26/04/2019
 CodeLitePath           :="/Users/salimp/Library/Application Support/CodeLite"
 LinkerName             :=clang++
 SharedObjectLinkerName :=clang++ -shared -fPIC
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section19/VariadicTemplates/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/VariadicTemplates/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

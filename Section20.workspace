@@ -60,7 +60,7 @@
   <Project Name="Thread_Safe_Initiliaze" Path="Thread_Safe_Initiliaze/Thread_Safe_Initiliaze.project" Active="No"/>
   <Project Name="Thread_Call_Once_Flag" Path="Thread_Call_Once_Flag/Thread_Call_Once_Flag.project" Active="No"/>
   <Project Name="Challenge_3" Path="Challenge_3/Challenge_3.project" Active="No"/>
-  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="No"/>
+  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="Yes"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
   <Project Name="Thread_Singleton_Scott_Meyers" Path="Thread_Singleton_Scott_Meyers/Thread_Singleton_Scott_Meyers.project" Active="No"/>
   <Project Name="Thread_Local_Data" Path="Thread_Local_Data/Thread_Local_Data.project" Active="No"/>
@@ -68,7 +68,7 @@
   <Project Name="Thread_Local_Scope_State" Path="Thread_Local_Scope_State/Thread_Local_Scope_State.project" Active="No"/>
   <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="No"/>
   <Project Name="Priority_Queue" Path="Priority_Queue/Priority_Queue.project" Active="No"/>
-  <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="Yes"/>
+  <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

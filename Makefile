@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Thread_Safe_Stack - Debug ]----------"
-	@cd "Thread_Safe_Stack" && "$(MAKE)" -f  "Thread_Safe_Stack.mk"
+	@echo "----------Building project:[ Thread_Singleton_OnceFlag - Debug ]----------"
+	@cd "Thread_Singleton_OnceFlag" && "$(MAKE)" -f  "Thread_Singleton_OnceFlag.mk"
 clean:
-	@echo "----------Cleaning project:[ Thread_Safe_Stack - Debug ]----------"
-	@cd "Thread_Safe_Stack" && "$(MAKE)" -f  "Thread_Safe_Stack.mk" clean
+	@echo "----------Cleaning project:[ Thread_Singleton_OnceFlag - Debug ]----------"
+	@cd "Thread_Singleton_OnceFlag" && "$(MAKE)" -f  "Thread_Singleton_OnceFlag.mk" clean

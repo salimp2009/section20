@@ -28,14 +28,12 @@ public:
         node* const new_node=new node(data);
         new_node->next=head.load();
         while(!head.compare_exchange_weak(new_node->next, new_node));
-        std::cout<<"\nHead data: "<<*(head.load()->data)<<"Thread ID: "<<std::this_thread::get_id();
     }
     
     std::shared_ptr<T> pop() {
         assert(head!=nullptr);
         node* old_head=head.load();
         while(old_head && !head.compare_exchange_weak(old_head, old_head->next));
-        std::cout<<"\nHead data: "<<*(head.load()->data)<<"Thread ID: "<<std::this_thread::get_id();
         return old_head ? old_head->data : std::shared_ptr<T>();
     }
     

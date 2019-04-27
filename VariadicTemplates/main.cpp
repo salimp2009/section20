@@ -10,7 +10,7 @@ template<typename T>
 std::string to_string_impl(const T& t)           // converts the argument into string 
 {
     std::stringstream ss;
-    ss<<t;                                       // t will be stored  as a string in string object ss
+    ss<<t; 
     return ss.str();                             // str() returns a copy of the string stored in string object
 }
 

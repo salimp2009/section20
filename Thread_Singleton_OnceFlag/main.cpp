@@ -1,6 +1,6 @@
 #include <iostream>
 #include <mutex>
-
+#include <atomic>
 // Example for Thread Safe Singleton Object;
 // Singleton is an object that can be initialized once and have only one single instance;
 // No copy constructor or assignment operator allowed
@@ -36,6 +36,11 @@ int main()
     std::cout<<"\nMySingleton::getinstance(): "<<MySingleton::getInstance()<<'\n';    // both will display the same pointer
     std::cout<<"\nMySingleton::getinstance(): "<<MySingleton::getInstance()<<'\n';    // because it will be initialized only once;
     
+    std::shared_ptr<int>some_shrd_ptr;
+    
+    std::cout<<std::atomic_is_lock_free(&some_shrd_ptr);        // shared_pointers is not lock free
+                                                                // C++20 might inlude lock free shared pointers
+                                    
     std::cout<<'\n';
     
  return 0;
