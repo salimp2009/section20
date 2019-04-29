@@ -72,6 +72,7 @@
   <Project Name="Thread_Conditional_Variable" Path="Thread_Conditional_Variable/Thread_Conditional_Variable.project" Active="No"/>
   <Project Name="Unordered_Containers" Path="Unordered_Containers/Unordered_Containers.project" Active="No"/>
   <Project Name="SIMD_DotArrays_sse" Path="SIMD_DotArrays_sse/SIMD_DotArrays_sse.project" Active="Yes"/>
+  <Project Name="SIMD_Vectors_Add_Multiply" Path="SIMD_Vectors_Add/SIMD_Vectors_Add.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -147,6 +148,7 @@
       <Project Name="Thread_Conditional_Variable" ConfigName="Debug"/>
       <Project Name="Unordered_Containers" ConfigName="Debug"/>
       <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
+      <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -222,6 +224,7 @@
       <Project Name="Thread_Conditional_Variable" ConfigName="Release"/>
       <Project Name="Unordered_Containers" ConfigName="Release"/>
       <Project Name="SIMD_DotArrays_sse" ConfigName="Release"/>
+      <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
