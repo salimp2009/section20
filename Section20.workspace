@@ -60,7 +60,7 @@
   <Project Name="Thread_Safe_Initiliaze" Path="Thread_Safe_Initiliaze/Thread_Safe_Initiliaze.project" Active="No"/>
   <Project Name="Thread_Call_Once_Flag" Path="Thread_Call_Once_Flag/Thread_Call_Once_Flag.project" Active="No"/>
   <Project Name="Challenge_3" Path="Challenge_3/Challenge_3.project" Active="No"/>
-  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="Yes"/>
+  <Project Name="Thread_Singleton_OnceFlag" Path="Thread_Singleton_OnceFlag/Thread_Singleton_OnceFlag.project" Active="No"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
   <Project Name="Thread_Singleton_Scott_Meyers" Path="Thread_Singleton_Scott_Meyers/Thread_Singleton_Scott_Meyers.project" Active="No"/>
   <Project Name="Thread_Local_Data" Path="Thread_Local_Data/Thread_Local_Data.project" Active="No"/>
@@ -69,6 +69,9 @@
   <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="No"/>
   <Project Name="Priority_Queue" Path="Priority_Queue/Priority_Queue.project" Active="No"/>
   <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="No"/>
+  <Project Name="Thread_Conditional_Variable" Path="Thread_Conditional_Variable/Thread_Conditional_Variable.project" Active="No"/>
+  <Project Name="Unordered_Containers" Path="Unordered_Containers/Unordered_Containers.project" Active="No"/>
+  <Project Name="SIMD_DotArrays_sse" Path="SIMD_DotArrays_sse/SIMD_DotArrays_sse.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -141,6 +144,9 @@
       <Project Name="Challenge_4" ConfigName="Debug"/>
       <Project Name="Priority_Queue" ConfigName="Debug"/>
       <Project Name="Thread_Safe_Stack" ConfigName="Debug"/>
+      <Project Name="Thread_Conditional_Variable" ConfigName="Debug"/>
+      <Project Name="Unordered_Containers" ConfigName="Debug"/>
+      <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -213,6 +219,9 @@
       <Project Name="Challenge_4" ConfigName="Release"/>
       <Project Name="Priority_Queue" ConfigName="Release"/>
       <Project Name="Thread_Safe_Stack" ConfigName="Release"/>
+      <Project Name="Thread_Conditional_Variable" ConfigName="Release"/>
+      <Project Name="Unordered_Containers" ConfigName="Release"/>
+      <Project Name="SIMD_DotArrays_sse" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

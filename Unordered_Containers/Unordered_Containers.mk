@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Vector
+ProjectName            :=Unordered_Containers
 ConfigurationName      :=Debug
 WorkspacePath          :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20
-ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Vector
+ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="Vector.txt"
+ObjectsFileList        :="Unordered_Containers.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := ar rcus
 CXX      := clang++
 CC       := clang
-CXXFLAGS := -std=c++17 -Wall -g -O0 -std=c++17 $(Preprocessors)
+CXXFLAGS := -Os -O3 -std=c++17 -Wall -g -Os -O3 -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := llvm-as
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Vector/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
