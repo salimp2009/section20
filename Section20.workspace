@@ -73,7 +73,8 @@
   <Project Name="Unordered_Containers" Path="Unordered_Containers/Unordered_Containers.project" Active="No"/>
   <Project Name="SIMD_DotArrays_sse" Path="SIMD_DotArrays_sse/SIMD_DotArrays_sse.project" Active="No"/>
   <Project Name="SIMD_Vectors_Add_Multiply" Path="SIMD_Vectors_Add/SIMD_Vectors_Add.project" Active="No"/>
-  <Project Name="Future_Defered_Async" Path="Future_Defered_Async/Future_Defered_Async.project" Active="Yes"/>
+  <Project Name="Future_Defered_Async" Path="Future_Defered_Async/Future_Defered_Async.project" Active="No"/>
+  <Project Name="Future_DotProduct_Async" Path="Future_DotProduct_Async/Future_DotProduct_Async.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -151,6 +152,7 @@
       <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
       <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Debug"/>
       <Project Name="Future_Defered_Async" ConfigName="Debug"/>
+      <Project Name="Future_DotProduct_Async" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -228,6 +230,7 @@
       <Project Name="SIMD_DotArrays_sse" ConfigName="Release"/>
       <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Release"/>
       <Project Name="Future_Defered_Async" ConfigName="Release"/>
+      <Project Name="Future_DotProduct_Async" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
