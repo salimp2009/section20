@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Section20.workspace">
-  <int Value="91" Name="m_selectedTab"/>
+  <int Value="94" Name="m_selectedTab"/>
   <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Section20.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionTemplate/main.cpp" Name="FileName"/>
-      <int Value="40" Name="FirstVisibleLine"/>
+      <int Value="27" Name="FirstVisibleLine"/>
       <int Value="41" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -68,8 +68,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureWaitingTwoTasks/main.cpp" Name="FileName"/>
-      <int Value="41" Name="FirstVisibleLine"/>
-      <int Value="42" Name="CurrentLine"/>
+      <int Value="24" Name="FirstVisibleLine"/>
+      <int Value="25" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -213,7 +213,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_01/main.cpp" Name="FileName"/>
-      <int Value="24" Name="FirstVisibleLine"/>
+      <int Value="12" Name="FirstVisibleLine"/>
       <int Value="26" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -664,14 +664,14 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_DotArrays_sse/main.cpp" Name="FileName"/>
-      <int Value="59" Name="FirstVisibleLine"/>
+      <int Value="26" Name="FirstVisibleLine"/>
       <int Value="27" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_Vectors_Add/main.cpp" Name="FileName"/>
-      <int Value="59" Name="FirstVisibleLine"/>
+      <int Value="71" Name="FirstVisibleLine"/>
       <int Value="73" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks">
         <wxString Value="52:3"/>
@@ -682,6 +682,27 @@
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Defered_Async/main.cpp" Name="FileName"/>
       <int Value="16" Name="FirstVisibleLine"/>
       <int Value="18" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_DotProduct_Async/main.cpp" Name="FileName"/>
+      <int Value="22" Name="FirstVisibleLine"/>
+      <int Value="32" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/CustomDeleters/main.cpp" Name="FileName"/>
+      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/main.cpp" Name="FileName"/>
+      <int Value="32" Name="FirstVisibleLine"/>
+      <int Value="89" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
