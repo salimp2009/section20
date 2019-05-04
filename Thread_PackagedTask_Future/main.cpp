@@ -76,6 +76,7 @@ int main()
             sumThread.detach();                                                                   // send the thread to background; detach
         }
         
+        
         // alternative way for the loop to create Threads and assign tasks from the container
         // Note: std::move() has to be used to transfer tasks to threads because
         // tasks are not copyable therefore need to remove that element from the container

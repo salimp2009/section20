@@ -21,7 +21,7 @@
   <Project Name="StringStream" Path="StringStream/StringStream.project" Active="No"/>
   <Project Name="SwapBigEndianLittleEndian" Path="SwapBigEndianLittleEndian/SwapBigEndianLittleEndian.project" Active="No"/>
   <Project Name="Template_Stack2" Path="Template_Stack2/Template_Stack2.project" Active="No"/>
-  <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="No"/>
+  <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="Yes"/>
   <Project Name="Thread_Join" Path="Thread_Join/Thread_Join.project" Active="No"/>
   <Project Name="Thread_PackagedTask_Future" Path="Thread_PackagedTask_Future/Thread_PackagedTask_Future.project" Active="No"/>
   <Project Name="Thread_Promise_Future" Path="Thread_Promise_Future/Thread_Promise_Future.project" Active="No"/>
@@ -75,7 +75,8 @@
   <Project Name="SIMD_Vectors_Add_Multiply" Path="SIMD_Vectors_Add/SIMD_Vectors_Add.project" Active="No"/>
   <Project Name="Future_Defered_Async" Path="Future_Defered_Async/Future_Defered_Async.project" Active="No"/>
   <Project Name="Future_DotProduct_Async" Path="Future_DotProduct_Async/Future_DotProduct_Async.project" Active="No"/>
-  <Project Name="Pairs_Tuples" Path="Pairs_Tuples/Pairs_Tuples.project" Active="Yes"/>
+  <Project Name="Pairs_Tuples" Path="Pairs_Tuples/Pairs_Tuples.project" Active="No"/>
+  <Project Name="Future_PackagedTask_Reuse" Path="Future_PackagedTask_Reuse/Future_PackagedTask_Reuse.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -155,6 +156,7 @@
       <Project Name="Future_Defered_Async" ConfigName="Debug"/>
       <Project Name="Future_DotProduct_Async" ConfigName="Debug"/>
       <Project Name="Pairs_Tuples" ConfigName="Debug"/>
+      <Project Name="Future_PackagedTask_Reuse" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -234,6 +236,7 @@
       <Project Name="Future_Defered_Async" ConfigName="Release"/>
       <Project Name="Future_DotProduct_Async" ConfigName="Release"/>
       <Project Name="Pairs_Tuples" ConfigName="Release"/>
+      <Project Name="Future_PackagedTask_Reuse" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

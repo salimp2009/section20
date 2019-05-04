@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Pairs_Tuples - Debug ]----------"
-	@cd "Pairs_Tuples" && "$(MAKE)" -f  "Pairs_Tuples.mk"
+	@echo "----------Building project:[ Future_PackagedTask_Reuse - Debug ]----------"
+	@cd "Future_PackagedTask_Reuse" && "$(MAKE)" -f  "Future_PackagedTask_Reuse.mk"
 clean:
-	@echo "----------Cleaning project:[ Pairs_Tuples - Debug ]----------"
-	@cd "Pairs_Tuples" && "$(MAKE)" -f  "Pairs_Tuples.mk" clean
+	@echo "----------Cleaning project:[ Future_PackagedTask_Reuse - Debug ]----------"
+	@cd "Future_PackagedTask_Reuse" && "$(MAKE)" -f  "Future_PackagedTask_Reuse.mk" clean

@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Thread_PackagedTask_Future
+ProjectName            :=Future_PackagedTask_Reuse
 ConfigurationName      :=Debug
 WorkspacePath          :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20
-ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_PackagedTask_Future
+ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_PackagedTask_Reuse
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=SALIM PAMUKCU
-Date                   :=03/05/2019
+Date                   :=04/05/2019
 CodeLitePath           :="/Users/salimp/Library/Application Support/CodeLite"
 LinkerName             :=clang++
 SharedObjectLinkerName :=clang++ -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="Thread_PackagedTask_Future.txt"
+ObjectsFileList        :="Future_PackagedTask_Reuse.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := ar rcus
 CXX      := clang++
 CC       := clang
-CXXFLAGS := -Os -O3 -std=c++17 -std=c++14 -Wall -g -Os -O3 -O0 -std=c++17 -std=c++14 -Wall $(Preprocessors)
+CXXFLAGS := -g -Os -O3 -std=c++17 -Wall -g -Os -O3 -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := llvm-as
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_PackagedTask_Future/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_PackagedTask_Reuse/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
