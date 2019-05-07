@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Pairs_Tuples
+ProjectName            :=Template_Stack_Array_Auto
 ConfigurationName      :=Debug
 WorkspacePath          :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20
-ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples
+ProjectPath            :=/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=SALIM PAMUKCU
-Date                   :=05/05/2019
+Date                   :=06/05/2019
 CodeLitePath           :="/Users/salimp/Library/Application Support/CodeLite"
 LinkerName             :=clang++
 SharedObjectLinkerName :=clang++ -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="Pairs_Tuples.txt"
+ObjectsFileList        :="Template_Stack_Array_Auto.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := ar rcus
 CXX      := clang++
 CC       := clang
-CXXFLAGS := -Os -O3 -std=c++17 -g -Os -O3 -O0 -std=c++17 -Wall $(Preprocessors)
+CXXFLAGS := -Os -O3 -std=c++17 -Wall -g -Os -O3 -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := llvm-as
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

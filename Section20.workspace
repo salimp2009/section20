@@ -21,7 +21,7 @@
   <Project Name="StringStream" Path="StringStream/StringStream.project" Active="No"/>
   <Project Name="SwapBigEndianLittleEndian" Path="SwapBigEndianLittleEndian/SwapBigEndianLittleEndian.project" Active="No"/>
   <Project Name="Template_Stack2" Path="Template_Stack2/Template_Stack2.project" Active="No"/>
-  <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="Yes"/>
+  <Project Name="TemplateDefaultArguments" Path="TemplateDefaultArguments/TemplateDefaultArguments.project" Active="No"/>
   <Project Name="Thread_Join" Path="Thread_Join/Thread_Join.project" Active="No"/>
   <Project Name="Thread_PackagedTask_Future" Path="Thread_PackagedTask_Future/Thread_PackagedTask_Future.project" Active="No"/>
   <Project Name="Thread_Promise_Future" Path="Thread_Promise_Future/Thread_Promise_Future.project" Active="No"/>
@@ -77,6 +77,8 @@
   <Project Name="Future_DotProduct_Async" Path="Future_DotProduct_Async/Future_DotProduct_Async.project" Active="No"/>
   <Project Name="Pairs_Tuples" Path="Pairs_Tuples/Pairs_Tuples.project" Active="No"/>
   <Project Name="Future_PackagedTask_Reuse" Path="Future_PackagedTask_Reuse/Future_PackagedTask_Reuse.project" Active="No"/>
+  <Project Name="Template_Stack_Array_Auto" Path="Template_Stack_Array_Auto/Template_Stack_Array_Auto.project" Active="No"/>
+  <Project Name="Thread_Promise_Future_2" Path="Thread_Promise_Future_2/Thread_Promise_Future_2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -157,6 +159,8 @@
       <Project Name="Future_DotProduct_Async" ConfigName="Debug"/>
       <Project Name="Pairs_Tuples" ConfigName="Debug"/>
       <Project Name="Future_PackagedTask_Reuse" ConfigName="Debug"/>
+      <Project Name="Template_Stack_Array_Auto" ConfigName="Debug"/>
+      <Project Name="Thread_Promise_Future_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -237,6 +241,8 @@
       <Project Name="Future_DotProduct_Async" ConfigName="Release"/>
       <Project Name="Pairs_Tuples" ConfigName="Release"/>
       <Project Name="Future_PackagedTask_Reuse" ConfigName="Release"/>
+      <Project Name="Template_Stack_Array_Auto" ConfigName="Release"/>
+      <Project Name="Thread_Promise_Future_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

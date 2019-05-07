@@ -3,6 +3,7 @@
 #include <tuple>
 #include <string>
 #include <vector>
+#include "PrintTupple.hpp"
 
 class Foo {
 public:
@@ -88,6 +89,19 @@ int main()
         std::cout<<"["<<std::get<0>(elem)<<","<<std::get<1>(elem)<<"] ";
     std::cout<<"\n";
     
+    // printing using print tuple function & overload << operator in PrintTupple.hpp file
+    std::cout<<"\nPrinting using tuple print overload t3: "<<t3<<'\n';
     
+    // std::tuple_cat concenates any tuples and/or pairs together and forms a tuple
+    auto tt=std::tuple_cat(t3, p3);
+    
+    float n{205.45};
+    auto tt1=std::tuple_cat(std::make_tuple(10, 20, 30, "c++"), std::make_pair("cat", "pair"),std::tie(n));
+    
+    std::cout<<std::get<0>(tt)<<std::get<4>(tt)<<'\n';
+    std::cout<<"\ntt: "<<tt<<'\n';
+    
+    std::cout<<"\ntt1: "<<tt1<<'\n'; 
  return 0;
+ 
 }

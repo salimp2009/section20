@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Pairs_Tuples" Version="10.0.0" InternalType="User templates">
+<CodeLite_Project Name="Template_Stack_Array_Auto" Version="10.0.0" InternalType="User templates">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00010001N0005Debug000000000000]]>
@@ -8,12 +8,12 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="PrintTupple.hpp"/>
+    <File Name="StackArrayAuto.hpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
-      <Compiler Options="-Os;-O3;-std=c++17" C_Options="" Assembler="">
+      <Compiler Options="-Os;-O3;-std=c++17;-Wall" C_Options="" Assembler="">
         <IncludePath Value="."/>
       </Compiler>
       <Linker Options="">
