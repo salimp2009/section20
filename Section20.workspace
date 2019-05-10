@@ -78,7 +78,11 @@
   <Project Name="Pairs_Tuples" Path="Pairs_Tuples/Pairs_Tuples.project" Active="No"/>
   <Project Name="Future_PackagedTask_Reuse" Path="Future_PackagedTask_Reuse/Future_PackagedTask_Reuse.project" Active="No"/>
   <Project Name="Template_Stack_Array_Auto" Path="Template_Stack_Array_Auto/Template_Stack_Array_Auto.project" Active="No"/>
-  <Project Name="Thread_Promise_Future_2" Path="Thread_Promise_Future_2/Thread_Promise_Future_2.project" Active="Yes"/>
+  <Project Name="Thread_Promise_Future_2" Path="Thread_Promise_Future_2/Thread_Promise_Future_2.project" Active="No"/>
+  <Project Name="Future_Promise_Wait_For" Path="Future_Promise_Wait_For/Future_Promise_Wait_For.project" Active="No"/>
+  <Project Name="Future_Shared_Promise" Path="Future_Shared_Promise/Future_Shared_Promise.project" Active="No"/>
+  <Project Name="Future_Promise_Exception" Path="Future_Promise_Exception/Future_Promise_Exception.project" Active="No"/>
+  <Project Name="Future_Promise_Synchronise" Path="Future_Promise_Synchronise/Future_Promise_Synchronise.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -161,6 +165,10 @@
       <Project Name="Future_PackagedTask_Reuse" ConfigName="Debug"/>
       <Project Name="Template_Stack_Array_Auto" ConfigName="Debug"/>
       <Project Name="Thread_Promise_Future_2" ConfigName="Debug"/>
+      <Project Name="Future_Promise_Wait_For" ConfigName="Debug"/>
+      <Project Name="Future_Shared_Promise" ConfigName="Debug"/>
+      <Project Name="Future_Promise_Exception" ConfigName="Debug"/>
+      <Project Name="Future_Promise_Synchronise" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -243,6 +251,10 @@
       <Project Name="Future_PackagedTask_Reuse" ConfigName="Release"/>
       <Project Name="Template_Stack_Array_Auto" ConfigName="Release"/>
       <Project Name="Thread_Promise_Future_2" ConfigName="Release"/>
+      <Project Name="Future_Promise_Wait_For" ConfigName="Release"/>
+      <Project Name="Future_Shared_Promise" ConfigName="Release"/>
+      <Project Name="Future_Promise_Exception" ConfigName="Release"/>
+      <Project Name="Future_Promise_Synchronise" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

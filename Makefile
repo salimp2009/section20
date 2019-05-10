@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Thread_Promise_Future_2 - Debug ]----------"
-	@cd "Thread_Promise_Future_2" && "$(MAKE)" -f  "Thread_Promise_Future_2.mk"
+	@echo "----------Building project:[ Future_Promise_Synchronise - Debug ]----------"
+	@cd "Future_Promise_Synchronise" && "$(MAKE)" -f  "Future_Promise_Synchronise.mk"
 clean:
-	@echo "----------Cleaning project:[ Thread_Promise_Future_2 - Debug ]----------"
-	@cd "Thread_Promise_Future_2" && "$(MAKE)" -f  "Thread_Promise_Future_2.mk" clean
+	@echo "----------Cleaning project:[ Future_Promise_Synchronise - Debug ]----------"
+	@cd "Future_Promise_Synchronise" && "$(MAKE)" -f  "Future_Promise_Synchronise.mk" clean
