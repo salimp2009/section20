@@ -2,7 +2,7 @@
 #include <utility>
 #include <tuple>
 #include <string>
-#include <vector>
+ #include <vector>
 #include "PrintTupple.hpp"
 
 class Foo {
@@ -45,7 +45,7 @@ int main()
     std::string s{"SaLİM"};
     std::string s1{"class"};
     
-    auto p3=std::make_pair(std::move(s), std::move(s1)); // both t and s wont be used anymore
+    auto p3=std::make_pair(std::move(s), std::move(s1)); // both s and s1 wont be used anymore
     
     std::cout<<std::get<0>(p3)<<" "<<std::get<1>(p3)<<'\n';  // get<0>(p3) is similar to p3.first
                                                              // get<1>(p3) is similar to p3.second
@@ -68,10 +68,11 @@ int main()
     float f2{};
     std::string name2{};
     
-    // std::tie extracts the values out of tuple and assigns it to variables specified
+    // std::tie creates a tuple of references; it extracts the values out of tuple, 
+    // creates a reference to that tuple and assigns it to variables specified
     // std::tie can be used with pairs as well
     std::tie(i2, f2, name2)=t3;
-    std::cout<<i2<<" "<<f2<<" "<<name2<<'\n';
+    std::cout<<i2<<" "<<f2<<" "<<name2<<'\n';  // i2 refers to a tuple containing the first element of tuple t3
     
     
     // std::ignore is used to ignore the value of the tuple it refers to; used with std::tie

@@ -4,7 +4,7 @@
   <Project Name="Atomics_01" Path="Atomics_01/Atomics_01.project" Active="No"/>
   <Project Name="Assertion_Test" Path="Assertion_Test/Assertion_Test.project" Active="No"/>
   <Project Name="Copyfile_1" Path="Copyfile_1/Copyfile_1.project" Active="No"/>
-  <Project Name="CustomDeleters" Path="CustomDeleters/CustomDeleters.project" Active="No"/>
+  <Project Name="CustomDeleters" Path="CustomDeleters/CustomDeleters.project" Active="Yes"/>
   <Project Name="FunctionObjects" Path="FunctionObjects/FunctionObjects.project" Active="No"/>
   <Project Name="FutureAsync" Path="FutureAsync/FutureAsync.project" Active="No"/>
   <Project Name="FutureWaitingTwoTasks" Path="FutureWaitingTwoTasks/FutureWaitingTwoTasks.project" Active="No"/>
@@ -68,7 +68,7 @@
   <Project Name="Thread_Local_Scope_State" Path="Thread_Local_Scope_State/Thread_Local_Scope_State.project" Active="No"/>
   <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="No"/>
   <Project Name="Priority_Queue" Path="Priority_Queue/Priority_Queue.project" Active="No"/>
-  <Project Name="Thread_Safe_Stack" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="No"/>
+  <Project Name="Thread_Safe_Stack_LockFree" Path="Thread_Safe_Stack/Thread_Safe_Stack.project" Active="No"/>
   <Project Name="Thread_Conditional_Variable" Path="Thread_Conditional_Variable/Thread_Conditional_Variable.project" Active="No"/>
   <Project Name="Unordered_Containers" Path="Unordered_Containers/Unordered_Containers.project" Active="No"/>
   <Project Name="SIMD_DotArrays_sse" Path="SIMD_DotArrays_sse/SIMD_DotArrays_sse.project" Active="No"/>
@@ -82,7 +82,10 @@
   <Project Name="Future_Promise_Wait_For" Path="Future_Promise_Wait_For/Future_Promise_Wait_For.project" Active="No"/>
   <Project Name="Future_Shared_Promise" Path="Future_Shared_Promise/Future_Shared_Promise.project" Active="No"/>
   <Project Name="Future_Promise_Exception" Path="Future_Promise_Exception/Future_Promise_Exception.project" Active="No"/>
-  <Project Name="Future_Promise_Synchronise" Path="Future_Promise_Synchronise/Future_Promise_Synchronise.project" Active="Yes"/>
+  <Project Name="Future_Promise_Synchronise" Path="Future_Promise_Synchronise/Future_Promise_Synchronise.project" Active="No"/>
+  <Project Name="Unique_Ptr_Implementation" Path="Unique_Ptr_Implementation/Unique_Ptr_Implementation.project" Active="No"/>
+  <Project Name="Weak_Ptr" Path="Weak_Ptr/Weak_Ptr.project" Active="No"/>
+  <Project Name="Thread_Safe_Stack_With_Locks" Path="Thread_Safe_Stack_With_Locks/Thread_Safe_Stack_With_Locks.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -154,7 +157,7 @@
       <Project Name="Thread_Local_Scope_State" ConfigName="Debug"/>
       <Project Name="Challenge_4" ConfigName="Debug"/>
       <Project Name="Priority_Queue" ConfigName="Debug"/>
-      <Project Name="Thread_Safe_Stack" ConfigName="Debug"/>
+      <Project Name="Thread_Safe_Stack_LockFree" ConfigName="Debug"/>
       <Project Name="Thread_Conditional_Variable" ConfigName="Debug"/>
       <Project Name="Unordered_Containers" ConfigName="Debug"/>
       <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
@@ -169,6 +172,9 @@
       <Project Name="Future_Shared_Promise" ConfigName="Debug"/>
       <Project Name="Future_Promise_Exception" ConfigName="Debug"/>
       <Project Name="Future_Promise_Synchronise" ConfigName="Debug"/>
+      <Project Name="Unique_Ptr_Implementation" ConfigName="Debug"/>
+      <Project Name="Weak_Ptr" ConfigName="Debug"/>
+      <Project Name="Thread_Safe_Stack_With_Locks" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -240,7 +246,7 @@
       <Project Name="Thread_Local_Scope_State" ConfigName="Release"/>
       <Project Name="Challenge_4" ConfigName="Release"/>
       <Project Name="Priority_Queue" ConfigName="Release"/>
-      <Project Name="Thread_Safe_Stack" ConfigName="Release"/>
+      <Project Name="Thread_Safe_Stack_LockFree" ConfigName="Release"/>
       <Project Name="Thread_Conditional_Variable" ConfigName="Release"/>
       <Project Name="Unordered_Containers" ConfigName="Release"/>
       <Project Name="SIMD_DotArrays_sse" ConfigName="Release"/>
@@ -255,6 +261,9 @@
       <Project Name="Future_Shared_Promise" ConfigName="Release"/>
       <Project Name="Future_Promise_Exception" ConfigName="Release"/>
       <Project Name="Future_Promise_Synchronise" ConfigName="Release"/>
+      <Project Name="Unique_Ptr_Implementation" ConfigName="Release"/>
+      <Project Name="Weak_Ptr" ConfigName="Release"/>
+      <Project Name="Thread_Safe_Stack_With_Locks" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

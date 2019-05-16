@@ -15,7 +15,7 @@ private:
     size_type numElems;
 public:
     Stack();
-    Stack(std::initializer_list<T>l): elems{l} { }
+   // Stack(std::initializer_list<T>l): elems{l} { }  // initiliazer list did not work ; std::array did not accept
     void push(T const& elem);               // push a copy of element
     T pop();                                // remove the last element and return a copy 
     T const& top() const;                   // return a const reference to the last element

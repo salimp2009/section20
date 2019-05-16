@@ -7,6 +7,9 @@
 // future will wait until the promise sets the value; 
 // therefore set_value()and wait() will provide synchronisation between threads
 
+// Although this is synchronized, the data is not protected to use multiple threads
+// for reading or writing threads;
+
 void doTheWork() {
     std::cout<<"\nProcessing shared data.."<<std::this_thread::get_id()<<'\n';
 }
