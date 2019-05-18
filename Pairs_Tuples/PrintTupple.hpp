@@ -21,7 +21,7 @@ struct PRINT_TUPLE<MAX, MAX, Args...> {
 };
 
 
-//overloadec output operator for tuples
+//overloaded output operator for tuples
 template<typename...Args>
 std::ostream& operator<<(std::ostream& strm, const std::tuple <Args...>&t) 
 {

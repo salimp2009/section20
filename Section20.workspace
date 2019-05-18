@@ -4,7 +4,7 @@
   <Project Name="Atomics_01" Path="Atomics_01/Atomics_01.project" Active="No"/>
   <Project Name="Assertion_Test" Path="Assertion_Test/Assertion_Test.project" Active="No"/>
   <Project Name="Copyfile_1" Path="Copyfile_1/Copyfile_1.project" Active="No"/>
-  <Project Name="CustomDeleters" Path="CustomDeleters/CustomDeleters.project" Active="Yes"/>
+  <Project Name="CustomDeleters" Path="CustomDeleters/CustomDeleters.project" Active="No"/>
   <Project Name="FunctionObjects" Path="FunctionObjects/FunctionObjects.project" Active="No"/>
   <Project Name="FutureAsync" Path="FutureAsync/FutureAsync.project" Active="No"/>
   <Project Name="FutureWaitingTwoTasks" Path="FutureWaitingTwoTasks/FutureWaitingTwoTasks.project" Active="No"/>
@@ -86,6 +86,9 @@
   <Project Name="Unique_Ptr_Implementation" Path="Unique_Ptr_Implementation/Unique_Ptr_Implementation.project" Active="No"/>
   <Project Name="Weak_Ptr" Path="Weak_Ptr/Weak_Ptr.project" Active="No"/>
   <Project Name="Thread_Safe_Stack_With_Locks" Path="Thread_Safe_Stack_With_Locks/Thread_Safe_Stack_With_Locks.project" Active="No"/>
+  <Project Name="Variadic_Templates_2" Path="Variadic_Templates_2/Variadic_Templates_2.project" Active="No"/>
+  <Project Name="Variadic_Templates_FoldingExpressions" Path="Variadic_Templates_FoldingExpressions/Variadic_Templates_FoldingExpressions.project" Active="No"/>
+  <Project Name="Variadic_Templates_BinaryTree_Traverse" Path="Variadic_Templates_BinaryTree_Traverse/Variadic_Templates_BinaryTree_Traverse.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -175,6 +178,9 @@
       <Project Name="Unique_Ptr_Implementation" ConfigName="Debug"/>
       <Project Name="Weak_Ptr" ConfigName="Debug"/>
       <Project Name="Thread_Safe_Stack_With_Locks" ConfigName="Debug"/>
+      <Project Name="Variadic_Templates_2" ConfigName="Debug"/>
+      <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Debug"/>
+      <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -264,6 +270,9 @@
       <Project Name="Unique_Ptr_Implementation" ConfigName="Release"/>
       <Project Name="Weak_Ptr" ConfigName="Release"/>
       <Project Name="Thread_Safe_Stack_With_Locks" ConfigName="Release"/>
+      <Project Name="Variadic_Templates_2" ConfigName="Release"/>
+      <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Release"/>
+      <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
