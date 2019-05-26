@@ -88,7 +88,12 @@
   <Project Name="Thread_Safe_Stack_With_Locks" Path="Thread_Safe_Stack_With_Locks/Thread_Safe_Stack_With_Locks.project" Active="No"/>
   <Project Name="Variadic_Templates_2" Path="Variadic_Templates_2/Variadic_Templates_2.project" Active="No"/>
   <Project Name="Variadic_Templates_FoldingExpressions" Path="Variadic_Templates_FoldingExpressions/Variadic_Templates_FoldingExpressions.project" Active="No"/>
-  <Project Name="Variadic_Templates_BinaryTree_Traverse" Path="Variadic_Templates_BinaryTree_Traverse/Variadic_Templates_BinaryTree_Traverse.project" Active="Yes"/>
+  <Project Name="Variadic_Templates_BinaryTree_Traverse" Path="Variadic_Templates_BinaryTree_Traverse/Variadic_Templates_BinaryTree_Traverse.project" Active="No"/>
+  <Project Name="Lambda_Function_Pointers" Path="Lambda_Function_Pointers/Lambda_Function_Pointers.project" Active="No"/>
+  <Project Name="Allocators_Custom_New_Delete_Aligned" Path="Allocators_Custom_New_Delete_Aligned/Allocators_Custom_New_Delete_Aligned.project" Active="No"/>
+  <Project Name="Lambda_Template_Parameter_Invoke" Path="Lambda_Template_Parameter_Invoke/Lambda_Template_Parameter_Invoke.project" Active="No"/>
+  <Project Name="Allocator_Stack_Allocator_MemoryPool" Path="Allocator_Stack_Allocator_MemoryPool/Allocator_Stack_Allocator_MemoryPool.project" Active="Yes"/>
+  <Project Name="Lambda_Function_Ref_Implementation" Path="Lambda_Function_Ref_Implementation/Lambda_Function_Ref_Implementation.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -181,6 +186,11 @@
       <Project Name="Variadic_Templates_2" ConfigName="Debug"/>
       <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Debug"/>
       <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Debug"/>
+      <Project Name="Lambda_Function_Pointers" ConfigName="Debug"/>
+      <Project Name="Allocators_Custom_New_Delete_Aligned" ConfigName="Debug"/>
+      <Project Name="Lambda_Template_Parameter_Invoke" ConfigName="Debug"/>
+      <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Debug"/>
+      <Project Name="Lambda_Function_Ref_Implementation" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -273,6 +283,11 @@
       <Project Name="Variadic_Templates_2" ConfigName="Release"/>
       <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Release"/>
       <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Release"/>
+      <Project Name="Lambda_Function_Pointers" ConfigName="Release"/>
+      <Project Name="Allocators_Custom_New_Delete_Aligned" ConfigName="Release"/>
+      <Project Name="Lambda_Template_Parameter_Invoke" ConfigName="Release"/>
+      <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Release"/>
+      <Project Name="Lambda_Function_Ref_Implementation" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -6,6 +6,7 @@
 #include <mutex>
 #include <thread>
 #include <stack>
+#include <atomic>
 
 
 struct empty_stack: std::exception
@@ -33,6 +34,13 @@ public:
     
     // copy assignment is not allowed
     threadsafe_stack& operator=(const threadsafe_stack&)=delete;
+    
+    T top() const
+    {
+        std::lock_guard<std::mutex>lock(m);             // lock before pushing
+        return data.top();
+    }
+    
     
     void push( T new_value)
     {
@@ -73,20 +81,28 @@ int main()
     threadsafe_stack<int>my_stack;
    
    try {
-    std::thread t3([](threadsafe_stack<int>&my_stack){ my_stack.pop();}, std::ref(my_stack));   
-    std::thread t1(&threadsafe_stack<int>::push, my_stack, 10);
-    std::thread t2(&threadsafe_stack<int>::push, my_stack, 20);
+   std::thread t3([](threadsafe_stack<int>&my_stack){ my_stack.push(40);}, std::ref(my_stack));   
+   std::thread t1([](threadsafe_stack<int>&my_stack){ my_stack.push(50);}, std::ref(my_stack)); 
+   std::thread t2([](threadsafe_stack<int>&my_stack){ my_stack.push(60);}, std::ref(my_stack)); 
+   std::thread t4([](threadsafe_stack<int>&my_stack){ my_stack.pop();}, std::ref(my_stack));
     
-    
+    t3.join();  
     t1.join();
     t2.join();
-    t3.join();
+    t4.join();
     
-  
-    
+ // my_stack.push(20);
+   
+  std::cout<<my_stack.top()<<'\n';
+  auto m=my_stack.pop();
+  std::cout<<*m<<'\n';  
    } catch(...) {
        std::cerr<<"\nError: empty stack!!!..\n";
    }
+   
+   std::shared_ptr<int>some_ptr=std::make_shared<int>(42);
+   
+  std::cout<<"\nAtomic check: "<<std::atomic_is_lock_free(&some_ptr)<<'\n';
  
  return 0;
 }
