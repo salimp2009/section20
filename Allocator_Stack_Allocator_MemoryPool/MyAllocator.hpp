@@ -6,6 +6,8 @@
 #include <limits>
 #include <new>
 
+// Typical Allocator that works with STL Containers
+
 // Defining a global that holds the allocated size
 extern std::size_t gAllocatedSize;
 
@@ -24,14 +26,14 @@ public:
         //constructors & destructors
         MyAllocator() throw() {}
         
-        MyAllocator(const MyAllocator&) throw() {}
+        MyAllocator(const MyAllocator&) {}
         
         // copy constructor taking argumenet other MyAllocator type
         template<typename U>
-        MyAllocator(const MyAllocator<U>&) throw() {}
+        MyAllocator(const MyAllocator<U>&) {}
         
         // destructor
-        ~MyAllocator() throw() {}
+        ~MyAllocator() {}
         
         // Copy
         MyAllocator& operator=(const MyAllocator& b)

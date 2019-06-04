@@ -8,6 +8,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Aligned_Allocation.hpp"/>
+    <File Name="StackAllocator.hpp"/>
     <File Name="StackMemoryPool.hpp"/>
     <File Name="MyAlloc.hpp"/>
     <File Name="MyAllocator.hpp"/>

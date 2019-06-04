@@ -3,8 +3,9 @@
 #include <cstdint>
 #include <limits>
 #include <atomic>
+#include <stdexcept>
 #include <cassert>  // will be replace by a custom assert; to get a better error definition
-
+#include <stdlib.h>
 
 // Sample Memory Pool from Anki3d Game Engine
 // This memory pool is a class that holds:
@@ -36,14 +37,17 @@
 // The calcAlignSize() is been used to align the given size for reasons mentioned before"
 
 // type definitions;
+// std::ptrdiff_t is the signed integer type of the result of subtracting two pointers
         typedef std::size_t      Ptrsize;
-        typedef std::ptrdiff_t   difference_type;
+        typedef std::ptrdiff_t   difference_type;  
         typedef  uint8_t         U8;
         typedef  uint32_t        U32;  
 
 class StackMemoryPool
 {
 public:
+
+    StackMemoryPool()=default;
 
     // Default Constructor
     StackMemoryPool(Ptrsize size, U32 alignmentBits=16);
@@ -64,18 +68,18 @@ public:
     // Destructor
     ~StackMemoryPool();
     
-    // Get total size of the memory pool
+    // Get total max allocation size of the memory pool
     Ptrsize getSize() const
     {
         return memsize;
     }
     
-    // Get allocated size;
+    // Get allocated size; (different then the getSize())
     Ptrsize getAllocatedSize() const;
     
     // Allocate Memory;
     // return the allocated memory or nullptr on failure
-    void* allocate(Ptrsize) throw();
+    void* allocate(Ptrsize size) throw();
     
     // Free memory in StackMemory Poll
     // if ptr is not the last allocation 
@@ -89,14 +93,14 @@ public:
     void reset();
     
 private:
-    // Pre-allocated memory chunk;
-    U8* memory{nullptr};                // the address of the allocated memory
+    // Pointer to Pre-allocated memory chunk;
+    U8* memory{nullptr};                // to get the address of the allocated memory
     
-    // Size pf the pre-allocated memory chunk
-    Ptrsize memsize{0};                 // size of the pool
+    // Size of the pre-allocated memory chunk
+    Ptrsize memsize{0};                 // to get the size of the pool
     
     // Pointer to top of the stack
-    std::atomic<U8*>top{nullptr};      // address of the top of the stack = memory +sizeof(MemoryBlockHear) 
+    std::atomic<uint8_t*>top{nullptr};      // address of the top of the stack = memory +sizeof(MemoryBlockHear) 
     
     // Alignment of allocation
     U32 alignmentBits;
@@ -114,26 +118,36 @@ StackMemoryPool::StackMemoryPool(Ptrsize size_, U32 alignmentBits_)
         :memsize{size_}, alignmentBits{alignmentBits_} 
 {
         assert(memsize>0);
-        memory=static_cast<uint8_t*>(::operator new(memsize));
+        memory=(U8*)::malloc(memsize);
+        //memory=static_cast<uint8_t*>(::operator new(memsize));
         
-        if(memory!=nullptr) 
-            top.store(nullptr);
+        if(memory!=nullptr) {
+            top=memory;
+        }
         else
-            throw("operator new failed");
+        {
+            throw std::runtime_error("operator new failed");
+        }
+//        std::cout<<"Memory pool working, "<<", size: "<<memsize<<'\n';
 }
 
 StackMemoryPool::~StackMemoryPool()
 {
     if(memory!=nullptr)
     {
-        ::operator delete(memory);
+        ::free(memory);
+        //::operator delete(memory);
     }
+//    std::cout<<"Stack Memory Pool Destructor: operator delete is working...."<<'\n';
 }
 
 StackMemoryPool& StackMemoryPool::operator=(StackMemoryPool&& other)
 {
-    if(memory!=nullptr)
-        ::operator delete(memory);
+    if(memory!=nullptr) 
+    {
+        ::free(memory);
+        //::operator delete(memory);
+    }
     
     memory=other.memory;
     memsize=other.memsize;
@@ -142,8 +156,8 @@ StackMemoryPool& StackMemoryPool::operator=(StackMemoryPool&& other)
     
     other.memory=nullptr;
     other.memsize=0;
-    other.top.store(nullptr);
-    
+    other.top=nullptr;   
+ // other.top.store(nullptr);
     return *this;
 }
 
@@ -161,7 +175,9 @@ void* StackMemoryPool::allocate(Ptrsize size_) throw()
     // and align this with calcAlignSize function
     Ptrsize size=calcAlignSize(size_ + sizeof(MemoryBlockHeader));
     
-    assert(size<std::numeric_limits<U32>::max()&& "Too big allocation");
+//    std::cout<<"Allocate ptrsize: "<<size<<", total allocated size: "<<this->getAllocatedSize()<<'\n';
+    
+    assert(size<std::numeric_limits<uint32_t>::max()&& "Too big allocation");
     U8* out=top.fetch_add(size);
     if(out + size <=memory + memsize) {             // the address of the top +size should be inside memory pool
         // Write the block header                   // then record the size in the MemoryBlock header
@@ -175,11 +191,13 @@ void* StackMemoryPool::allocate(Ptrsize size_) throw()
         // Error
         out=nullptr;                            // if we are outside the memory pool then fail
     }
+//    std::cout<<"Memory Pool working, size: "<<*out<<*top.load()<<'\n';
     return out;
 }
 
 bool StackMemoryPool::free(void* ptr) throw()
 {
+    // memory is nullptr if moved
     assert(memory!=nullptr);
     
     // Correct the p
@@ -197,20 +215,22 @@ bool StackMemoryPool::free(void* ptr) throw()
     
     bool exchange=top.compare_exchange_strong(expected, desired);
     
+//    std::cout<<"Stack Memory Pool free function working...:"<<exchange<<'\n';
+    
     return exchange;
 }
 
 void StackMemoryPool::reset()
 {
+    // memory is nullptr if moved
     assert(memory!=nullptr);
-    top.store(memory);           // original top = memory ???
+    top=memory;
+    //top.store(memory);           // original top = memory ???
 }
 
  Ptrsize StackMemoryPool::calcAlignSize(Ptrsize size) const 
  {
      return size +(size %(alignmentBits/8));
  }
-    
-
 
 #endif // _STACK_MEMORYPOOL_H

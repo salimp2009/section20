@@ -4,7 +4,7 @@
   <Project Name="Atomics_01" Path="Atomics_01/Atomics_01.project" Active="No"/>
   <Project Name="Assertion_Test" Path="Assertion_Test/Assertion_Test.project" Active="No"/>
   <Project Name="Copyfile_1" Path="Copyfile_1/Copyfile_1.project" Active="No"/>
-  <Project Name="CustomDeleters" Path="CustomDeleters/CustomDeleters.project" Active="No"/>
+  <Project Name="SharedPointer_CustomDeleter" Path="CustomDeleters/CustomDeleters.project" Active="No"/>
   <Project Name="FunctionObjects" Path="FunctionObjects/FunctionObjects.project" Active="No"/>
   <Project Name="FutureAsync" Path="FutureAsync/FutureAsync.project" Active="No"/>
   <Project Name="FutureWaitingTwoTasks" Path="FutureWaitingTwoTasks/FutureWaitingTwoTasks.project" Active="No"/>
@@ -92,8 +92,16 @@
   <Project Name="Lambda_Function_Pointers" Path="Lambda_Function_Pointers/Lambda_Function_Pointers.project" Active="No"/>
   <Project Name="Allocators_Custom_New_Delete_Aligned" Path="Allocators_Custom_New_Delete_Aligned/Allocators_Custom_New_Delete_Aligned.project" Active="No"/>
   <Project Name="Lambda_Template_Parameter_Invoke" Path="Lambda_Template_Parameter_Invoke/Lambda_Template_Parameter_Invoke.project" Active="No"/>
-  <Project Name="Allocator_Stack_Allocator_MemoryPool" Path="Allocator_Stack_Allocator_MemoryPool/Allocator_Stack_Allocator_MemoryPool.project" Active="Yes"/>
+  <Project Name="Allocator_Stack_Allocator_MemoryPool" Path="Allocator_Stack_Allocator_MemoryPool/Allocator_Stack_Allocator_MemoryPool.project" Active="No"/>
   <Project Name="Lambda_Function_Ref_Implementation" Path="Lambda_Function_Ref_Implementation/Lambda_Function_Ref_Implementation.project" Active="No"/>
+  <Project Name="Lambdas_Local_Functions" Path="Lambdas_Local_Functions/Lambdas_Local_Functions.project" Active="No"/>
+  <Project Name="Lambdas_Safer_InterFaces_HigherOrderFunctions" Path="Lambdas_Safer_InterFaces_HigherOrderFunctions/Lambdas_Safer_InterFaces_HigherOrderFunctions.project" Active="No"/>
+  <Project Name="ConstExpr_Compile_Time_Computation" Path="ConstExpr_Compile_Time_Computation/ConstExpr_Compile_Time_Computation.project" Active="No"/>
+  <Project Name="Constexpr_STL_Function_Algorithms" Path="Constexpr_STL_Function_Algorithms/Constexpr_STL_Function_Algorithms.project" Active="No"/>
+  <Project Name="Type_Traits_TypeCompute_Manipulate" Path="Type_Computations/Type_Computations.project" Active="Yes"/>
+  <Project Name="Type_Traits_Remove_Reference" Path="Type_Traits_Remove_Reference/Type_Traits_Remove_Reference.project" Active="No"/>
+  <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" Path="Type_Traits_Meta_Functions_VariadicTemplates/Type_Traits_Meta_Functions_VariadicTemplates.project" Active="No"/>
+  <Project Name="Type_Traits_MetaProgramming_Conditional" Path="Type_Traits_MetaProgramming_Conditional/Type_Traits_MetaProgramming_Conditional.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -104,7 +112,7 @@
       <Project Name="ClassTemplateArray" ConfigName="Debug"/>
       <Project Name="ClassTemplates" ConfigName="Debug"/>
       <Project Name="Copyfile_1" ConfigName="Debug"/>
-      <Project Name="CustomDeleters" ConfigName="Debug"/>
+      <Project Name="SharedPointer_CustomDeleter" ConfigName="Debug"/>
       <Project Name="FunctionObjects" ConfigName="Debug"/>
       <Project Name="FunctionTemplate" ConfigName="Debug"/>
       <Project Name="FutureAsync" ConfigName="Debug"/>
@@ -191,6 +199,14 @@
       <Project Name="Lambda_Template_Parameter_Invoke" ConfigName="Debug"/>
       <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Debug"/>
       <Project Name="Lambda_Function_Ref_Implementation" ConfigName="Debug"/>
+      <Project Name="Lambdas_Local_Functions" ConfigName="Debug"/>
+      <Project Name="Lambdas_Safer_InterFaces_HigherOrderFunctions" ConfigName="Debug"/>
+      <Project Name="ConstExpr_Compile_Time_Computation" ConfigName="Debug"/>
+      <Project Name="Constexpr_STL_Function_Algorithms" ConfigName="Debug"/>
+      <Project Name="Type_Traits_TypeCompute_Manipulate" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Remove_Reference" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" ConfigName="Debug"/>
+      <Project Name="Type_Traits_MetaProgramming_Conditional" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -198,7 +214,7 @@
       <Project Name="Atomics_01" ConfigName="Release"/>
       <Project Name="Assertion_Test" ConfigName="Release"/>
       <Project Name="Copyfile_1" ConfigName="Release"/>
-      <Project Name="CustomDeleters" ConfigName="Release"/>
+      <Project Name="SharedPointer_CustomDeleter" ConfigName="Release"/>
       <Project Name="FunctionObjects" ConfigName="Release"/>
       <Project Name="FutureAsync" ConfigName="Release"/>
       <Project Name="FutureWaitingTwoTasks" ConfigName="Release"/>
@@ -288,6 +304,14 @@
       <Project Name="Lambda_Template_Parameter_Invoke" ConfigName="Release"/>
       <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Release"/>
       <Project Name="Lambda_Function_Ref_Implementation" ConfigName="Release"/>
+      <Project Name="Lambdas_Local_Functions" ConfigName="Release"/>
+      <Project Name="Lambdas_Safer_InterFaces_HigherOrderFunctions" ConfigName="Release"/>
+      <Project Name="ConstExpr_Compile_Time_Computation" ConfigName="Release"/>
+      <Project Name="Constexpr_STL_Function_Algorithms" ConfigName="Release"/>
+      <Project Name="Type_Traits_TypeCompute_Manipulate" ConfigName="Release"/>
+      <Project Name="Type_Traits_Remove_Reference" ConfigName="Release"/>
+      <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" ConfigName="Release"/>
+      <Project Name="Type_Traits_MetaProgramming_Conditional" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

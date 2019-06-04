@@ -6,6 +6,8 @@
 #include <limits>
 #include <new>
 
+// Typical Allocator that works with STL Containers
+
 extern std::size_t gAllocatedSize;
 
 template<typename T>

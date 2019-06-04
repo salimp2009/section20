@@ -64,6 +64,9 @@ int main()
     // there if a preallocated area is used regular delete will not delete the pointer
     int* ptr5=new(5)int;
     std::cout<<"ptr5: "<<*ptr5<<'\n';
+    
+    
+    std::cout<<"\nsize of char: "<<sizeof(char)<<'\n';
 
  return 0;
 }
