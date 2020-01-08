@@ -59,10 +59,12 @@ void create(int buffer, Handler handler)
 
 int main()
 {
+    // test for remove reference example
     create(11, 22);
+    
+    // test for remove reference implementation
     static_assert(std::is_same_v<remove_pointer_t<int*>, int>);
     static_assert(std::is_same_v<remove_pointer_alt_t<int*>, int>);
 
- 
  return 0;
 }

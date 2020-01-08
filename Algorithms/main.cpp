@@ -4,6 +4,7 @@
 #include <list>
 #include <cctype>
 #include <string>
+#include <iterator>
 
 
 class Person {
@@ -147,9 +148,31 @@ int main()
 //    count_if_test();
 //    replace_test();
 //    all_of_test();
-   string_transform_test();
+ //  string_transform_test();
  
+// Example for C style array iterators
+ int array1[5]={5,2,1,4,5};
  
+ // iterator pointers to the beginning and pass the end of array 
+ // std::sort() uses end iterator pass behing the last element
+ int *pbegin = &array1[0];
+ int *pend   = &array1[5];
  
+ // pointer to pointer example; needed this specific example
+ // to see if std::sort() will work passing array and 
+ // custom predicate sort function thru lambda
+ int **pbegin_alt=&pbegin;
+ int **pend_alt=&pend;
+          
+
+// std::sort(std::begin(array1), std::end(array1), [](int x, int y){ return x<y; });  // works OK
+// std::sort(pbegin, pend, [](int x, int y){ return x<y; });  
+std::sort(*pbegin_alt, *pend_alt, [](int x, int y){ return x>y; });                               // alternative way to do it
+ 
+ for(const auto& x: array1)
+     std::cout<<"x: "<<x<<", ";
+ std::cout<<'\n';
+ 
+
  return 0;
 }

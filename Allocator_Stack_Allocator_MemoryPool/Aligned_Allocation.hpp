@@ -51,8 +51,27 @@ void* AllocAlligned(std::size_t bytes, std::size_t align)
     // Works for upto 25-byte alignment
     std::ptrdiff_t shift = pAlignedMemory - pRawMem;
     assert(shift >0 && shift <256);
-    pAlignedMemory[-1]=static_cast<uint8_t>(shift & 0xFF);  // storing the shift preceding the 
+    pAlignedMemory[-1]=static_cast<uint8_t>(shift & 0xFF);  // storing the shift preceding the aligned memory
     return pAlignedMemory;
+}
+
+void FreeAligned(void* pMem)
+{
+    if(pMem)
+    {
+        // Convert to U8 pointer
+        U8* pAlignedMem = reinterpret_cast<U8*>(pMem);
+        
+        // Extract the shift
+        ptrdiff_t shift = pAlignedMem[-1];
+        if(shift==0)
+           shift=256;
+        
+        // Back up to the actual allocated address, 
+        // and array-delete it
+        U8* prawMem = pAlignedMem - shift;
+        delete [] prawMem;
+    }
 }
 
 

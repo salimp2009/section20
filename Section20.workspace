@@ -98,10 +98,23 @@
   <Project Name="Lambdas_Safer_InterFaces_HigherOrderFunctions" Path="Lambdas_Safer_InterFaces_HigherOrderFunctions/Lambdas_Safer_InterFaces_HigherOrderFunctions.project" Active="No"/>
   <Project Name="ConstExpr_Compile_Time_Computation" Path="ConstExpr_Compile_Time_Computation/ConstExpr_Compile_Time_Computation.project" Active="No"/>
   <Project Name="Constexpr_STL_Function_Algorithms" Path="Constexpr_STL_Function_Algorithms/Constexpr_STL_Function_Algorithms.project" Active="No"/>
-  <Project Name="Type_Traits_TypeCompute_Manipulate" Path="Type_Computations/Type_Computations.project" Active="Yes"/>
+  <Project Name="Type_Traits_TypeCompute_Manipulate" Path="Type_Computations/Type_Computations.project" Active="No"/>
   <Project Name="Type_Traits_Remove_Reference" Path="Type_Traits_Remove_Reference/Type_Traits_Remove_Reference.project" Active="No"/>
   <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" Path="Type_Traits_Meta_Functions_VariadicTemplates/Type_Traits_Meta_Functions_VariadicTemplates.project" Active="No"/>
   <Project Name="Type_Traits_MetaProgramming_Conditional" Path="Type_Traits_MetaProgramming_Conditional/Type_Traits_MetaProgramming_Conditional.project" Active="No"/>
+  <Project Name="Type_Traits_Conjuction_Disconjunction_Satisfy_All" Path="Type_Traits_Conjuction_Disconjunction_Satisfy_All/Type_Traits_Conjuction_Disconjunction_Satisfy_All.project" Active="No"/>
+  <Project Name="Type_Traits_Integer_Sequence" Path="Type_Traits_Index_Sequence/Type_Traits_Index_Sequence.project" Active="No"/>
+  <Project Name="Type_Traits_Compile_Time_Iteration" Path="Type_Traits_Compile_Time_Iteration/Type_Traits_Compile_Time_Iteration.project" Active="No"/>
+  <Project Name="Type_Traits_Compile_Time_Set_Data_Structure" Path="Type_Traits_Compile_Time_Set_Data_Structure/Type_Traits_Compile_Time_Set_Data_Structure.project" Active="No"/>
+  <Project Name="Allocator_Memory_Arena_PBRT" Path="Allocator_Memory_Arena_PBRT/Allocator_Memory_Arena_PBRT.project" Active="No"/>
+  <Project Name="Graphs_Bread_First_Search_Vertex" Path="Graphs_VertexRepsentation_Bread_First_Search/Graphs_VertexRepsentation_Bread_First_Search.project" Active="No"/>
+  <Project Name="Graphs_Depth_First_Search_Vertex" Path="Graphs_Depth_of_Search_First_Vertex/Graphs_Depth_of_Search_First_Vertex.project" Active="No"/>
+  <VirtualDirectory Name="test">
+    <Project Name="test01" Path="test01/test01.project" Active="Yes"/>
+    <Project Name="template_sal" Path="template_sal/template_sal.project" Active="No"/>
+    <Project Name="STL_Partition" Path="STL_Partition/STL_Partition.project" Active="No"/>
+    <Project Name="Pairs_Tuples_2" Path="Pairs_Tuples_2/Pairs_Tuples_2.project" Active="No"/>
+  </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -207,6 +220,17 @@
       <Project Name="Type_Traits_Remove_Reference" ConfigName="Debug"/>
       <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" ConfigName="Debug"/>
       <Project Name="Type_Traits_MetaProgramming_Conditional" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Conjuction_Disconjunction_Satisfy_All" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Integer_Sequence" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Compile_Time_Iteration" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Compile_Time_Set_Data_Structure" ConfigName="Debug"/>
+      <Project Name="Allocator_Memory_Arena_PBRT" ConfigName="Debug"/>
+      <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Debug"/>
+      <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Debug"/>
+      <Project Name="test01" ConfigName="Debug"/>
+      <Project Name="template_sal" ConfigName="Debug"/>
+      <Project Name="STL_Partition" ConfigName="Debug"/>
+      <Project Name="Pairs_Tuples_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -312,6 +336,17 @@
       <Project Name="Type_Traits_Remove_Reference" ConfigName="Release"/>
       <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" ConfigName="Release"/>
       <Project Name="Type_Traits_MetaProgramming_Conditional" ConfigName="Release"/>
+      <Project Name="Type_Traits_Conjuction_Disconjunction_Satisfy_All" ConfigName="Release"/>
+      <Project Name="Type_Traits_Integer_Sequence" ConfigName="Release"/>
+      <Project Name="Type_Traits_Compile_Time_Iteration" ConfigName="Release"/>
+      <Project Name="Type_Traits_Compile_Time_Set_Data_Structure" ConfigName="Release"/>
+      <Project Name="Allocator_Memory_Arena_PBRT" ConfigName="Release"/>
+      <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Release"/>
+      <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Release"/>
+      <Project Name="test01" ConfigName="Release"/>
+      <Project Name="template_sal" ConfigName="Release"/>
+      <Project Name="STL_Partition" ConfigName="Release"/>
+      <Project Name="Pairs_Tuples_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
