@@ -70,8 +70,15 @@ int main()
                                            // if you dereference the name of array, you get the value of first element 
     
     
-    std::iota(std::begin(wovels), std::end(wovels), 'c');  //std::iota changes the value of element starting with the  
-    std::copy(std::begin(wovels), std::end(wovels),        // the given value ('c') and increment by 1; typically used for numbers 
+    std::iota(std::begin(wovels), std::end(wovels), 'c');  //std::iota increments the value of elements by one starting with the  
+                                                           // given initial value e.g::'c'
+    // printing the revised array
+    std::copy(std::begin(wovels), std::end(wovels),         
+            std::ostream_iterator<char>(std::cout, " "));
+    std::cout<<'\n'; 
+    
+    // the name of array can be used to refer to address 
+    std::copy(wovels, wovels +sizeof(wovels),              
             std::ostream_iterator<char>(std::cout, " "));
     std::cout<<'\n'; 
     
@@ -85,6 +92,79 @@ int main()
     std::cout<<movie_ratings[0][3]<<'\n';                                     // will give number 6
     std::cout<<&movie_ratings[0][0]<<" "<<&movie_ratings[0][1]                // memory addresses of elements of 1st data set; 
               <<" "<<&movie_ratings[0][2]<<" "<<&movie_ratings[0][3]<<'\n';   // it should be contigous; the address inreases by the size  
-                                                                              // the size of the type of the array; e.g. increment by 4   
+    
+    // switch example
+    int selection_case{5};                                                                           // the size of the type of the array; e.g. increment by 4   
+    switch(selection_case)
+    {
+        case 2: 
+            std::cout<<"case 2 \n";
+            break;
+        case 3: 
+            std::cout<<"case 3 \n";
+            break;
+        case 5: std::cout<<"case 5 activated \n";
+            break;
+        default: 
+            std::cout<<"getting out...\n";
+    }
+    
+    // for loop example for multiple variable condition and iteration
+    for(int i{1}, j{2}; i<5 && j<6; ++i, j+=2)
+        std::cout<<i<<" + "<<j<<"= "<<i+j<<'\n';
+        
+    // print i in a table form; each line 10 numbers 
+    for(int i{1}; i<100; ++i) {
+        if(i%10==0) std::cout<<'\n';
+        std::cout<<i<<" ";
+    }
+    
+    std::cout<<'\n';
+    
+    // range based loop for c-style strings
+    for(const auto& c: "that is funky") {
+        std::cout<<(c==' ' ? '\t':c);          // alternative way for if condition
+//        if(c==' ') std::cout<<'\t';         // putting a tab instead of a space; just for fun :)
+//        std::cout<<c;
+    }
+    std::cout<<'\n';
+    
+    // typical while condition example
+    std::cout<<"Enter a number to count down: ";
+    int num{0};
+    std::cin>>num;
+    while(num>0) {
+        std::cout<<"Count to lift off: "<<num<<'\n';
+        --num;
+    }
+    std::cout<<"Lift Off !!!! : "<<num<<'\n';  
+
+    // coun_if algorithm from STL
+    std::vector<int>vec99(50,60);   // a vector of 50 elements; all are assigned value 60
+    int num_to_count{60};
+    auto total_count=std::count_if(vec99.begin(), vec99.end(), [num_to_count](const int num){ return num==num_to_count;});
+    
+    std::cout<<"total number of "<<num_to_count<<" in vector is: "<<total_count<<'\n';
+    
+    // do{  } while() loop example; checks the condition at the end !!
+    // do loop continues until the while is false; if while cond is true it keeps running
+    // for cases that needs at least one iteration do-while loop is preferred 
+    // otherwise just while loop is OK
+    char selection{};
+    do {
+        std::cout<<"please enter a width & a height: ";
+        double width{0}, height{0};
+        std::cin>>width>>height;
+        
+        std::cout<<"the area is: "<<width*height<<'\n';
+        
+        std::cout<<"\nDo you want to enter another width & height (Y or N) ? ";
+        
+        std::cin>>selection;
+    } while (selection =='y' || selection=='Y');
+    
+    std::cout<<"Goodbye \n";
+ 
+ 
  return 0;
 }

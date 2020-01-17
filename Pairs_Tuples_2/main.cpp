@@ -83,6 +83,12 @@ int main()
     
     std::string s1{"didem"};
     
+    std::pair<std::string&, std::string>pair_ref(s1, "demir");  // can use reference to a variable
+    std::cout<<"pair_ref: "<<pair_ref<<'\n';
+    
+    s1="demir";                                                 // if the variable change pair is changed to
+    std::cout<<"pair_ref: "<<pair_ref<<'\n';
+    
     std::tuple<std::string&>t3(s1);                             // if tuple refers to a variable it has to be know during compile time
     std::cout<<"t3: "<<std::get<0>(t3)<<'\n';
     

@@ -1,0 +1,701 @@
+[{
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_ptr/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_ptr",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_ptr/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_ptr/main.cpp.o  -I. -I.  -g  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr_2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr_2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr_2/main.cpp.o  -I. -I.  -g  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/vector_operations/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/vector_operations",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/vector_operations/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/vector_operations/main.cpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -O0  -pedantic  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Partition/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Partition",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Partition/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Partition/main.cpp.o  -I. -I.  -g  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/template_sal/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/template_sal",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/template_sal/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/template_sal/main.cpp.o  -I. -I.  -g  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/Vertex.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/Vertex.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/Vertex.hpp.o  -I. -I.  -pg  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/Vertex.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/Vertex.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/Vertex.cpp.o  -I. -I.  -pg  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/main.cpp.o  -I. -I.  -pg  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/BreadFirstSearch.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/BreadFirstSearch.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/BreadFirstSearch.hpp.o  -I. -I.  -pg  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/BreadFirstSearch.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/BreadFirstSearch.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_VertexRepsentation_Bread_First_Search/BreadFirstSearch.cpp.o  -I. -I.  -pg  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Conjuction_Disconjunction_Satisfy_All/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Conjuction_Disconjunction_Satisfy_All",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Conjuction_Disconjunction_Satisfy_All/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Conjuction_Disconjunction_Satisfy_All/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Meta_Functions_VariadicTemplates/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Meta_Functions_VariadicTemplates",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Meta_Functions_VariadicTemplates/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Meta_Functions_VariadicTemplates/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Remove_Reference/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Remove_Reference",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Remove_Reference/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Remove_Reference/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Constexpr_STL_Function_Algorithms/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Constexpr_STL_Function_Algorithms",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Constexpr_STL_Function_Algorithms/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Constexpr_STL_Function_Algorithms/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/VariadicTemplates/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/VariadicTemplates",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/VariadicTemplates/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/VariadicTemplates/main.cpp.o  -I. -I.  -pg  -O  -Os  -O3  -std=c++17  -std=c++14  -g  -O  -Os  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Safer_InterFaces_HigherOrderFunctions/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Safer_InterFaces_HigherOrderFunctions",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Safer_InterFaces_HigherOrderFunctions/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Safer_InterFaces_HigherOrderFunctions/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Computations/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Computations",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Computations/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Computations/main.cpp.o  -I. -I.  -g  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Wait_For/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Wait_For",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Wait_For/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Wait_For/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Local_Functions/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Local_Functions",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Local_Functions/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambdas_Local_Functions/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/main.cpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/Function_ref.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/Function_ref.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/Function_ref.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/function_ref_org.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/function_ref_org.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/function_ref_org.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/MemoryArena.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/MemoryArena.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/MemoryArena.hpp.o  -I. -I.  -g  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/Aligned_Memory.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/Aligned_Memory.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Memory_Arena_PBRT/Aligned_Memory.cpp.o  -I. -I.  -g  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Template_Parameter_Invoke/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Template_Parameter_Invoke",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Template_Parameter_Invoke/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Template_Parameter_Invoke/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Defered_Async/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Defered_Async",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Defered_Async/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Defered_Async/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/main.cpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAlloc.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAlloc.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAlloc.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackAllocator.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackAllocator.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackAllocator.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAllocator.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAllocator.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAllocator.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackMemoryPool.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackMemoryPool.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackMemoryPool.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/Aligned_Allocation.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/Aligned_Allocation.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/Aligned_Allocation.hpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned/Allocator_Linear.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned/Allocator_Linear.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Custom_New_Delete_Aligned/Allocator_Linear.h.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Consume/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Consume",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Consume/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Consume/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_BinaryTree_Traverse/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_BinaryTree_Traverse",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_BinaryTree_Traverse/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_BinaryTree_Traverse/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack_With_Locks/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack_With_Locks",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack_With_Locks/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack_With_Locks/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Weak_Ptr/main.cpp.o  -I. -I.  -O3  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation/my_unique_ptr.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation/my_unique_ptr.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unique_Ptr_Implementation/my_unique_ptr.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Set_Data_Structure/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Set_Data_Structure",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Set_Data_Structure/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Set_Data_Structure/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Exception/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Exception",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Exception/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Exception/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future_2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future_2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future_2/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates/Item.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates/Item.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplates/Item.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/StackArrayAuto.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/StackArrayAuto.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack_Array_Auto/StackArrayAuto.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_PackagedTask_Reuse/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_PackagedTask_Reuse",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_PackagedTask_Reuse/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_PackagedTask_Reuse/main.cpp.o  -I. -I.  -g  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1_Soln/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1_Soln",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1_Soln/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1_Soln/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/HashFunc01.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/HashFunc01.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/HashFunc01.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/Bucket.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/Bucket.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Unordered_Containers/Bucket.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Priority_Queue/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Priority_Queue",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Priority_Queue/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Priority_Queue/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/main.cpp.o  -I. -I.  -g  -std=c++17  -g  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/PairPrint.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/PairPrint.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/PairPrint.hpp.o  -I. -I.  -g  -std=c++17  -g  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/Tuple_Print.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/Tuple_Print.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples_2/Tuple_Print.hpp.o  -I. -I.  -g  -std=c++17  -g  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Semaphore_Pthreads/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Semaphore_Pthreads",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Semaphore_Pthreads/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Semaphore_Pthreads/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -Wall  -g  -Os  -O3  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_1/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_Vectors_Add/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_Vectors_Add",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_Vectors_Add/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_Vectors_Add/main.cpp.o  -I. -I.  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_4/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_4",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_4/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_4/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_PackagedTask_Future/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_PackagedTask_Future",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_PackagedTask_Future/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_PackagedTask_Future/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -Wall  -g  -Os  -O3  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Stack/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Stack",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Stack/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Stack/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_OnceFlag/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_OnceFlag",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_OnceFlag/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_OnceFlag/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_DotArrays_sse/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_DotArrays_sse",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_DotArrays_sse/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SIMD_DotArrays_sse/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments/Stack4.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments/Stack4.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/TemplateDefaultArguments/Stack4.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_3/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_3",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_3/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_3/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Initiliaze/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Initiliaze",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Initiliaze/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Initiliaze/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Map/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Map",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Map/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Map/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Creation/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Creation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Creation/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Creation/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Challenge_2/main.cpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Call_Once_Flag/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Call_Once_Flag",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Call_Once_Flag/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Call_Once_Flag/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_Spinlock/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_Spinlock",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_Spinlock/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_Spinlock/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Mutex_UniqueLock/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Mutex_UniqueLock",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Mutex_UniqueLock/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Mutex_UniqueLock/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedData/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedData",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedData/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedData/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_NoWaiting/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_NoWaiting",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_NoWaiting/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_NoWaiting/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Signal_Fence/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Signal_Fence",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Signal_Fence/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Signal_Fence/main.cpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionTemplate/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionTemplate",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionTemplate/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionTemplate/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -Wall  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_FoldingExpressions/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_FoldingExpressions",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_FoldingExpressions/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_FoldingExpressions/main.cpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Synchronise/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Synchronise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Synchronise/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Promise_Synchronise/main.cpp.o  -I. -I.  -O  -Os  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedMutex_SharedLock/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedMutex_SharedLock",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedMutex_SharedLock/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_SharedMutex_SharedLock/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureAsync/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureAsync",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureAsync/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureAsync/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Vector/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Vector",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Vector/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Vector/main.cpp.o  -I. -I.  -std=c++17  -Wall  -g  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shared_Unique_Ptrs/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shared_Unique_Ptrs",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shared_Unique_Ptrs/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shared_Unique_Ptrs/main.cpp.o  -I. -I.  -g  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2/Varprint.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2/Varprint.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadic_Templates_2/Varprint.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Memory_Order_Relaxed/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Memory_Order_Relaxed",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Memory_Order_Relaxed/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Memory_Order_Relaxed/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Transistivity/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Transistivity",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Transistivity/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrderRelease_Transistivity/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Spinlock_Memory_Order/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Spinlock_Memory_Order",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Spinlock_Memory_Order/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Spinlock_Memory_Order/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_01/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_01",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_01/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_01/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Shared_Promise/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Shared_Promise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Shared_Promise/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_Shared_Promise/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Iterators/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Iterators",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Iterators/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Iterators/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O0  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Data/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Data",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Data/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Data/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Deque/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Deque",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Deque/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Deque/main.cpp.o  -I. -I.  -O3  -O0  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Thread_Fence/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Thread_Fence",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Thread_Fence/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MemoryOrder_Thread_Fence/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/Vertex.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/Vertex.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/Vertex.hpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/Vertex.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/Vertex.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/Vertex.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/DepthFirstSearch.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/DepthFirstSearch.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/DepthFirstSearch.hpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/DepthFirstSearch.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/DepthFirstSearch.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Graphs_Depth_of_Search_First_Vertex/DepthFirstSearch.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplateArray/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplateArray",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplateArray/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ClassTemplateArray/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -Wall  -g  -Os  -O3  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionVar/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionVar",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionVar/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionVar/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Set/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Set",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Set/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Set/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/List/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/List",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/List/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/List/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test01/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test01",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test01/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test01/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedFutures/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedFutures",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedFutures/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedFutures/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Index_Sequence/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Index_Sequence",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Index_Sequence/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Index_Sequence/main.cpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionalVar/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionalVar",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionalVar/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_ConditionalVar/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_DotProduct_Async/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_DotProduct_Async",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_DotProduct_Async/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Future_DotProduct_Async/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Triangle.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Triangle.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Triangle.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Circle.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Circle.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Circle.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Triangle.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Triangle.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Triangle.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Vector3.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Vector3.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Vector3.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Circle.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Circle.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Circle.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes_Utility.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes_Utility.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes_Utility.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/I_Draw.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/I_Draw.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/I_Draw.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Vector3.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Vector3.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Vector3.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/I_Draw.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/I_Draw.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/I_Draw.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes_Utility.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes_Utility.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Shapes_Exercise/Shapes_Utility.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Safe_Stack/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test/Assert.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test/Assert.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Assertion_Test/Assert.hpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_Scott_Meyers/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_Scott_Meyers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_Scott_Meyers/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Singleton_Scott_Meyers/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/PrintTupple.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/PrintTupple.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Pairs_Tuples/PrintTupple.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Promise_Future/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ThreadArguments/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ThreadArguments",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ThreadArguments/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ThreadArguments/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_MetaProgramming_Conditional/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_MetaProgramming_Conditional",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_MetaProgramming_Conditional/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_MetaProgramming_Conditional/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Join/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Join",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Join/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Join/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_01/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_01",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_01/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Atomics_01/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Bind/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Bind",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Bind/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Bind/main.cpp.o  -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable2/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STLErrors/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Scope_State/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Scope_State",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Scope_State/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Local_Scope_State/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MutexRecursiveLock/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MutexRecursiveLock",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MutexRecursiveLock/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/MutexRecursiveLock/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Algorithms/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Algorithms",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Algorithms/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Algorithms/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Conditional_Variable/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Conditional_Variable",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Conditional_Variable/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Thread_Conditional_Variable/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Savings_Account.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Savings_Account.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Savings_Account.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Checking_Account.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Checking_Account.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Checking_Account.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account_Utility.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account_Utility.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account_Utility.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/I_Printable.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/I_Printable.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/I_Printable.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/I_Printable.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/I_Printable.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/I_Printable.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account_Utility.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account_Utility.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account_Utility.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Trust_Account.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Trust_Account.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Trust_Account.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Account.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Checking_Account.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Checking_Account.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Checking_Account.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Savings_Account.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Savings_Account.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Savings_Account.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Trust_Account.h",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Trust_Account.h -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SharedPointers/Trust_Account.h.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Array/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Array",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Array/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Array/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex1/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex1",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex1/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex1/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -Wall  -g  -Os  -O3  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/StringStream/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/StringStream",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/StringStream/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/StringStream/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SwapBigEndianLittleEndian/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SwapBigEndianLittleEndian",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SwapBigEndianLittleEndian/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/SwapBigEndianLittleEndian/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable1/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable1",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable1/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Mutex_Condition_Variable1/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureWaitingTwoTasks/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureWaitingTwoTasks",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureWaitingTwoTasks/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FutureWaitingTwoTasks/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack1.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack1.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack1.hpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack2.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack2.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack2.hpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/main.cpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack3.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack3.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/Stack3.hpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/MyAlloc1.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/MyAlloc1.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Stack2/MyAlloc1.hpp.o  -I. -I.  -g  -std=c++17  -Wall  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Que/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Que",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Que/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Que/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/CustomDeleters/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/CustomDeleters",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/CustomDeleters/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/CustomDeleters/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Copyfile_1/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Copyfile_1",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Copyfile_1/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Copyfile_1/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -std=c++14  -g  -Os  -O3  -O0  -std=c++17  -std=c++14"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType/StackArray.hpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType/StackArray.hpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_StackNonType/StackArray.hpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -Os  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionObjects/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionObjects",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionObjects/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FunctionObjects/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Iteration/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Iteration",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Iteration/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Type_Traits_Compile_Time_Iteration/main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ConstExpr_Compile_Time_Computation/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ConstExpr_Compile_Time_Computation",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ConstExpr_Compile_Time_Computation/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/ConstExpr_Compile_Time_Computation/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O3  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Pointers/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Pointers",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Pointers/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Pointers/main.cpp.o  -I. -I.  -Os  -O3  -std=c++17  -Wall  -g  -O3  -O0  -std=c++17"
+ }, {
+  "file": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/PrebuildFunctions_STL/main.cpp",
+  "directory": "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/PrebuildFunctions_STL",
+  "command": "clang  -c /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/PrebuildFunctions_STL/main.cpp -o /Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/PrebuildFunctions_STL/main.cpp.o  -I. -I.  -std=c++17  -std=c++14  -Wall  -g  -O0  -std=c++17  -std=c++14  -Wall"
+ }]
