@@ -120,8 +120,11 @@
     <Project Name="Unique_ptr" Path="Unique_ptr/Unique_ptr.project" Active="No"/>
     <Project Name="Type_Traits2" Path="Type_Traits2/Type_Traits2.project" Active="No"/>
     <Project Name="Ref_Function_Wrappers" Path="Ref_Function_Wrappers/Ref_Function_Wrappers.project" Active="No"/>
-    <Project Name="test2" Path="test2/test2.project" Active="Yes"/>
+    <Project Name="test2" Path="test2/test2.project" Active="No"/>
     <Project Name="chrono_ratio" Path="chrono_ratio/chrono_ratio.project" Active="No"/>
+    <Project Name="clocks_timepoints" Path="clocks_timepoints/clocks_timepoints.project" Active="No"/>
+    <Project Name="test3_extern" Path="test3_extern/test3_extern.project" Active="No"/>
+    <Project Name="lambda_basics" Path="lambda_basics/lambda_basics.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -249,6 +252,9 @@
       <Project Name="Ref_Function_Wrappers" ConfigName="Debug"/>
       <Project Name="test2" ConfigName="Debug"/>
       <Project Name="chrono_ratio" ConfigName="Debug"/>
+      <Project Name="clocks_timepoints" ConfigName="Debug"/>
+      <Project Name="test3_extern" ConfigName="Debug"/>
+      <Project Name="lambda_basics" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -374,6 +380,9 @@
       <Project Name="Ref_Function_Wrappers" ConfigName="Release"/>
       <Project Name="test2" ConfigName="Release"/>
       <Project Name="chrono_ratio" ConfigName="Release"/>
+      <Project Name="clocks_timepoints" ConfigName="Release"/>
+      <Project Name="test3_extern" ConfigName="Release"/>
+      <Project Name="lambda_basics" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

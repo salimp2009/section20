@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Shared_Unique_Ptrs" Version="10.0.0" InternalType="User templates">
+<CodeLite_Project Name="test3_extern" Version="10.0.0" InternalType="User templates">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00010001N0005Debug000000000000]]>
@@ -98,8 +98,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="data.cpp"/>
+    <File Name="data.hpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

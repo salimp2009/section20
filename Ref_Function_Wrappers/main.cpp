@@ -1,6 +1,9 @@
 #include <iostream>
 #include <functional>
 #include <vector>
+#include <string>
+#include <bitset>
+#include <type_traits>
 
 template<typename T>
 void foo(T val)
@@ -13,6 +16,9 @@ struct B
 {
     B(int n):data{n} {}
     int data{0};
+    friend std::ostream& operator<<(std::ostream& os, const B& obj) {
+        return os<<obj.data<<'\n';
+    }
 };
 
 void funct(int x)
@@ -47,10 +53,26 @@ int main()
                                 // std::ref() is a helper of function class std::reference_wrapper<>
     std::cout<<" value in main(): "<<x<<'\n';
     
+    // using std::reference_wrapper so that vector can accept reference as a type info
+    // std::vector<B&> does not compile so insteade we use reference_wrapper<> class
+    // a better example to create a list type of container and use reference_wrapper
+    // inside the vector so any changes to list effect the vector elements 
     std::vector<std::reference_wrapper<B>>vecB;
+    B b(2);
+    B* b_ptr=&b;
+    b_ptr->data=333;
+    std::cout<<" b.data: "<<b.data<<'\n';
+    
+    vecB.push_back(*b_ptr);
+    for(auto elem:vecB)
+        std::cout<<"vecB: "<<elem<<'\n';
+    
+    std::cout<<std::boolalpha<<std::is_same<B, decltype(vecB)>::value<<'\n';
+    
+    b_ptr=nullptr;
+    delete b_ptr; // do not forget to delete your raw pointer :) ( better dont use it if you dont have too)
     
     // Example for std::function<> ; function wrapper
-    
     std::vector<std::function<void(int)>>tasks;
     tasks.push_back(foo<int>);                  // foo is template function the type info need while push_back
     tasks.push_back(funct);                     // funct is a regular function type info is in function definition
@@ -77,6 +99,23 @@ int main()
     auto lambda_f=lambda_return();
     lambda_f(555);
     
+    // converting a string to bitset
+    // the last two character identify where to place zeros and one 
+    // with a given string composed of those characters
+    // Full definition of the constructor for bitset<>
+    // bitset(n == basic_string<CharT>::npos ? basic_string<CharT>(str) : 
+    // basic_string<CharT>(str, n), 0, n, zero, one)
+    // Simplified definition bitset<> constructor;
+    // bitset(str, start_pos, number_of_characters, zero_character, one_character)
     
+    std::string alpha_bit_string{"aaccaaacc"};
+    std::bitset<10>b_string(alpha_bit_string, 2, 5, 'a', 'c');
+    std::cout<<b_string<<'\n';
+    
+    alpha_bit_string = "aBaaBBaB";
+    std::bitset<8> b6(alpha_bit_string, 0, alpha_bit_string.size(),
+                      'a', 'B'); 
+    
+    std::cout<<b6<<'\n';
     return 0;
 }
