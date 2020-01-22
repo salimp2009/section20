@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=SALIM PAMUKCU
-Date                   :=20/01/2020
+Date                   :=21/01/2020
 CodeLitePath           :="/Users/salimp/Library/Application Support/CodeLite"
 LinkerName             :=clang++
 SharedObjectLinkerName :=clang++ -shared -fPIC
@@ -60,7 +60,7 @@ AS       := llvm-as
 ## User defined environment variables
 ##
 CodeLiteDir:=/private/var/folders/99/l41x9fx50gx698158t8dm4440000gn/T/AppTranslocation/E5C99A94-AC21-4865-BD68-220594266E72/d/codelite.app/Contents/SharedSupport/
-Objects0=$(IntermediateDirectory)/data.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/data.cpp$(ObjectSuffix) 
 
 
 
@@ -91,15 +91,15 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/data.cpp$(ObjectSuffix): data.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test3_extern/data.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/data.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/data.cpp$(PreprocessSuffix): data.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/data.cpp$(PreprocessSuffix) data.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test3_extern/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/data.cpp$(ObjectSuffix): data.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/test3_extern/data.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/data.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/data.cpp$(PreprocessSuffix): data.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/data.cpp$(PreprocessSuffix) data.cpp
 
 ##
 ## Clean

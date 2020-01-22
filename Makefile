@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ lambda_basics - Debug ]----------"
-	@cd "lambda_basics" && "$(MAKE)" -f  "lambda_basics.mk"
+	@echo "----------Building project:[ test4 - Debug ]----------"
+	@cd "test4" && "$(MAKE)" -f  "test4.mk"
 clean:
-	@echo "----------Cleaning project:[ lambda_basics - Debug ]----------"
-	@cd "lambda_basics" && "$(MAKE)" -f  "lambda_basics.mk" clean
+	@echo "----------Cleaning project:[ test4 - Debug ]----------"
+	@cd "test4" && "$(MAKE)" -f  "test4.mk" clean

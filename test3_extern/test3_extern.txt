@@ -1,1 +1,1 @@
-./Debug/data.cpp.o ./Debug/main.cpp.o
+./Debug/main.cpp.o ./Debug/data.cpp.o

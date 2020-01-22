@@ -1,7 +1,7 @@
 // this is a sample of ASSERT MACRO that can enble or disabled
 // from  the book "Game Engine architecture 3rd edition" by Jason Gregory 
 
-#ifdef _DEBUG
+#ifdef NDEBUG
 
 //#include <cassert>
 //define inline assembly that cause a break
