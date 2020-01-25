@@ -8,7 +8,7 @@
 
 // foo is referred as extern in header file "data" and implemented in data.cpp
 // therefore foo has to be defined in global space of this file; if it is defined
-// in main() then the linker cannot link and gives error during runtime
+// in main() then it has to be assigned a value
 
 int foo{35};
 

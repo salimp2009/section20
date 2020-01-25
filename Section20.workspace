@@ -126,6 +126,8 @@
     <Project Name="test3_extern" Path="test3_extern/test3_extern.project" Active="No"/>
     <Project Name="lambda_basics" Path="lambda_basics/lambda_basics.project" Active="No"/>
     <Project Name="test4" Path="test4/test4.project" Active="Yes"/>
+    <Project Name="STL_Containers" Path="STL_Containers/STL_Containers.project" Active="No"/>
+    <Project Name="STL_Sequence_Containers" Path="STL_Sequence_Containers/STL_Sequence_Containers.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -257,6 +259,8 @@
       <Project Name="test3_extern" ConfigName="Debug"/>
       <Project Name="lambda_basics" ConfigName="Debug"/>
       <Project Name="test4" ConfigName="Debug"/>
+      <Project Name="STL_Containers" ConfigName="Debug"/>
+      <Project Name="STL_Sequence_Containers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -386,6 +390,8 @@
       <Project Name="test3_extern" ConfigName="Release"/>
       <Project Name="lambda_basics" ConfigName="Release"/>
       <Project Name="test4" ConfigName="Release"/>
+      <Project Name="STL_Containers" ConfigName="Release"/>
+      <Project Name="STL_Sequence_Containers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

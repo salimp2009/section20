@@ -171,5 +171,62 @@ int main()
     l5();
     l5(60);
     l6();
+    
+    // Since C++17 lambdas are implicitly constexpr as long as it
+    // satisfies the constexpr funct requirements;
+    // compile- time contexts provided the features it uses are valid for compile-time contexts 
+    // (e.g., only literal types, no static variables, no virtual, no try/catch, no new/delete);
+/*
+//    • it shall not be virtual;
+//    • its return type shall be a literal type;
+//    • each of its parameter types shall be a literal type;
+//    • its function-bodyshallbe=delete,=default,oracompound-statement that  does
+//      not contain;
+//    – anasm-definition,
+//    – agotostatement,
+//    – an identifier label,
+//    – a try-block, or
+//    – a definition of a variable of non-literal type or of static or 
+//      thread storage duration or for which no initialization is performed.    
+*/
+
+    auto square=[](auto x){ return x*x;};    // implicit constexpr; 
+                                            // if the lambda is used in a runtime context, 
+                                            // the corresponding functionality is performed at run time.
+    static_assert(square(2)==4);            
+    
+//    auto square2=[](auto x){              // NOT constexpr any more
+//        static int z{5};                  // no static objects if compile time is required 
+//        return x*x;};                    // otherwise it is OK
+//                
+//    static_assert(square2(2)==4);                 // compile time error !!!; not an integral type
+                                                    // https://en.cppreference.com/w/cpp/types/is_integral
+    
+    auto square3=[](auto x)constexpr{ return x*x;}; // explicit constexpr; 
+    static_assert(square3(3)==9); 
+    
+    
+    // if a constexpr object is captured in constexpr lambda 
+    // and if it is used to compile time initialization of closure object sum
+    // then the compiler gives an error that num_xx does not need to be captured and 
+    // the version without capturing and using in lambda body works; NO Clear Rules on this
+    
+    // Note: if sum is not declared constexpr (compile time initialization) & 
+    // if you try to capture then it gives an compile time error & warning
+    // but if you dont capture it works fine ; no warning
+    
+    constexpr int num_xx{5};
+//    constexpr auto sum=[num_xx](int n)constexpr{ return num_xx+n;};     // gives a warning; no need to capture!!
+//    constexpr auto sum=[](int n)constexpr{ return num_xx+n;};           // works OK; no capture; no warning
+//    auto sum=[num_xx](int n)constexpr{ return num_xx+n;};               // compile time error & capture warning
+//    auto sum=[](int n)constexpr{ return num_xx+n;};                     // works OK
+    
+    //std::const() helper function enforces to capture by const
+    // mostly used to capture a non const object as a const to use in any context; lambda... 
+    auto sum=[&num__x=std::as_const(num_xx)](int n)constexpr{ return num_xx+n;};   // works OK; either capture by value or reference
+    
+    
+    static_assert(sum(5)==10);
+    
     return 0;
 }
