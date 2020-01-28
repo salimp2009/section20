@@ -10,6 +10,9 @@
 #include <string>
 #include <typeinfo>
 #include <type_traits>
+#include <functional>
+#include <numeric>
+
 
 void STL_Array()
 {
@@ -74,14 +77,47 @@ void STL_Array()
     
     std::cout<<"std::tuple_size<>::value: "<<std::tuple_size<decltype(arr4)>::value<<'\n';
     
-    std::cout<<typeid(std::tuple_element<1, String_Array>::type).name();
+    std::cout<<typeid(std::tuple_element<1, String_Array>::type).name()<<'\n';
     
-    std::cout<<'\n';
+    // Example to apply transform algo on std::array<>;
+    // multiply each element of container 1 with container 2 and write to destination container
+    
+    // creating an alias T and determine the type from another array using tuple_element interface
+    // the value inside tuple_element<0,...> refers to element since tuples can have different types of elements
+    // for array it refers to array elements also but it will always be same since array elements are one type only
+    // and that value cannot be equal or greater than size of the array size
+    typedef std::tuple_element<0, decltype(arr1)>::type T;
+    
+    // creating and empty array of type with the size info of another array
+    std::array<T, arr1.size()>arr1_2;          
+    
+    // testing...
+    std::cout<<"arr1_2.size()"<<arr1_2.size()<<", arr1.begin(): "<<*arr1.begin()<<'\n';
+    
+    std::cout<<typeid(std::tuple_element<0, decltype(arr1)>::type).name()<<'\n';
+    
+    auto result=std::accumulate(arr1.begin(), arr1.end(), 0);
+    
+    std::cout<<"Accumulate result : "<<result<<'\n';
+    std::transform(arr1.begin(), arr1.end(),                // source 1 container
+                   arr2.begin(),                            // source 2 container
+                   arr1_2.begin(),                          // destination container
+                 //  std::multiplies<int>());
+                    [](int x, int y){ return x*y;});      // operation to be applied on each member of source1 & source2 
+                                                        // the returned value will be inserted into destination containr
+    std::cout<<"arr1_2: ";
+    int pos{0};
+    for(const auto& elem:arr1_2) {
+        ++pos;
+        std::cout<<elem<<(pos<5 ?  ' ': '\n');
+    }
+    
+
 }
 
 void STL_Vector()
 {
-    std::cout<<"-------------------STL Array-------------------------\n";
+    std::cout<<"-------------------STL Vector-------------------------\n";
     std::vector<int>vec1(80, 20);               // creates a vector with 80 elements  with a value of 20   
     std::cout<<vec1.capacity()<<'\n';       // check number of elements with default allocator    
     vec1.reserve(100);
@@ -96,33 +132,91 @@ void STL_Vector()
     
     std::cout<<std::boolalpha<<std::is_pointer<decltype(p)>::value<<'\n';   // return true
     
-    
-    
     std::cout<<'\n';
 }
 
 void STL_Deque()
-{
-    std::cout<<"-------------------STL Array-------------------------\n";
+{   // A deque is similar to vector but composed of individual blocks and open at end and front
+/*  a deque should be preferred if the following are true:
+//  • You insert and remove elements at both ends (this is the classic case for a queue).
+//    Accessing elements and iterating is a little bit slower 
+//  • You don’t refer to elements of the container. (remove/insert other than at end or front 
+      invalidates iterators
+//  • It is important that the container frees memory when it is no longer used (however, the standard
+//    does not guarantee that this happens).
+//  In systems that have size limitations for blocks of memory (for example, some PC systems),
+//  a deque might contain more elements because it uses more than one block of memory. 
+//  Thus, max_size() might be larger for deques.
+*/
+    std::cout<<"-------------------STL Deque-------------------------\n";
+    std::deque<int>deq1{10,20,40,50};
+    for(const auto& i:deq1)
+        std::cout<<i<<" ";
+     std::cout<<'\n';
+   
+    std::deque<std::string> coll;
+    coll.assign({"Salim", "Didem", "Demir","Sema"});
+    for(const auto& i:coll)
+        std::cout<<i<<" ";
+     std::cout<<'\n';
     
+    coll.push_front("Semsi");
+    coll.push_back("Pamukcu Family");
+    for(const auto& i:coll)
+        std::cout<<i<<" ";
+     std::cout<<'\n';
+     
+    coll.pop_front();       // removes the element but does not return anything
+    coll.pop_back();
+    coll[0].at(0)='s';
+    std::transform(coll.begin(), coll.end(),
+                    coll.begin(),
+                    [](auto s){ return s+" Pamukcu";});
+    
+    for(const auto& i:coll)
+        std::cout<<i<<" ";
+     std::cout<<'\n';
+     
+     std::cout<<"Coll size(): "<<coll.size()<<", max_size: "<<coll.max_size()<<'\n';
+     coll.shrink_to_fit();
+     std::cout<<"\nmax_size: "<<coll.max_size()<<'\n';
+     
+     coll.resize(6,"Semsi Pamukcu");            // resize to a given number of elements; if new
+                                                // elements to be added then the given value assigned to element
+     std::copy(coll.begin(), coll.end(),
+            std::ostream_iterator<std::string>(std::cout, "\n"));
+    std::cout<<'\n';
 }
 
 void STL_List()
 {
-    std::cout<<"-------------------STL Array-------------------------\n";
+// A list manages its elements as a doubly linked list
+/* a list differs in several major ways from arrays, vectors, and deques:
+//  • A list does not provide random access. For example, to access the fifth element, you must navigate the first four elements, following the chain of links. Thus, accessing an arbitrary element using a list is slow. However, you can navigate through the list from both end. So accessing both
+//    the first and the last elements is fast.
+//  • Inserting and removing elements is fast at each position (provided you are there), and not only at
+//    one or both ends. You can always insert and delete an element in constant time, because no other
+//    elements have to be moved. Internally, only some pointer values are manipulated.
+//  • Inserting and deleting elements does not invalidate pointers, references, and iterators to other
+//    elements.
+//  • A list supports exception handling in such a way that almost every operation succeeds or is a
+//   no-op. Thus, you can’t get into an intermediate state in which only half of the operation is complete.
+    
+     */
+    std::cout<<"-------------------STL List-------------------------\n";
     
 }
 
 void STL_Forward_List()
 {
-    std::cout<<"-------------------STL Array-------------------------\n";
+    std::cout<<"-------------------STL Forward List-------------------------\n";
     
 }
 int main()
 {
-   STL_Array();
-//    STL_Vector();
-//    STL_Deque();
+//   STL_Array();
+//   STL_Vector();
+    STL_Deque();
 //    STL_List();
 //    STL_Forward_List();
 
