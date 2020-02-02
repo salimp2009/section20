@@ -221,7 +221,7 @@ int main()
 //    auto sum=[num_xx](int n)constexpr{ return num_xx+n;};               // compile time error & capture warning
 //    auto sum=[](int n)constexpr{ return num_xx+n;};                     // works OK
     
-    //std::const() helper function enforces to capture by const
+    // std::const() helper function enforces to capture by const
     // mostly used to capture a non const object as a const to use in any context; lambda... 
     auto sum=[&num__x=std::as_const(num_xx)](int n)constexpr{ return num_xx+n;};   // works OK; either capture by value or reference
     

@@ -111,7 +111,6 @@
   <Project Name="Graphs_Depth_First_Search_Vertex" Path="Graphs_Depth_of_Search_First_Vertex/Graphs_Depth_of_Search_First_Vertex.project" Active="No"/>
   <VirtualDirectory Name="test">
     <Project Name="test01" Path="test01/test01.project" Active="No"/>
-    <Project Name="template_sal" Path="template_sal/template_sal.project" Active="No"/>
     <Project Name="STL_Partition" Path="STL_Partition/STL_Partition.project" Active="No"/>
     <Project Name="Pairs_Tuples_2" Path="Pairs_Tuples_2/Pairs_Tuples_2.project" Active="No"/>
     <Project Name="vector_operations" Path="vector_operations/vector_operations.project" Active="No"/>
@@ -127,7 +126,11 @@
     <Project Name="lambda_basics" Path="lambda_basics/lambda_basics.project" Active="No"/>
     <Project Name="test4" Path="test4/test4.project" Active="No"/>
     <Project Name="STL_Containers" Path="STL_Containers/STL_Containers.project" Active="No"/>
-    <Project Name="STL_Sequence_Containers" Path="STL_Sequence_Containers/STL_Sequence_Containers.project" Active="Yes"/>
+    <Project Name="STL_Sequence_Containers" Path="STL_Sequence_Containers/STL_Sequence_Containers.project" Active="No"/>
+    <Project Name="template_functions_01" Path="template_functions_01/template_functions_01.project" Active="No"/>
+    <Project Name="Input_Output_01" Path="Input_Output_01/Input_Output_01.project" Active="No"/>
+    <Project Name="Classes_Basics_01" Path="Classes_Basics_01/Classes_Basics_01.project" Active="Yes"/>
+    <Project Name="template_functions_overloading" Path="template_functions_overloading/template_functions_overloading.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -243,7 +246,6 @@
       <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Debug"/>
       <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Debug"/>
       <Project Name="test01" ConfigName="Debug"/>
-      <Project Name="template_sal" ConfigName="Debug"/>
       <Project Name="STL_Partition" ConfigName="Debug"/>
       <Project Name="Pairs_Tuples_2" ConfigName="Debug"/>
       <Project Name="vector_operations" ConfigName="Debug"/>
@@ -261,6 +263,10 @@
       <Project Name="test4" ConfigName="Debug"/>
       <Project Name="STL_Containers" ConfigName="Debug"/>
       <Project Name="STL_Sequence_Containers" ConfigName="Debug"/>
+      <Project Name="template_functions_01" ConfigName="Debug"/>
+      <Project Name="Input_Output_01" ConfigName="Debug"/>
+      <Project Name="Classes_Basics_01" ConfigName="Debug"/>
+      <Project Name="template_functions_overloading" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -374,7 +380,6 @@
       <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Release"/>
       <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Release"/>
       <Project Name="test01" ConfigName="Release"/>
-      <Project Name="template_sal" ConfigName="Release"/>
       <Project Name="STL_Partition" ConfigName="Release"/>
       <Project Name="Pairs_Tuples_2" ConfigName="Release"/>
       <Project Name="vector_operations" ConfigName="Release"/>
@@ -392,6 +397,10 @@
       <Project Name="test4" ConfigName="Release"/>
       <Project Name="STL_Containers" ConfigName="Release"/>
       <Project Name="STL_Sequence_Containers" ConfigName="Release"/>
+      <Project Name="template_functions_01" ConfigName="Release"/>
+      <Project Name="Input_Output_01" ConfigName="Release"/>
+      <Project Name="Classes_Basics_01" ConfigName="Release"/>
+      <Project Name="template_functions_overloading" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

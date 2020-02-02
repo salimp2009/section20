@@ -12,7 +12,13 @@
 #include <type_traits>
 #include <functional>
 #include <numeric>
-
+template<typename T, class Cont=std::vector<T>>
+void display(Cont elem)
+{
+   for(const T& i:elem)
+        std::cout<<i<<" ";
+    std::cout<<'\n';
+}
 
 void STL_Array()
 {
@@ -31,6 +37,8 @@ void STL_Array()
     for(const auto& elem:arr2)
         std::cout<<elem<<" ";
     std::cout<<'\n';
+    
+    display<int>(arr1);
     
     // Since C++17 automatic type and size deduction from arguments is OK
     std::array arr3{10,20,30,40};
@@ -129,6 +137,7 @@ void STL_Vector()
      *(p+1)=100;                            // access and change the 2nd element                            
     for(const auto& v:vec1)
         std::cout<<v<<" ";
+        
     
     std::cout<<std::boolalpha<<std::is_pointer<decltype(p)>::value<<'\n';   // return true
     
@@ -153,6 +162,8 @@ void STL_Deque()
     for(const auto& i:deq1)
         std::cout<<i<<" ";
      std::cout<<'\n';
+     
+     display<int>(deq1);
    
     std::deque<std::string> coll;
     coll.assign({"Salim", "Didem", "Demir","Sema"});
@@ -204,7 +215,43 @@ void STL_List()
     
      */
     std::cout<<"-------------------STL List-------------------------\n";
+    std::list<int>list1(10);                            // create a list with 10 elements initialises with zero
+    std::iota(list1.begin(), list1.end(), 3);           // if the list has no element list1.begin() and list1.end() will give runtime error 
+    display<int>(list1);
     
+    std::list<int>list2(10);
+    std::iota(list2.rbegin(), list2.rend(), 3);
+    
+    display<int>(list2);
+    
+    auto it1=std::find(list1.begin(), list1.end(), 7);              // finds specfified value and return the position
+    list1.insert(it1,100);                                          // insert the given element in front of the given position
+    
+    list1.insert(std::find(list1.begin(), list1.end(), 100), 300);  // alternative way combining insert and find
+    display<int>(list1);                                    
+    
+    std::cout<<"Position of "<<*it1<<" did not change"<<'\n';       // adding or removing does not invalidate iterators
+    
+    std::advance(it1,-2);                                           // helper function for iterator moving from a given position to
+    std::cout<<"Iterator moved to 2 elements front:"<<*it1<<'\n';   // advance changes the position of the iterator                                                           // number of element it can forward or backwards depending on the container
+                                                                    // list does not have random to acces to an element
+    ++it1;                                                          // pointer aritmetic is limited to ++ and -- overloads
+    ++it1;                                                          // additional helper std::next() & std::distance()
+    std::cout<<"Moving back 2 elements by pointer arithmetic: "<<*it1<<'\n';                                                             
+    
+    // moving all elements in list2 to list1 infront of a given position
+    // below the position in list is determined by std::find; in front of element with value 300
+    // then pass info of the other list to be inserted and the range this also works for one element too
+    // since list does iterator manipulation only splice is a very efficient operation
+    list1.splice(std::find(list1.begin(), list1.end(), 300), list2, list2.begin(), list2.end());
+    display<int>(list1);
+    display<int>(list2);
+    
+    list1.sort();               // sort list1 with less than operator <
+    display<int>(list1);
+    
+    list1.unique();             // removed duplicates of consecutive elements
+    display<int>(list1);
 }
 
 void STL_Forward_List()
@@ -216,8 +263,8 @@ int main()
 {
 //   STL_Array();
 //   STL_Vector();
-    STL_Deque();
-//    STL_List();
+//    STL_Deque();
+    STL_List();
 //    STL_Forward_List();
 
     return 0;

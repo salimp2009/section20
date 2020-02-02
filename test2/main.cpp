@@ -28,6 +28,7 @@ void selection_check(char selection)
             default:
             {
                 std::cout<<"invalid selection please try again !!!!\n";
+              
                 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 //                /* ignore is used for input stream to read from input stream the characters wanted
 //                // from a given count number until a delimiter either a charcter or end of file
@@ -68,16 +69,16 @@ void  accumulate_sum()
                                                                                                 
 int main()
 {
-//    char selection{};
-//    do{
-//        
-//        selection=display_menu(selection);
-//        selection_check(selection);
-//        
-//    } while(selection!='q'&& selection!='Q');
-//    
-//    std::cout<<"Goodbye.....\n";
-//    
+    char selection{};
+    do{
+        
+        selection=display_menu(selection);
+        selection_check(selection);
+        
+    } while(selection!='q'&& selection!='Q');
+    
+    std::cout<<"Goodbye.....\n";
+    
 //    nested_loop();
     
     accumulate_sum();
