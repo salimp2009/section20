@@ -24,9 +24,9 @@ void f(T s=" ") { }
 // alternative with decltype and decay
 // template<typename T1, typename T2>
 // auto max(T1 a, T2 b)->typename std::decay<decltype(true?a:b)>::type  //-> operator specifies the return type
-// {                                                                   // true?a:b is enough to determine since it 
+// {                                                                   // we use the function true?a:b is enough to determine since 
 //                                                                     // it is declaration and compiler uses true case   
-//     return a > b ? a:b;                                            // for declaration for type but true case will be determine
+//     return a > b ? a:b;                                             // for declaration for type but true case will be determine
 //                                                                    // when values are passed
 // }
 //template<typename T1, typename T2>

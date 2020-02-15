@@ -22,8 +22,8 @@ public:
     // copy assignment, move constructor and move assignment and destructor
     //  Rule of Five 
     */
-//    Account(const Account& source): name{source.name}, balance{source.balance}
-                                  //{std::cout<<"Copy Constructor-Shallow Copy...\n";}
+    Account(const Account& source): name{source.name}, balance{source.balance}
+                                  {std::cout<<"Copy Constructor-Shallow Copy...\n";}
 
 // destructor not needed unless there is a specific need;
 //    ~Account() {std::cout<<"Account destructor called..."<<name<<'\n';}   
@@ -31,6 +31,7 @@ public:
 /*  the automatic generation of move operations is disabled when one of the following special member functions is user-declared:
 //    • copy constructor
 //    • copy assignment operator
+//    • any user defined move (constructor and assignment operator)     
 //    • destructor
 //  even if use '=default;' definition for the above ones 
 //  ~Account() = default;  // automatic move constructor disable; user has to provide 

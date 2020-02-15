@@ -39,7 +39,7 @@ class C
 // lamda return function that returns a lambda;
 // std::function is used for the return type; 
 // alternative way is to use 'auto' for return type
-std::function<void(int)>lambda_return()
+std::function<void(int)> lambda_return()
 {
     return [](int x)
             {++x; std::cout<<"lambda from lambda_return increased value: "<<x<<'\n';};

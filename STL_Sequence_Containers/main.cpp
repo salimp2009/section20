@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <list>
+#include <forward_list>
 #include <vector>
 #include <numeric>
 #include <iterator>
@@ -12,12 +13,41 @@
 #include <type_traits>
 #include <functional>
 #include <numeric>
-template<typename T, class Cont=std::vector<T>>
+template<typename T, class Cont=std::vector<int>>
 void display(Cont elem)
 {
    for(const T& i:elem)
         std::cout<<i<<" ";
     std::cout<<'\n';
+}
+
+// second version of display for any container
+// No need to pass type info; auto deduces the type from passed container
+// this is more efficient that the previous one
+template<typename Cont>
+void display2(Cont elem)
+{
+    for(const typename Cont::value_type & i: elem)  // alternative wat determining the Container type by using type_traits
+    //for(const auto& i:elem)                       // using auto to create a iterator & determine the type of container 
+        std::cout<<i<<" ";
+    std::cout<<'\n';
+}
+
+// templated find before function for Forward_Lists
+// forward list does not have interface to insert before or other 'before' operations
+// find before search thru the list and once the Predicate lambda returns true
+// it returns an iterator to the position before the item
+template<typename InputIterator, typename Pred>
+InputIterator find_before_if(InputIterator first, InputIterator last, Pred pred)
+{
+    if(first==last) return first;
+    InputIterator next{first};
+    ++next;
+    while(next!=last && !pred(*next)) {
+        ++next;
+        ++first;
+    }   
+    return first;
 }
 
 void STL_Array()
@@ -240,7 +270,7 @@ void STL_List()
     std::cout<<"Moving back 2 elements by pointer arithmetic: "<<*it1<<'\n';                                                             
     
     // moving all elements in list2 to list1 infront of a given position
-    // below the position in list is determined by std::find; in front of element with value 300
+    // before the position in list is determined by std::find; in front of element with value 300
     // then pass info of the other list to be inserted and the range this also works for one element too
     // since list does iterator manipulation only splice is a very efficient operation
     list1.splice(std::find(list1.begin(), list1.end(), 300), list2, list2.begin(), list2.end());
@@ -257,15 +287,121 @@ void STL_List()
 void STL_Forward_List()
 {
     std::cout<<"-------------------STL Forward List-------------------------\n";
+    /*• A forward list does not provide random access and uses a forward iterator
+//      For example, to access the fifth element, you must navigate the first four elements.
+//      using a forward list to access an arbitrary element is slow.
+        No back() or push_back(). Only front() is possible
+//    • Inserting and removing elements is fast at each position, if you are there. You can always insert
+//      and delete an element in constant time, because no other elements have to be moved. Internally,
+//      only some pointer values are manipulated.
+//    • Inserting and deleting elements does not invalidate iterators, references, and pointers to other
+//      elements.
+//    • A forward list supports exception handling in such a way that almost every operation succeeds
+//      or is a no-op. Thus, you can’t get into an intermediate state in which only half of the operation is
+//      complete.
+//    • Forward lists provide many special member functions for moving and removing elements. These
+//      member functions are faster versions of general algorithms, 
+//      because they only redirect pointers rather than copy and move the values. 
+//      However, when element positions are involved, you have to pass the preceding position, 
+//      and the member function has the suffix _after in its name.
+     */
+     
+     std::forward_list<int>fwl1{1,3,5,6,9};
+     std::forward_list<int>fwl2;
+     
+     // front() does not check if the list is empty
+     // if the list is empty using front() is undefined behaviour
+     // assert(fwl2.front()); // gives run-time error
+     assert(fwl1.front());               
+     std::cout<<"first element, front(): "<<fwl1.front()<<'\n';
+     
+     std::copy(fwl1.begin(), fwl1.end(),
+            std::ostream_iterator<int>(std::cout, " "));
+     std::cout<<'\n';
     
+    for(const auto& i: fwl1)
+        std::cout<<i<<" ";
+    std::cout<<'\n';
+     
+     display<int>(fwl1);
+     // to get the size info you need the number elements front first one to the last
+     std::cout<<"forward_list fwl1 size: "<<std::distance(fwl1.begin(), fwl1.end())<<'\n'; 
+     
+     fwl2.insert_after(fwl2.before_begin(), {77,88,99,100});
+     display<int>(fwl2);
+     display<int, std::forward_list<int>>(fwl2);
+     
+     fwl2.push_front(105);
+     display<int>(fwl2);
+     fwl2.pop_front();      // does not return the element just removes
+     display<int>(fwl2);
+     
+     fwl2.remove(88);       // removes the given value
+     fwl2.remove_if([](int x) {return x%3==0;});
+     display<int>(fwl2);
+     
+     fwl2.resize(6, 55);    // resizes to first value and if the list needs to grow 
+                            // new elements are added with the given second value
+    display<int>(fwl2);
+    
+    std::forward_list<int>fwl3{1,3,55, 25, 45, 4,5,7,9,8};
+    display<int>(fwl3);
+    auto it_pos_before=fwl3.before_begin();
+   // ++it_pos_before;
+   //std::cout<<"dereference of it_pos_before: "<<*it_pos_before<<'\n';
+   // std::cout<<"it_pos_before: "<<it_pos_before<<", &it_pos_before:"<<&it_pos_before<<'\n';
+             
+    // if we need to insert before an element
+    // we need to use before_begin and iterate it until our predicate criteria is satisfied
+    // when the lambda returns true the value of it_pos_before will refer to the element before
+    // since we capture by reference we can use the new value to insert before
+    
+    std::find_if(fwl3.begin(), fwl3.end(), 
+              [&it_pos_before](int value){ 
+                  if(value%2!=0) ++it_pos_before;
+                  return value%2==0;});
+    fwl3.insert_after(it_pos_before, 5555);
+    display<int>(fwl3);
+    
+    // we can turn this into a template function so we dont have to write the whole
+    // we can just pass our list and lambda function into the find_before() function
+    // using custom find_before_if() function to insert before
+    auto pos_before=find_before_if(fwl3.before_begin(), fwl3.end(),
+                                    [](int value){ return value%2==0;});
+    fwl3.insert_after(pos_before, 88888);
+    display<int>(fwl3);
+    display2(fwl3);
+    display2(fwl2);
+     
+     // to move elements from fwl2 into fwl3 
+     // fwl3.begin()= destination pos
+     // fwl2 = source list
+     // fwl2.before_begin= source position range start
+     // fwl2.end()= source position range end
+//    fwl3.splice_after(fwl3.begin(), fwl2, fwl2.before_begin(), fwl2.end());
+//    display2(fwl3);
+//    display2(fwl2);
+    
+      
+      // to move elements from fwl3 to fwl2
+      fwl3.splice_after(++fwl2.begin(), fwl2, fwl3.before_begin(), fwl3.end());
+     display2(fwl3);
+     display2(fwl2);
+    
+    // error in visual studio; from Microsoft Developer; just experimenting 
+    // if it works in Clang, in Microsoft lambda has to be mmodified as (auto*i)
+    // otherwise it crashes according to MS Developer Blog
+    const auto d = [](auto i) { delete i; };
+    const auto s = std::shared_ptr<int*>(new int*(new int(42)), d);
+    std::cout<<**s<<'\n';
 }
 int main()
 {
 //   STL_Array();
 //   STL_Vector();
-//    STL_Deque();
-    STL_List();
-//    STL_Forward_List();
+//   STL_Deque();
+//   STL_List();
+     STL_Forward_List();
 
     return 0;
 }

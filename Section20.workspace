@@ -129,8 +129,16 @@
     <Project Name="STL_Sequence_Containers" Path="STL_Sequence_Containers/STL_Sequence_Containers.project" Active="No"/>
     <Project Name="template_functions_01" Path="template_functions_01/template_functions_01.project" Active="No"/>
     <Project Name="Input_Output_01" Path="Input_Output_01/Input_Output_01.project" Active="No"/>
-    <Project Name="Classes_Basics_01" Path="Classes_Basics_01/Classes_Basics_01.project" Active="Yes"/>
+    <Project Name="Classes_Basics_01" Path="Classes_Basics_01/Classes_Basics_01.project" Active="No"/>
     <Project Name="template_functions_overloading" Path="template_functions_overloading/template_functions_overloading.project" Active="No"/>
+    <Project Name="Class_Basics_Shallow_Deep_Copy" Path="Class_Basics_Shallow_Deep_Copy/Class_Basics_Shallow_Deep_Copy.project" Active="No"/>
+    <Project Name="template_functions_overloading2" Path="template_functions_overloading2/template_functions_overloading2.project" Active="No"/>
+    <Project Name="Class_Basics_Move_Constructor" Path="Class_Basics_Move_Constructor/Class_Basics_Move_Constructor.project" Active="No"/>
+    <Project Name="STL_Sets_Maps_Ordered_Unordered" Path="STL_Sets_Maps_Ordered_Unordered/STL_Sets_Maps_Ordered_Unordered.project" Active="No"/>
+    <Project Name="template_functions_overloading3" Path="template_functions_overloading3/template_functions_overloading3.project" Active="No"/>
+    <Project Name="Class_Basics_Movie_Example" Path="Class_Basics_Movie_Example/Class_Basics_Movie_Example.project" Active="No"/>
+    <Project Name="Class_Basics_Mystring_Overloading" Path="Class_Basics_Mystring_Overloading/Class_Basics_Mystring_Overloading.project" Active="No"/>
+    <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" Path="STL_Unordered_Containers_Sets_Maps_Hashing/STL_Unordered_Containers_Sets_Maps_Hashing.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -267,6 +275,14 @@
       <Project Name="Input_Output_01" ConfigName="Debug"/>
       <Project Name="Classes_Basics_01" ConfigName="Debug"/>
       <Project Name="template_functions_overloading" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Shallow_Deep_Copy" ConfigName="Debug"/>
+      <Project Name="template_functions_overloading2" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Move_Constructor" ConfigName="Debug"/>
+      <Project Name="STL_Sets_Maps_Ordered_Unordered" ConfigName="Debug"/>
+      <Project Name="template_functions_overloading3" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Movie_Example" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Mystring_Overloading" ConfigName="Debug"/>
+      <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -401,6 +417,14 @@
       <Project Name="Input_Output_01" ConfigName="Release"/>
       <Project Name="Classes_Basics_01" ConfigName="Release"/>
       <Project Name="template_functions_overloading" ConfigName="Release"/>
+      <Project Name="Class_Basics_Shallow_Deep_Copy" ConfigName="Release"/>
+      <Project Name="template_functions_overloading2" ConfigName="Release"/>
+      <Project Name="Class_Basics_Move_Constructor" ConfigName="Release"/>
+      <Project Name="STL_Sets_Maps_Ordered_Unordered" ConfigName="Release"/>
+      <Project Name="template_functions_overloading3" ConfigName="Release"/>
+      <Project Name="Class_Basics_Movie_Example" ConfigName="Release"/>
+      <Project Name="Class_Basics_Mystring_Overloading" ConfigName="Release"/>
+      <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

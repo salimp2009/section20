@@ -8,14 +8,22 @@
 
 // basic class example 
 
+// another example for perfect forwarding
+// display function expects T&& but
+// we use std::forward<T>() which allows us either to lvalue or rvalue
+// the best case to use another function that has std::forward<> and call display function
+// so we dont have to repeat it again 
+
 template<typename T>
 void display_Acc_name(const T&& acc)
 {
     std::cout<<"Display function Account name: "<<acc.get_name()<<'\n';
 }
 
+
 int main()
 {
+    // Example for perfect forwarding using template function and std::forward<>()
     Account blank;
     display_Acc_name(std::forward<Account>(blank));
     display_Acc_name(std::forward<Account>({"Jedi", 200000}));

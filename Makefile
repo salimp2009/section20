@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Classes_Basics_01 - Debug ]----------"
-	@cd "Classes_Basics_01" && "$(MAKE)" -f  "Classes_Basics_01.mk"
+	@echo "----------Building project:[ STL_Unordered_Containers_Sets_Maps_Hashing - Debug ]----------"
+	@cd "STL_Unordered_Containers_Sets_Maps_Hashing" && "$(MAKE)" -f  "STL_Unordered_Containers_Sets_Maps_Hashing.mk"
 clean:
-	@echo "----------Cleaning project:[ Classes_Basics_01 - Debug ]----------"
-	@cd "Classes_Basics_01" && "$(MAKE)" -f  "Classes_Basics_01.mk" clean
+	@echo "----------Cleaning project:[ STL_Unordered_Containers_Sets_Maps_Hashing - Debug ]----------"
+	@cd "STL_Unordered_Containers_Sets_Maps_Hashing" && "$(MAKE)" -f  "STL_Unordered_Containers_Sets_Maps_Hashing.mk" clean
