@@ -143,7 +143,7 @@
     }
     
      Mystring& Mystring::operator*=(int n) {
-        *this=*this*n;
+        *this=(*this)*n;
         return *this;
     }
 

@@ -225,6 +225,11 @@ void STL_Map_MultiMap()
     map1.insert(std::make_pair(47, "NoOne"));                           // another way from pair interface    
     display3(map1);
     
+    // C++17 if initialization and new function insert_or_assign
+    if(auto [pos, success]=map1.insert_or_assign(78, "Semsi_Great"); !success)
+        std::cout<<"element already exists : "<<std::boolalpha<<success
+        <<", age: "<<pos->first<<", name: "<<pos->second<<'\n';
+    
     map1.erase(45);
     map1.erase(46);
     display3(map1);

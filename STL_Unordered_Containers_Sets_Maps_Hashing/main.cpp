@@ -1,6 +1,9 @@
 #include <iostream>
 #include "Utility.hpp"
 #include "Person.hpp"
+#include "BoostHash.hpp"
+#include "PrintHashTableState.hpp"
+
 
 
 /*unordered containers contain all the elements in an arbitrary order 
@@ -51,6 +54,14 @@ std::size_t person_hash_funct(const Person& p)
            (std::hash<std::string>{}(p.lastname())<<1);
 }
 
+class PersonHashBoost
+{
+    public:
+    std::size_t operator()(const Person& p) const {
+        return hash_val(p.firstname(), p.lastname());
+    }
+};
+
 void Unordered_Set_MultiSet()
 {
     std::cout<<"-------------------STL Unordered_Set_MultiSet-------------------------\n";
@@ -95,13 +106,111 @@ void Unordered_Set_MultiSet()
     // creating an alias for the long definition; 
     // it could also be done by 
     // using PersonSet_func_hash = std::unordered_set<Person, std::size_t(*)(const Person&)>;
-     typedef std::unordered_set<Person, std::size_t(*)(const Person&)> PersonSet_func_hash;
+    typedef std::unordered_set<Person, std::size_t(*)(const Person&)> PersonSet_func_hash;
     PersonSet_func_hash uset4{uset3};
     uset4.max_load_factor(0.8);
     display2(uset4);
     
+    // example for using Boost hash function
+    std::unordered_set<Person, PersonHashBoost>uset5(20);    // minimum bucket number set to 20
+    uset5.max_load_factor(0.7);                                 
+    uset5={{"Sema","Pamukcu"},{"Semsi","Pamukcu"}};
+    display2(uset5);
     std::cout<<'\n';
-}
+    
+    auto pos1=uset1.count(8);           // counts and returns the number of given values in the set
+    std::cout<<pos1<<'\n';
+    
+    auto pos2=uset5.find({ "Semsi", "Pamukcu"});        
+    if(pos2!=uset5.end())
+        std::cout<<pos2->firstname()<<", "<<pos2->lastname()<<'\n'; //returns the position iterator of the element
+                                                                    // searched    
+    auto pos3=uset1.find(8);
+    if(pos3!=uset1.end())
+        std::cout<<*pos3<<'\n';
+    
+    // *pos3=45;   // you can not the value of the set since it is used in hash function 
+                   // considered as const
+    // the key of maps/multimaps are considered as constant
+    // if the unordered map is used in algorithms and lambdas the 
+    // type of the unordered map has to be declared explicitly
+    // you have to declared the type underlying the unordered  map which is 
+    // a pair<> ; if you just pass it as std::unordered_map<> then you get
+    // compiler error
+    std::unordered_map<std::string, int>umap1{ {
+    "GARBNK", 100},{"YAPIKRDBANK", 800}, {"AKBNK", 100} };
+    display4(umap1);
+   
+    // example of maps using algorithms & lambdas
+//    using PairStringInt =std::pair<const std::string, int>;
+//    using PairStringInt2 = std::unordered_map<std::string, int>::value_type;
+    using PairStringInt3 = decltype(umap1)::value_type;
+    std::for_each(umap1.begin(), umap1.end(), 
+                    [](PairStringInt3& elem){ elem.second+=10;});
+    display4(umap1);
+    
+    umap1["ISBANK"]=1000;
+    display4(umap1);
+    
+    // to change the KEY of a value we have to assign a new Key with the same value 
+    // and delete the old "KEY"
+    umap1["ISYATIRIM"]=umap1["ISBANK"];   // assign a new Key with the value of old kEY
+    umap1.erase("ISBANK");
+    display4(umap1);
+    
+    
+    
+    std::unordered_multimap<std::string, int>umulMap1{{"Otto",23}, {"Salim", 45},  {"Demir", 15}};
+    display4(umulMap1);
+   
+    
+    // different option to insert new elements
+    // the type info can be auto deduced with a list or use std::pair<> interface and helper functions
+    
+    using UnorderedMulMap = std::unordered_multimap<std::string, int>::value_type;
+    umulMap1.insert(std::make_pair("Salim", 25));
+    umulMap1.insert(std::pair<const std::string, int>("Demir", 15));
+    umulMap1.insert(decltype(umulMap1)::value_type{"Sema", 65});
+    umulMap1.insert(decltype(umulMap1)::value_type{"Sema", 65});
+    umulMap1.insert(UnorderedMulMap{"Otto",76});
+    display4(umulMap1);
+    
+    umulMap1.erase("Otto");         // erase all element with the given value & return the next position
+    display4(umulMap1);             // position can be passed also then it will delete only that element 
+                                    // a range can be passed as well; all element within the range will be deleted
+    // to delete only one of the duplicate elements
+    // find the pos and erase
+    auto pos4=umulMap1.find("Demir");
+    if(pos4!=umulMap1.end())
+        umulMap1.erase(pos4);
+    display4(umulMap1);
+    
+    // another option to insert an element; 
+    umulMap1.emplace(std::piecewise_construct, std::make_tuple("Otto"), std::make_tuple(45));
+    display4(umulMap1);
+    
+    // passing a lambda function as a hash to create a unordered_multimap
+    // lambda will get the key value as an input and return a hash value using boost hash
+    // the type of the lambda function has to declared in the map type vy using decltype
+    // because lambda function have anonymous types
+    auto hash=[](std::string x){ return hash_val(x); };
+    std::unordered_multimap<std::string, int, decltype(hash)>umulMap2(20, hash);
+    umulMap2.max_load_factor(0.7);
+    umulMap2.insert(std::make_pair("Salim", 25));
+    umulMap2.insert(std::pair<const std::string, int>("Demir", 15));
+    umulMap2.insert(decltype(umulMap1)::value_type{"Sema", 65});
+    umulMap2.insert(decltype(umulMap1)::value_type{"Sema", 65});
+    display4(umulMap2);
+    
+    std::unordered_set<int>intset{1,2,3,5,7,9,11,13,15,55,77,88,99};
+    printHashTableState(intset);
+    
+    intset.insert({-76, 66,56,6, 45, 89, 6789, 56789, 5678904});  // checking if rehashing wil occur
+    printHashTableState(intset);
+    
+    printHashTableState(umulMap2);
+
+}                                    
 
 
 void Unordered_Map_MultiMap()

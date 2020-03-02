@@ -98,6 +98,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="tempfile.txt"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>

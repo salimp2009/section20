@@ -4,7 +4,9 @@
 #include <string>
 #include <iostream>
 
-enum Rating {G, PG, PG13, R};
+enum Rating {G, PG, PG13, R};       // better to use inside the class definition or 
+                                   // use enum class Rating { }; 
+                                   // so enum definition dont get mixed with any other 
 
 std::ostream& operator<<(std::ostream& os, const Rating& rating);
 

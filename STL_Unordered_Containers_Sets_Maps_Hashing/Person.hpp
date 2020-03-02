@@ -20,6 +20,10 @@ public:
                 first_name==p2.first_name);
     }
     
+    bool operator()(const Person& p2) const {
+        return *this==p2;
+    }
+    
     friend std::ostream& operator<<(std::ostream& os, const Person& p1) {
         return os<<"["<<p1.first_name<<", "<<p1.last_name<<"] ";
     }

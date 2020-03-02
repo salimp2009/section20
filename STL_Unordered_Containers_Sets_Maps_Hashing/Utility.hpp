@@ -3,7 +3,7 @@
 
 #include <unordered_set>
 #include <unordered_map>
-
+#include <tuple>
 #include <algorithm>
 #include <vector>
 #include <numeric>
@@ -26,10 +26,11 @@ void display(const Cont& elem)
 // No need to pass type info; auto deduces the type from passed container
 // this is more efficient that the previous one
 
+// use for unordered sets & multisets
 template<typename Cont>
 void display2(const Cont& elem)
 {
-    for(const typename Cont::value_type & i: elem)  // alternative wat determining the Container type by using type_traits
+    for(const typename Cont::value_type& i: elem)  // alternative way to determine the Container type by using type_traits
     //for(const auto& i:elem)                       // using auto to create a iterator & determine the type of container 
         std::cout<<i<<" ";
     std::cout<<'\n';
@@ -40,7 +41,7 @@ void display2(const Cont& elem)
     std::cout<<'\n';
 }
 
-
+// use for unordered map, multimaps
 template<typename T1, typename T2>
 void display3(const std::unordered_map<T1, T2>& cont) 
 {
@@ -49,6 +50,8 @@ void display3(const std::unordered_map<T1, T2>& cont)
     std::cout<<'\n';
 }
 
+
+// use for any map, multimaps
 template<typename Cont>
 void display4(const Cont& cont) {
     // alternative to for the auto version
@@ -57,15 +60,5 @@ void display4(const Cont& cont) {
         std::cout<<pos->first<<", "<<pos->second<<'\n';
     std::cout<<'\n';
 }
-
-
-
-
-
-
-
-
-
-
 
 #endif //_MY_UTILITY_H

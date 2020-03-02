@@ -1,8 +1,11 @@
 #include <iostream>
+#include <fstream>
 #include <memory>
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <cstdio>
+#include <filesystem>
 
 // study file for smart pointers
 
@@ -12,9 +15,31 @@ struct X
   int b;
 };
 
+class FileDeleter
+{
+private:
+  std::string filename;
+public:
+  FileDeleter(std::string fnm):filename{std::move(fnm)} { }
+  
+  bool operator()(std::ofstream* f) {
+      f->close(); // close the file
+      std::cout<<"deleting file: "<<filename<<'\n';
+      return std::__fs::filesystem::remove(filename);           // filesystem should be under std:: namespace
+  }                                                             // but compiler gives an error and directs to macro
+                                                                // std::__fs::filesytem instead; might be an Apple Clang implemantation
+};
+
 
 int main()
 {
+    
+    std::shared_ptr<std::ofstream>spf{new std::ofstream{"../tempfile.txt"}, 
+                                        FileDeleter("../tempfile.txt")};
+                                        
+    auto spf2=spf;
+    std::cout<<spf.use_count()<<'\n';
+
     
     // classic pointer way to create a shared pointer
     // assignment initialization is not allowed there new expression has to be in paranthesis
@@ -49,6 +74,7 @@ int main()
                                                             // ostream_iterator<std::string> is OK
     (*pDidem)[0]='D';
     pSema->at(0)='S';
+    (*pSema)[1]='E';
     std::cout<<*pDidem<<" and "<<*pSema<<'\n';
     
     

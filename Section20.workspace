@@ -138,7 +138,16 @@
     <Project Name="template_functions_overloading3" Path="template_functions_overloading3/template_functions_overloading3.project" Active="No"/>
     <Project Name="Class_Basics_Movie_Example" Path="Class_Basics_Movie_Example/Class_Basics_Movie_Example.project" Active="No"/>
     <Project Name="Class_Basics_Mystring_Overloading" Path="Class_Basics_Mystring_Overloading/Class_Basics_Mystring_Overloading.project" Active="No"/>
-    <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" Path="STL_Unordered_Containers_Sets_Maps_Hashing/STL_Unordered_Containers_Sets_Maps_Hashing.project" Active="Yes"/>
+    <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" Path="STL_Unordered_Containers_Sets_Maps_Hashing/STL_Unordered_Containers_Sets_Maps_Hashing.project" Active="No"/>
+    <Project Name="Class_Inheritances_Derived_Classes" Path="Class_Inheritances_Derived_Classes/Class_Inheritances_Derived_Classes.project" Active="No"/>
+    <Project Name="Unordered_Map_Chaining_Hash_Table" Path="Unordered_Map_Chaining_Hash_Table/Unordered_Map_Chaining_Hash_Table.project" Active="No"/>
+    <Project Name="Templates_Class_Templates" Path="Templates_Class_Templates/Templates_Class_Templates.project" Active="No"/>
+    <Project Name="Class_Polymorhism_Virtual" Path="Class_Polymorhism_Virtual/Class_Polymorhism_Virtual.project" Active="No"/>
+    <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" Path="STL_Special_Containers_Stacks_Queues_Priority_Queues/STL_Special_Containers_Stacks_Queues_Priority_Queues.project" Active="No"/>
+    <Project Name="Class_Pure_Virtual_AbstractClasses" Path="Class_Pure_Virtual_AbstractClasses/Class_Pure_Virtual_AbstractClasses.project" Active="No"/>
+    <Project Name="Class_PureVirtual_AbstractInterfaceClass" Path="Class_PureVirtual_AbstractInterfaceClass/Class_PureVirtual_AbstractInterfaceClass.project" Active="No"/>
+    <Project Name="STL_Algorithms" Path="STL_Algorithms/STL_Algorithms.project" Active="Yes"/>
+    <Project Name="Template_Default_Class_Template_Arguments" Path="Template_Default_Class_Template_Arguments/Template_Default_Class_Template_Arguments.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -283,6 +292,15 @@
       <Project Name="Class_Basics_Movie_Example" ConfigName="Debug"/>
       <Project Name="Class_Basics_Mystring_Overloading" ConfigName="Debug"/>
       <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" ConfigName="Debug"/>
+      <Project Name="Class_Inheritances_Derived_Classes" ConfigName="Debug"/>
+      <Project Name="Unordered_Map_Chaining_Hash_Table" ConfigName="Debug"/>
+      <Project Name="Templates_Class_Templates" ConfigName="Debug"/>
+      <Project Name="Class_Polymorhism_Virtual" ConfigName="Debug"/>
+      <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" ConfigName="Debug"/>
+      <Project Name="Class_Pure_Virtual_AbstractClasses" ConfigName="Debug"/>
+      <Project Name="Class_PureVirtual_AbstractInterfaceClass" ConfigName="Debug"/>
+      <Project Name="STL_Algorithms" ConfigName="Debug"/>
+      <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -425,6 +443,15 @@
       <Project Name="Class_Basics_Movie_Example" ConfigName="Release"/>
       <Project Name="Class_Basics_Mystring_Overloading" ConfigName="Release"/>
       <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" ConfigName="Release"/>
+      <Project Name="Class_Inheritances_Derived_Classes" ConfigName="Release"/>
+      <Project Name="Unordered_Map_Chaining_Hash_Table" ConfigName="Release"/>
+      <Project Name="Templates_Class_Templates" ConfigName="Release"/>
+      <Project Name="Class_Polymorhism_Virtual" ConfigName="Release"/>
+      <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" ConfigName="Release"/>
+      <Project Name="Class_Pure_Virtual_AbstractClasses" ConfigName="Release"/>
+      <Project Name="Class_PureVirtual_AbstractInterfaceClass" ConfigName="Release"/>
+      <Project Name="STL_Algorithms" ConfigName="Release"/>
+      <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

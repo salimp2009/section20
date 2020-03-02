@@ -8,6 +8,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="PrintHashTableState.hpp"/>
+    <File Name="BoostHash.hpp"/>
     <File Name="Person.hpp"/>
     <File Name="Utility.hpp"/>
     <File Name="main.cpp"/>
@@ -102,4 +104,6 @@
       </Completion>
     </Configuration>
   </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>
