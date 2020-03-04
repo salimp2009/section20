@@ -115,7 +115,7 @@
     <Project Name="Pairs_Tuples_2" Path="Pairs_Tuples_2/Pairs_Tuples_2.project" Active="No"/>
     <Project Name="vector_operations" Path="vector_operations/vector_operations.project" Active="No"/>
     <Project Name="Shared_Unique_Ptrs" Path="Shared_Unique_Ptrs/Shared_Unique_Ptrs.project" Active="No"/>
-    <Project Name="Weak_Ptr_2" Path="Weak_Ptr_2/Weak_Ptr_2.project" Active="No"/>
+    <Project Name="Weak_Ptr_2" Path="Weak_Ptr_2/Weak_Ptr_2.project" Active="Yes"/>
     <Project Name="Unique_ptr" Path="Unique_ptr/Unique_ptr.project" Active="No"/>
     <Project Name="Type_Traits2" Path="Type_Traits2/Type_Traits2.project" Active="No"/>
     <Project Name="Ref_Function_Wrappers" Path="Ref_Function_Wrappers/Ref_Function_Wrappers.project" Active="No"/>
@@ -146,7 +146,7 @@
     <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" Path="STL_Special_Containers_Stacks_Queues_Priority_Queues/STL_Special_Containers_Stacks_Queues_Priority_Queues.project" Active="No"/>
     <Project Name="Class_Pure_Virtual_AbstractClasses" Path="Class_Pure_Virtual_AbstractClasses/Class_Pure_Virtual_AbstractClasses.project" Active="No"/>
     <Project Name="Class_PureVirtual_AbstractInterfaceClass" Path="Class_PureVirtual_AbstractInterfaceClass/Class_PureVirtual_AbstractInterfaceClass.project" Active="No"/>
-    <Project Name="STL_Algorithms" Path="STL_Algorithms/STL_Algorithms.project" Active="Yes"/>
+    <Project Name="STL_Algorithms" Path="STL_Algorithms/STL_Algorithms.project" Active="No"/>
     <Project Name="Template_Default_Class_Template_Arguments" Path="Template_Default_Class_Template_Arguments/Template_Default_Class_Template_Arguments.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>

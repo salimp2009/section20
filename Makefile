@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ STL_Algorithms - Debug ]----------"
-	@cd "STL_Algorithms" && "$(MAKE)" -f  "STL_Algorithms.mk"
+	@echo "----------Building project:[ Weak_Ptr_2 - Debug ]----------"
+	@cd "Weak_Ptr_2" && "$(MAKE)" -f  "Weak_Ptr_2.mk"
 clean:
-	@echo "----------Cleaning project:[ STL_Algorithms - Debug ]----------"
-	@cd "STL_Algorithms" && "$(MAKE)" -f  "STL_Algorithms.mk" clean
+	@echo "----------Cleaning project:[ Weak_Ptr_2 - Debug ]----------"
+	@cd "Weak_Ptr_2" && "$(MAKE)" -f  "Weak_Ptr_2.mk" clean

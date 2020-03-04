@@ -13,6 +13,7 @@
 #include <type_traits>
 #include <functional>
 #include <utility>
+#include <array>
 
 template<typename Cont>
 void display(const Cont& elem)
