@@ -38,6 +38,9 @@ int main()
     
     deposit(accounts, "Salim Savings", 50000);    
     display(accounts);
+    
+    withdraw(accounts, "Salim Savings", 2500);
+    display(accounts);
 
     withdraw(accounts, "Sema Checking", 2500);
     display(accounts);

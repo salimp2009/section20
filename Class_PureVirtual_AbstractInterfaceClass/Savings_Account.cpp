@@ -22,11 +22,7 @@ Savings_Account& Savings_Account::operator-=(double amount) {    // overloaded o
 }
 
 bool Savings_Account::withdraw(double amount) {
-    if(balance-amount<0) {
-        std::cout<<"Insufficient Balance; "<<"requested: "<<amount
-                 <<", balance: "<<balance<<'\n';
-        return false;
-    }
+    if(amount<0) return false;
     Account::withdraw(amount);
     return true;
 }

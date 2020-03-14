@@ -115,7 +115,7 @@
     <Project Name="Pairs_Tuples_2" Path="Pairs_Tuples_2/Pairs_Tuples_2.project" Active="No"/>
     <Project Name="vector_operations" Path="vector_operations/vector_operations.project" Active="No"/>
     <Project Name="Shared_Unique_Ptrs" Path="Shared_Unique_Ptrs/Shared_Unique_Ptrs.project" Active="No"/>
-    <Project Name="Weak_Ptr_2" Path="Weak_Ptr_2/Weak_Ptr_2.project" Active="Yes"/>
+    <Project Name="Weak_Ptr_2" Path="Weak_Ptr_2/Weak_Ptr_2.project" Active="No"/>
     <Project Name="Unique_ptr" Path="Unique_ptr/Unique_ptr.project" Active="No"/>
     <Project Name="Type_Traits2" Path="Type_Traits2/Type_Traits2.project" Active="No"/>
     <Project Name="Ref_Function_Wrappers" Path="Ref_Function_Wrappers/Ref_Function_Wrappers.project" Active="No"/>
@@ -148,6 +148,19 @@
     <Project Name="Class_PureVirtual_AbstractInterfaceClass" Path="Class_PureVirtual_AbstractInterfaceClass/Class_PureVirtual_AbstractInterfaceClass.project" Active="No"/>
     <Project Name="STL_Algorithms" Path="STL_Algorithms/STL_Algorithms.project" Active="No"/>
     <Project Name="Template_Default_Class_Template_Arguments" Path="Template_Default_Class_Template_Arguments/Template_Default_Class_Template_Arguments.project" Active="No"/>
+    <Project Name="Exception_Handling_Basics" Path="Exception_Handling_Basics/Exception_Handling_Basics.project" Active="No"/>
+    <Project Name="Graph_Algorithm_Breadth_First_Search" Path="Graph_Algorithm_Breadth_First_Search/Graph_Algorithm_Breadth_First_Search.project" Active="No"/>
+    <Project Name="Exception_Handling_Stack_Unwinding" Path="Exception_Handling_Stack_Unwinding/Exception_Handling_Stack_Unwinding.project" Active="No"/>
+    <Project Name="Exceptions_Class_Level" Path="Exceptions_Class_Level/Exceptions_Class_Level.project" Active="No"/>
+    <Project Name="Cocurrency_Future_Async_Basics" Path="Cocurrency_Future_Async_Basics/Cocurrency_Future_Async_Basics.project" Active="No"/>
+    <Project Name="Input_Output_Stream_Manipulators01" Path="Input_Output_Stream_Manipulators01/Input_Output_Stream_Manipulators01.project" Active="No"/>
+    <Project Name="Meta_Programming_for_each_argument_implementation" Path="Meta_Programming_for_each_argument_implementation/Meta_Programming_for_each_argument_implementation.project" Active="No"/>
+    <Project Name="Concurency_Shared_Futures" Path="Concurency_Shared_Futures/Concurency_Shared_Futures.project" Active="No"/>
+    <Project Name="Input_Output_Data_Table_Formatted" Path="Input_Output_Data_Table_Formatted/Input_Output_Data_Table_Formatted.project" Active="No"/>
+    <Project Name="Cocurency_Threads_Promises" Path="Cocurency_Threads_Promises/Cocurency_Threads_Promises.project" Active="No"/>
+    <Project Name="Input_Output_02_FileAccess" Path="Input_Output_02_FileAccess/Input_Output_02_FileAccess.project" Active="No"/>
+    <Project Name="templates_stack_withArray" Path="templates_stack_withArray/templates_stack_withArray.project" Active="No"/>
+    <Project Name="Input_Output_File_Acces3" Path="Input_Output_File_Acces3/Input_Output_File_Acces3.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -301,6 +314,19 @@
       <Project Name="Class_PureVirtual_AbstractInterfaceClass" ConfigName="Debug"/>
       <Project Name="STL_Algorithms" ConfigName="Debug"/>
       <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Debug"/>
+      <Project Name="Exception_Handling_Basics" ConfigName="Debug"/>
+      <Project Name="Graph_Algorithm_Breadth_First_Search" ConfigName="Debug"/>
+      <Project Name="Exception_Handling_Stack_Unwinding" ConfigName="Debug"/>
+      <Project Name="Exceptions_Class_Level" ConfigName="Debug"/>
+      <Project Name="Cocurrency_Future_Async_Basics" ConfigName="Debug"/>
+      <Project Name="Input_Output_Stream_Manipulators01" ConfigName="Debug"/>
+      <Project Name="Meta_Programming_for_each_argument_implementation" ConfigName="Debug"/>
+      <Project Name="Concurency_Shared_Futures" ConfigName="Debug"/>
+      <Project Name="Input_Output_Data_Table_Formatted" ConfigName="Debug"/>
+      <Project Name="Cocurency_Threads_Promises" ConfigName="Debug"/>
+      <Project Name="Input_Output_02_FileAccess" ConfigName="Debug"/>
+      <Project Name="templates_stack_withArray" ConfigName="Debug"/>
+      <Project Name="Input_Output_File_Acces3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -452,6 +478,19 @@
       <Project Name="Class_PureVirtual_AbstractInterfaceClass" ConfigName="Release"/>
       <Project Name="STL_Algorithms" ConfigName="Release"/>
       <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Release"/>
+      <Project Name="Exception_Handling_Basics" ConfigName="Release"/>
+      <Project Name="Graph_Algorithm_Breadth_First_Search" ConfigName="Release"/>
+      <Project Name="Exception_Handling_Stack_Unwinding" ConfigName="Release"/>
+      <Project Name="Exceptions_Class_Level" ConfigName="Release"/>
+      <Project Name="Cocurrency_Future_Async_Basics" ConfigName="Release"/>
+      <Project Name="Input_Output_Stream_Manipulators01" ConfigName="Release"/>
+      <Project Name="Meta_Programming_for_each_argument_implementation" ConfigName="Release"/>
+      <Project Name="Concurency_Shared_Futures" ConfigName="Release"/>
+      <Project Name="Input_Output_Data_Table_Formatted" ConfigName="Release"/>
+      <Project Name="Cocurency_Threads_Promises" ConfigName="Release"/>
+      <Project Name="Input_Output_02_FileAccess" ConfigName="Release"/>
+      <Project Name="templates_stack_withArray" ConfigName="Release"/>
+      <Project Name="Input_Output_File_Acces3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

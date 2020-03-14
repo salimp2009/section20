@@ -10,6 +10,7 @@ bool Trust_Account::deposit(double amount) {
 }
 
 bool Trust_Account::withdraw(double amount) {
+    if(amount<0) return false;
     // check if you do not exceed the total amount of withdrawal and maximum withdrawal amount
     if(total_withdrawal>=withdrawal_limit || amount>max_withdrawal_rate*balance) 
         return false;

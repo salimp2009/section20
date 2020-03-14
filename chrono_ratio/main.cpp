@@ -48,8 +48,8 @@ int main()
     
     // minutes
     std::chrono::duration<double, std::ratio<60>>half_minute(0.5);      
-    // here the duration is 60 seconds because ratio is specified as ration<60>
-    // duration gets a double because we want to create an pbject of half minute so 
+    // here the duration is 60 seconds because ratio is specified as ratio<60>
+    // duration gets a double because we want to create an object of half minute so 
     // the argument for the object is 0.5 which half of 60 seconds=half minute
     
     // milliseconds
@@ -57,7 +57,7 @@ int main()
     // here the duration is 1/1000 seconds which is milliseconds
     // the type is specified as long because we want 1 millisecond
     
-    std::cout<<twenty_seconds.count()<<" seconds"<<'\n';            // count will five the tick of an duration object;
+    std::cout<<twenty_seconds.count()<<" seconds"<<'\n';            // count will give the tick of an duration object;
     std::cout<<half_minute.count()<<" minutes"<<'\n';
     std::cout<<one_millisecond.count()<<" milli seconds"<<'\n';
     

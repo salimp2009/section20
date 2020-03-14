@@ -2,6 +2,7 @@
 #include "Utility.hpp"
 #include <cstring>
 #include <charconv>
+#include <list>
 
 // Function Object 
 template<typename T>
@@ -244,6 +245,34 @@ int main()
     auto pos9a=std::find_first_of(vec6.begin(), vec6.end(), vecsub2.begin(), vecsub2.end(),
                                 [](const auto& elem, const auto& searchElem){return elem==searchElem*2;});
     std::cout<<"finding first lambda match at position: "<<std::distance(vec6.begin(), pos9a)+1<<'\n';   // same as previous example
+    
+    // check for equality for different container with the same type of elements
+    std::vector<int>coll1{1,2,3,4,5,6,7};
+    std::list<int>coll2{3,4,5,6,7,8,9};
+
+    std::cout<<std::boolalpha<<std::equal(coll1.begin(), coll1.end(), coll2.begin())<<'\n';  // returns false
+    
+    // check for equality with a custom equal criteria
+    // example checks if two element are either even or odd;
+    auto evenorodd=std::equal(coll1.begin(), coll1.end(), coll2.begin(), 
+                          [](const auto& elem1, const auto& elem2){ return elem1%2==elem2%2; });
+    std::cout<<std::boolalpha<<evenorodd<<'\n';     // returns true
+    
+    // is_permutation compares if the elements of two collections match 
+    // but it can be in a different order
+    std::vector coll3{1,1,2,3,4,5,6,7,9,8};
+    std::list coll4  {1,9, 8,7,6,5,4,3,2,1};
+    
+    auto IsPermutation=std::is_permutation(coll3.begin(), coll3.end(), coll4.begin());
+    std::cout<<std::boolalpha<<IsPermutation<<'\n';     // returns true
+    
+    // check if the equality is based on custom criteria
+    // example show equality being even or odd; 
+    // if the number of even and odd numbers are equal or not
+    auto IsPermutation2=std::is_permutation(coll3.begin(), coll3.end(), coll4.begin(),
+                                            [](const auto& elem1, const auto& elem2){ return elem1%2==elem2%2; });
+    std::cout<<std::boolalpha<<IsPermutation2<<'\n';     // returns true
+    
     
     return 0;
 }

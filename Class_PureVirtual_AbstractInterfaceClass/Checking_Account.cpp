@@ -8,11 +8,10 @@ bool Checking_Account::deposit(double amount) {
 }
 
 bool Checking_Account::withdraw(double amount) {
-    if(balance-amount-fee<0) return false;
+    if(amount<0) return false;
     amount+=fee;
-    // return Account::withdraw(amount);          // we can use the Account' withdraw method as well
-    balance-=amount;
-    return true;
+    return Account::withdraw(amount);          // we can use the Account' withdraw method as well
+
 }
 
 Checking_Account& Checking_Account::operator+=(double amount) {     // overloaded operator for deposit
