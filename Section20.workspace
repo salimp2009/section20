@@ -160,7 +160,13 @@
     <Project Name="Cocurency_Threads_Promises" Path="Cocurency_Threads_Promises/Cocurency_Threads_Promises.project" Active="No"/>
     <Project Name="Input_Output_02_FileAccess" Path="Input_Output_02_FileAccess/Input_Output_02_FileAccess.project" Active="No"/>
     <Project Name="templates_stack_withArray" Path="templates_stack_withArray/templates_stack_withArray.project" Active="No"/>
-    <Project Name="Input_Output_File_Acces3" Path="Input_Output_File_Acces3/Input_Output_File_Acces3.project" Active="Yes"/>
+    <Project Name="Input_Output_File_Acces3" Path="Input_Output_File_Acces3/Input_Output_File_Acces3.project" Active="No"/>
+    <Project Name="Input_Output_File_WordSearch" Path="Input_Output_File_WordSearch/Input_Output_File_WordSearch.project" Active="No"/>
+    <Project Name="Concurency_PackagedTask_Future_Thread" Path="Concurency_PackagedTask_Future_Thread/Concurency_PackagedTask_Future_Thread.project" Active="No"/>
+    <Project Name="Meta_Programming_forNArgs" Path="Meta_Programming_forNArgs/Meta_Programming_forNArgs.project" Active="Yes"/>
+    <Project Name="Input_Output_String_Stream" Path="Input_Output_String_Stream/Input_Output_String_Stream.project" Active="No"/>
+    <Project Name="Concurrency_Mutex_Lockguar01" Path="Concurrency_Mutex_Lockguar01/Concurrency_Mutex_Lockguar01.project" Active="No"/>
+    <Project Name="Conccurency_Unique_Lock" Path="Conccurency_Unique_Lock/Conccurency_Unique_Lock.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -327,6 +333,12 @@
       <Project Name="Input_Output_02_FileAccess" ConfigName="Debug"/>
       <Project Name="templates_stack_withArray" ConfigName="Debug"/>
       <Project Name="Input_Output_File_Acces3" ConfigName="Debug"/>
+      <Project Name="Input_Output_File_WordSearch" ConfigName="Debug"/>
+      <Project Name="Concurency_PackagedTask_Future_Thread" ConfigName="Debug"/>
+      <Project Name="Meta_Programming_forNArgs" ConfigName="Debug"/>
+      <Project Name="Input_Output_String_Stream" ConfigName="Debug"/>
+      <Project Name="Concurrency_Mutex_Lockguar01" ConfigName="Debug"/>
+      <Project Name="Conccurency_Unique_Lock" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -491,6 +503,12 @@
       <Project Name="Input_Output_02_FileAccess" ConfigName="Release"/>
       <Project Name="templates_stack_withArray" ConfigName="Release"/>
       <Project Name="Input_Output_File_Acces3" ConfigName="Release"/>
+      <Project Name="Input_Output_File_WordSearch" ConfigName="Release"/>
+      <Project Name="Concurency_PackagedTask_Future_Thread" ConfigName="Release"/>
+      <Project Name="Meta_Programming_forNArgs" ConfigName="Release"/>
+      <Project Name="Input_Output_String_Stream" ConfigName="Release"/>
+      <Project Name="Concurrency_Mutex_Lockguar01" ConfigName="Release"/>
+      <Project Name="Conccurency_Unique_Lock" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

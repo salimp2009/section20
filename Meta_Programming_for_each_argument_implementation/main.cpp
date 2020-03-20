@@ -8,7 +8,7 @@
 template<typename F, typename...Args>
 void for_each_args(F&& fn, Args&&... args) {
     return (void) std::initializer_list<int> { 
-        /* the () paranthesis evaluates the expersin inside it; which becomes
+        /* the () paranthesis evaluates the expression inside it; which becomes
       // the element of the initializer list, (function(),0)
       // after the function the comma operator followed by zero evaluates it to an integer
       // so that initializer list accepts it 
@@ -148,6 +148,7 @@ using Seq0=std::make_index_sequence<10>;
 //        std::forward<TTpl>(mTpl));
 //}
 */
+
 
 
 int main()

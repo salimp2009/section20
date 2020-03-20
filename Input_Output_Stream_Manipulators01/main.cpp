@@ -97,7 +97,6 @@ int main()
     // reset the setfill() with a blank
     //std::cout<<std::setfill(' ');
     std::cout<<std::setw(10)<<std::left<<num<<hello<<'\n';
-    s
     std::cout<<std::left<<num<<hello<<'\n';
                                 
     return 0;

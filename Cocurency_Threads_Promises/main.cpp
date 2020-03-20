@@ -70,6 +70,12 @@ int main()
         // process the outcome from the promise and use the future to access the result
         std::cout<<"result from the promise: "<<f.get();
         
+        //returning the possible number of threads
+        std::cout<<std::thread::hardware_concurrency();
+        
+        // you can get() only once
+        //f.get();                      // runtime error
+        
 //        std::cout<<" starting thread id: "<<t1.get_id()<<'\n';
 //        
 //        for(int i{0}; i<5; ++i) {

@@ -140,6 +140,8 @@ void Unordered_Set_MultiSet()
     std::unordered_map<std::string, int>umap1{ {
     "GARBNK", 100},{"YAPIKRDBANK", 800}, {"AKBNK", 100} };
     display4(umap1);
+    
+    std::vector unmap11x{46, 45};
    
     // example of maps using algorithms & lambdas
 //    using PairStringInt =std::pair<const std::string, int>;

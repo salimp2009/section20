@@ -22,6 +22,7 @@ int main()
     
     
     std::ofstream osf("../output_file.txt");
+    
     double num{0};
    while(ifs>>num) {
         std::cout<<num<<" ";
@@ -32,6 +33,8 @@ int main()
    
    ifs.close();
    osf.close();
+   
+ 
     
     return 0;
 }

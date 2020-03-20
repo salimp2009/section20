@@ -8,6 +8,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="poemCopy.txt"/>
     <File Name="responses.txt"/>
     <File Name="poem.txt"/>
     <File Name="main.cpp"/>
