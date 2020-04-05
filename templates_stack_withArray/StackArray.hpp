@@ -8,6 +8,7 @@
 #include <type_traits>
 
 
+
 //template<typename T, std::size_t Maxsize>
 template<typename T, auto Maxsize>
 class Stack {
@@ -16,7 +17,7 @@ private:
     std::array<T,Maxsize>elems;     // container to store the elements
     size_type numElems;            // current number of elements
 public:
-    Stack();
+   Stack();
    
    void push(T elem);           
    void pop();
@@ -29,10 +30,11 @@ public:
            os<<elem<<" ";
        return os;
    }
+   
 
-//    template<typename... U>
-//             //typename=std::enable_if_t<std::is_convertible_v<U...,T>>>
-//    Stack(U&&... args):elems{std::forward<U>(args)...} { }
+    template<typename... U,
+             typename=std::enable_if_t<(std::is_convertible_v<U,T> && ...)>>
+    Stack(U&&... args):elems{std::forward<U>(args)...} { }
 
 };
 

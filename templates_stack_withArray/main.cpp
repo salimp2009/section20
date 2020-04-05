@@ -6,7 +6,8 @@
 
 /*Summary;
 // Templates can have templat eparameters that are values rather than types.
-// You cannot use floating-point numbers or class-type objects as arguments for nontype template parameters. For pointers/references to string literals, temporaries, and subobjects, restrictions
+// You cannot use floating-point numbers or class-type objects as arguments for nontype template parameters. 
+// For pointers/references to string literals, temporaries, and subobjects, restrictions
 // apply.
 // Using auto enables templates to have nontype template parameters that are values of generic types
 */ 
@@ -48,8 +49,8 @@ int main()
  [[maybe_unused]]   C<sizeof(int)+4, (sizeof(int)>4)>c2;
     
     
-   // MyClass<"hello">x;                        // string literal not allowed for non type parameter
-  [[maybe_unused]]  MyClass<s03>x1;                             // s03 have external linkage so it is OK
+   // MyClass<"hello">x;                       // string literal not allowed for non type parameter
+  [[maybe_unused]]  MyClass<s03>x1;            // s03 have external linkage so it is OK
   [[maybe_unused]]  MyClass<s04>x2;
     
     
@@ -68,7 +69,9 @@ int main()
     
     
     Stack<int, 5u>stckArr1;
-   // Stack<int, 5>stacklist{1,2,3,4};
+
+    Stack<int, 5u>stacklist{1,2,3,4};
+    std::cout<<"stacklist with variad args: "<<stacklist<<'\n';
     
     stckArr1.push(20);
     stckArr1.push(50);

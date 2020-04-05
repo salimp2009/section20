@@ -34,7 +34,8 @@ int main()
     // move a container elements into another container by move_iterator
     std::vector<int>vec2(std::make_move_iterator(l.begin()), std::make_move_iterator(l.end()));
     
-    // std::move does not work  for vector ; it can be used to move another vector or array
+    // std::move does not work  for different containers; it can be used for the same type of container
+    // to move another vector or array
     // std::vector<int>vec2=std::move(l);
     
     std::cout<<"list moved into vec2: ";
@@ -42,10 +43,19 @@ int main()
         std::cout<<elem<<" ";
     std::cout<<'\n';
     
+    // alternative way of creating a reverse iterator
+    // rbegin() refers to the end of vector for iterator to start
+    std::vector<int>::reverse_iterator posr=vec2.rbegin();           
+    std::cout<<"reverse iterator rbegin for vec2: "<<*posr<<'\n';   
+    
+    // reverse iterator ++posr in algorithms will actually decrement --posr to start from the end to go begining
+    std::cout<<"reverse iterator next element using ++posr: "<<*(++posr)<<'\n';
+    
     // initialize from input stream
     // Note: in this specific case curly brackets { } are required 
     // if regular paranthesis () is used it, the dec becomes a function declaration
     // with return type of deque taking istream as as argument
+    std::cout<<"Please enter integers(enter a different char to end the input):";
     std::deque<int>deq{std::istream_iterator<int>(std::cin), std::istream_iterator<int>()};
     
       std::cout<<"initialized from istream deq: ";

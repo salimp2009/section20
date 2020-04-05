@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Meta_Programming_forNArgs - Debug ]----------"
-	@cd "Meta_Programming_forNArgs" && "$(MAKE)" -f  "Meta_Programming_forNArgs.mk"
+	@echo "----------Building project:[ Concurrency_Atomic_Signal_Fence - Debug ]----------"
+	@cd "Concurrency_Atomic_Signal_Fence" && "$(MAKE)" -f  "Concurrency_Atomic_Signal_Fence.mk"
 clean:
-	@echo "----------Cleaning project:[ Meta_Programming_forNArgs - Debug ]----------"
-	@cd "Meta_Programming_forNArgs" && "$(MAKE)" -f  "Meta_Programming_forNArgs.mk" clean
+	@echo "----------Cleaning project:[ Concurrency_Atomic_Signal_Fence - Debug ]----------"
+	@cd "Concurrency_Atomic_Signal_Fence" && "$(MAKE)" -f  "Concurrency_Atomic_Signal_Fence.mk" clean

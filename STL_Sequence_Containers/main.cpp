@@ -13,6 +13,9 @@
 #include <type_traits>
 #include <functional>
 #include <numeric>
+#include <memory>
+
+
 template<typename T, class Cont=std::vector<int>>
 void display(Cont elem)
 {
@@ -115,6 +118,9 @@ void STL_Array()
     
     std::cout<<"std::tuple_size<>::value: "<<std::tuple_size<decltype(arr4)>::value<<'\n';
     
+    std::cout<<std::boolalpha;
+    std::cout<<std::is_same_v<String_Array::value_type, std::tuple_element_t<0, decltype(arr4)>><<'\n';
+    
     std::cout<<typeid(std::tuple_element<1, String_Array>::type).name()<<'\n';
     
     // Example to apply transform algo on std::array<>;
@@ -135,8 +141,13 @@ void STL_Array()
     std::cout<<typeid(std::tuple_element<0, decltype(arr1)>::type).name()<<'\n';
     
     auto result=std::accumulate(arr1.begin(), arr1.end(), 0);
+    std::cout<<"Accumulate result1 : "<<result<<'\n';
     
-    std::cout<<"Accumulate result : "<<result<<'\n';
+    // using accumulate with a predicate; function takes the initial value and adds the passed element
+    // std::move(init) is used to avoid extra copies; this will be standart in C++20
+    result=std::accumulate(arr1.begin(), arr1.end(), 0, [](auto init, auto& elem){ return std::move(init)+elem; });
+    std::cout<<"Accumulate result2 : "<<result<<'\n';
+    
     std::transform(arr1.begin(), arr1.end(),                // source 1 container
                    arr2.begin(),                            // source 2 container
                    arr1_2.begin(),                          // destination container
@@ -149,8 +160,9 @@ void STL_Array()
         ++pos;
         std::cout<<elem<<(pos<5 ?  ' ': '\n');
     }
-    
-
+  
+  
+  
 }
 
 void STL_Vector()
@@ -167,11 +179,47 @@ void STL_Vector()
      *(p+1)=100;                            // access and change the 2nd element                            
     for(const auto& v:vec1)
         std::cout<<v<<" ";
-        
+     
+     vec1.insert(std::next(vec1.begin()), 555); 
+    display2(vec1);
     
     std::cout<<std::boolalpha<<std::is_pointer<decltype(p)>::value<<'\n';   // return true
     
     std::cout<<'\n';
+    
+    std::vector vec2{1,2,4,5};
+    display2(vec2);
+    std::vector vec3{3,4,5,7,8};
+    display2(vec3);
+    
+    std::copy(vec2.begin(), vec2.end(), std::back_inserter(vec3));
+    display2(vec3);
+    
+    std::vector<int>vec4{};
+    vec4.reserve(20);
+    std::transform(vec3.begin(), vec3.end(), std::back_inserter(vec4),
+                 [](const auto& elem) {return elem*elem; });
+    
+    display2(vec3);
+    display2(vec4);
+    
+    std::transform(vec2.begin(), vec2.end(),        // first source
+                   vec3.begin(),                   // second source; since the first source is smaller than second source, iterator stops at the first source end
+                                                   // if the first source is greater than the second source if the iterator tries to read access beyond second source end behaviour is undefined
+                   std::back_inserter(vec4),       //  output destination
+                   [](const auto& elem1, const auto& elem2){ return elem1+elem2;});
+   display2(vec4);  
+
+    std::cout<<"vec4.size()= "<<vec4.size()<<", sizeof vec4= "<<sizeof vec4<<'\n';
+    std::cout<<"std::size(vec4)= "<<std::size(vec4)<<'\n';
+    
+    int arrNew[4]={1,2,3,4};
+    
+    constexpr auto num=std::size(arrNew);
+ 
+    std::cout<<"sizeof arrNew= "<<sizeof arrNew<<", std::size(arrNew)= "<<num<<'\n';
+    
+           
 }
 
 void STL_Deque()
@@ -227,6 +275,23 @@ void STL_Deque()
      std::copy(coll.begin(), coll.end(),
             std::ostream_iterator<std::string>(std::cout, "\n"));
     std::cout<<'\n';
+    
+    std::vector vec1{1,2,3,4,5,6,7,8,9};
+    std::deque<int> deqEven;
+    
+    
+    std::copy_if(vec1.begin(), vec1.end(), std::back_inserter(deqEven), 
+                    [](const auto& elem){ return elem%2==0; });
+    display2(deqEven);
+    std::deque<int>deqEvenOdd;
+    std::for_each(vec1.begin(), vec1.end(), [&deqEvenOdd](const auto& elem) {
+                                             if(elem%2==0) 
+                                                 deqEvenOdd.push_front(elem);
+                                             else
+                                                 deqEvenOdd.push_back(elem);
+                                             });
+ display2(deqEvenOdd);
+    
 }
 
 void STL_List()
@@ -399,9 +464,11 @@ int main()
 {
 //   STL_Array();
 //   STL_Vector();
-//   STL_Deque();
+     STL_Deque();
 //   STL_List();
-     STL_Forward_List();
+//   STL_Forward_List();
+
+
 
     return 0;
 }

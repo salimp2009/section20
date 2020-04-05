@@ -163,182 +163,226 @@
     <Project Name="Input_Output_File_Acces3" Path="Input_Output_File_Acces3/Input_Output_File_Acces3.project" Active="No"/>
     <Project Name="Input_Output_File_WordSearch" Path="Input_Output_File_WordSearch/Input_Output_File_WordSearch.project" Active="No"/>
     <Project Name="Concurency_PackagedTask_Future_Thread" Path="Concurency_PackagedTask_Future_Thread/Concurency_PackagedTask_Future_Thread.project" Active="No"/>
-    <Project Name="Meta_Programming_forNArgs" Path="Meta_Programming_forNArgs/Meta_Programming_forNArgs.project" Active="Yes"/>
+    <Project Name="Meta_Programming_forNArgs" Path="Meta_Programming_forNArgs/Meta_Programming_forNArgs.project" Active="No"/>
     <Project Name="Input_Output_String_Stream" Path="Input_Output_String_Stream/Input_Output_String_Stream.project" Active="No"/>
     <Project Name="Concurrency_Mutex_Lockguar01" Path="Concurrency_Mutex_Lockguar01/Concurrency_Mutex_Lockguar01.project" Active="No"/>
     <Project Name="Conccurency_Unique_Lock" Path="Conccurency_Unique_Lock/Conccurency_Unique_Lock.project" Active="No"/>
+    <Project Name="Templates_Enable_if" Path="Templates_Enable_if/Templates_Enable_if.project" Active="No"/>
+    <Project Name="Concurrency_Once_Flag" Path="Concurrency_Once_Flag/Concurrency_Once_Flag.project" Active="No"/>
+    <Project Name="Graph_Algorithm_Depth_First_Search" Path="Graph_Algorithm_Depth_First_Search/Graph_Algorithm_Depth_First_Search.project" Active="No"/>
+    <Project Name="Concurrency_Condition_Variables" Path="Concurrency_Condition_Variables/Concurrency_Condition_Variables.project" Active="No"/>
+    <Project Name="Templates_Class_Array" Path="Templates_Class_Array/Templates_Class_Array.project" Active="No"/>
+    <Project Name="Variadics_Templates" Path="Variadics_Templates/Variadics_Templates.project" Active="No"/>
+    <Project Name="Concurrency_Condition_Variable_Queue_Impl" Path="Concurrency_Condition_Variable_Queue_Impl/Concurrency_Condition_Variable_Queue_Impl.project" Active="No"/>
+    <Project Name="Concurrency_Atomic_Basics_High_Level" Path="Concurrency_Atomic_Basics_High_Level/Concurrency_Atomic_Basics_High_Level.project" Active="No"/>
+    <Project Name="Variadics_Folding_Expressions" Path="Variadics_Folding_Expressions/Variadics_Folding_Expressions.project" Active="No"/>
+    <Project Name="STL_Algorithms_2" Path="STL_Algorithms_2/STL_Algorithms_2.project" Active="No"/>
+    <Project Name="Concurrency_SpinLock" Path="Concurrency_SpinLock/Concurrency_SpinLock.project" Active="No"/>
+    <Project Name="Concurrency_Atomic_CAS_Fetch_Mult" Path="Concurrency_Atomic_CAS_Fetch_Mult/Concurrency_Atomic_CAS_Fetch_Mult.project" Active="No"/>
+    <Project Name="Concurrency_Atomic_Shared_Ptr" Path="Concurrency_Atomic_Shared_Ptr/Concurrency_Atomic_Shared_Ptr.project" Active="No"/>
+    <Project Name="Variant_Visitation_vs_Struct_Enum" Path="Variant_Visitation_vs_Struct_Enum/Variant_Visitation_vs_Struct_Enum.project" Active="No"/>
+    <Project Name="Concurrency_Aqcuire_ReLease_Transitivity" Path="Concurrency_Aqcuire_ReLease_Transitivity/Concurrency_Aqcuire_ReLease_Transitivity.project" Active="No"/>
+    <Project Name="Concurrency_Release_Aqcuire_Relaxed" Path="Concurrency_Release_Aqcuire_Relaxed/Concurrency_Release_Aqcuire_Relaxed.project" Active="No"/>
+    <Project Name="Variadic_FoldTraverse_BinaryTree" Path="Variadic_FoldTraverse_BinaryTree/Variadic_FoldTraverse_BinaryTree.project" Active="No"/>
+    <Project Name="Variadic_Indices" Path="Variadic_Indices/Variadic_Indices.project" Active="No"/>
+    <Project Name="Concurrency_Relaxed_Semantic" Path="Concurrency_Relaxed_Semantic/Concurrency_Relaxed_Semantic.project" Active="No"/>
+    <Project Name="STL_Container_Deque_Palindrome" Path="STL_Container_Deque_Palindrome/STL_Container_Deque_Palindrome.project" Active="No"/>
+    <Project Name="Concurrency_Acquire_Release_Fences" Path="Concurrency_Acquire_Release_Fences/Concurrency_Acquire_Release_Fences.project" Active="No"/>
+    <Project Name="Concurrency_Atomic_Signal_Fence" Path="Concurrency_Atomic_Signal_Fence/Concurrency_Atomic_Signal_Fence.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
+      <Project Name="Algorithms" ConfigName="Debug"/>
+      <Project Name="Allocator_Memory_Arena_PBRT" ConfigName="Debug"/>
+      <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Debug"/>
+      <Project Name="Allocators_Custom_New_Delete_Aligned" ConfigName="Debug"/>
+      <Project Name="Array" ConfigName="Debug"/>
       <Project Name="Assertion_Test" ConfigName="Debug"/>
+      <Project Name="Atomic-SpinlockMemoryOrder" ConfigName="Debug"/>
       <Project Name="Atomics_01" ConfigName="Debug"/>
       <Project Name="Atomics_ConditionalVar" ConfigName="Debug"/>
       <Project Name="Atomics_Spinlock" ConfigName="Debug"/>
+      <Project Name="Challenge_1" ConfigName="Debug"/>
+      <Project Name="Challenge_1_Soln" ConfigName="Debug"/>
+      <Project Name="Challenge_2" ConfigName="Debug"/>
+      <Project Name="Challenge_3" ConfigName="Debug"/>
+      <Project Name="Challenge_4" ConfigName="Debug"/>
       <Project Name="ClassTemplateArray" ConfigName="Debug"/>
       <Project Name="ClassTemplates" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Move_Constructor" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Movie_Example" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Mystring_Overloading" ConfigName="Debug"/>
+      <Project Name="Class_Basics_Shallow_Deep_Copy" ConfigName="Debug"/>
+      <Project Name="Class_Inheritances_Derived_Classes" ConfigName="Debug"/>
+      <Project Name="Class_Polymorhism_Virtual" ConfigName="Debug"/>
+      <Project Name="Class_PureVirtual_AbstractInterfaceClass" ConfigName="Debug"/>
+      <Project Name="Class_Pure_Virtual_AbstractClasses" ConfigName="Debug"/>
+      <Project Name="Classes_Basics_01" ConfigName="Debug"/>
+      <Project Name="Cocurency_Threads_Promises" ConfigName="Debug"/>
+      <Project Name="Cocurrency_Future_Async_Basics" ConfigName="Debug"/>
+      <Project Name="Conccurency_Unique_Lock" ConfigName="Debug"/>
+      <Project Name="Concurency_PackagedTask_Future_Thread" ConfigName="Debug"/>
+      <Project Name="Concurency_Shared_Futures" ConfigName="Debug"/>
+      <Project Name="Concurrency_Condition_Variables" ConfigName="Debug"/>
+      <Project Name="Concurrency_Mutex_Lockguar01" ConfigName="Debug"/>
+      <Project Name="Concurrency_Once_Flag" ConfigName="Debug"/>
+      <Project Name="ConstExpr_Compile_Time_Computation" ConfigName="Debug"/>
+      <Project Name="Constexpr_STL_Function_Algorithms" ConfigName="Debug"/>
       <Project Name="Copyfile_1" ConfigName="Debug"/>
-      <Project Name="SharedPointer_CustomDeleter" ConfigName="Debug"/>
+      <Project Name="Deque" ConfigName="Debug"/>
+      <Project Name="Exception_Handling_Basics" ConfigName="Debug"/>
+      <Project Name="Exception_Handling_Stack_Unwinding" ConfigName="Debug"/>
+      <Project Name="Exceptions_Class_Level" ConfigName="Debug"/>
       <Project Name="FunctionObjects" ConfigName="Debug"/>
       <Project Name="FunctionTemplate" ConfigName="Debug"/>
       <Project Name="FutureAsync" ConfigName="Debug"/>
       <Project Name="FutureWaitingTwoTasks" ConfigName="Debug"/>
+      <Project Name="Future_Defered_Async" ConfigName="Debug"/>
+      <Project Name="Future_DotProduct_Async" ConfigName="Debug"/>
+      <Project Name="Future_PackagedTask_Reuse" ConfigName="Debug"/>
+      <Project Name="Future_Promise_Exception" ConfigName="Debug"/>
+      <Project Name="Future_Promise_Synchronise" ConfigName="Debug"/>
+      <Project Name="Future_Promise_Wait_For" ConfigName="Debug"/>
+      <Project Name="Future_Shared_Promise" ConfigName="Debug"/>
+      <Project Name="Graph_Algorithm_Breadth_First_Search" ConfigName="Debug"/>
+      <Project Name="Graph_Algorithm_Depth_First_Search" ConfigName="Debug"/>
+      <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Debug"/>
+      <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Debug"/>
+      <Project Name="Input_Output_01" ConfigName="Debug"/>
+      <Project Name="Input_Output_02_FileAccess" ConfigName="Debug"/>
+      <Project Name="Input_Output_Data_Table_Formatted" ConfigName="Debug"/>
+      <Project Name="Input_Output_File_Acces3" ConfigName="Debug"/>
+      <Project Name="Input_Output_File_WordSearch" ConfigName="Debug"/>
+      <Project Name="Input_Output_Stream_Manipulators01" ConfigName="Debug"/>
+      <Project Name="Input_Output_String_Stream" ConfigName="Debug"/>
+      <Project Name="Iterators" ConfigName="Debug"/>
+      <Project Name="Lambda_Function_Pointers" ConfigName="Debug"/>
+      <Project Name="Lambda_Function_Ref_Implementation" ConfigName="Debug"/>
+      <Project Name="Lambda_Template_Parameter_Invoke" ConfigName="Debug"/>
+      <Project Name="Lambdas_Local_Functions" ConfigName="Debug"/>
+      <Project Name="Lambdas_Safer_InterFaces_HigherOrderFunctions" ConfigName="Debug"/>
+      <Project Name="List" ConfigName="Debug"/>
+      <Project Name="Map" ConfigName="Debug"/>
+      <Project Name="MemoryOrderRelease_Consume" ConfigName="Debug"/>
+      <Project Name="MemoryOrderRelease_NoWaiting" ConfigName="Debug"/>
+      <Project Name="MemoryOrderRelease_Transistivity" ConfigName="Debug"/>
+      <Project Name="MemoryOrder_Signal_Fence" ConfigName="Debug"/>
+      <Project Name="MemoryOrder_Thread_Fence" ConfigName="Debug"/>
+      <Project Name="Memory_Order_Relaxed" ConfigName="Debug"/>
+      <Project Name="Meta_Programming_forNArgs" ConfigName="Debug"/>
+      <Project Name="Meta_Programming_for_each_argument_implementation" ConfigName="Debug"/>
       <Project Name="Mutex1" ConfigName="Debug"/>
       <Project Name="MutexRecursiveLock" ConfigName="Debug"/>
       <Project Name="Mutex_Condition_Variable1" ConfigName="Debug"/>
       <Project Name="Mutex_Condition_Variable2" ConfigName="Debug"/>
       <Project Name="NonAtomic_ConditionalVar" ConfigName="Debug"/>
+      <Project Name="Pairs_Tuples" ConfigName="Debug"/>
+      <Project Name="Pairs_Tuples_2" ConfigName="Debug"/>
       <Project Name="PrebuildFunctions_STL" ConfigName="Debug"/>
+      <Project Name="Priority_Queue" ConfigName="Debug"/>
+      <Project Name="Que" ConfigName="Debug"/>
+      <Project Name="Ref_Function_Wrappers" ConfigName="Debug"/>
+      <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
+      <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Debug"/>
       <Project Name="STLErrors" ConfigName="Debug"/>
+      <Project Name="STL_Algorithms" ConfigName="Debug"/>
       <Project Name="STL_Bind" ConfigName="Debug"/>
+      <Project Name="STL_Containers" ConfigName="Debug"/>
+      <Project Name="STL_Partition" ConfigName="Debug"/>
+      <Project Name="STL_Sequence_Containers" ConfigName="Debug"/>
+      <Project Name="STL_Sets_Maps_Ordered_Unordered" ConfigName="Debug"/>
+      <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" ConfigName="Debug"/>
+      <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" ConfigName="Debug"/>
+      <Project Name="STL_min_max" ConfigName="Debug"/>
       <Project Name="Semaphore_Pthreads" ConfigName="Debug"/>
+      <Project Name="Set" ConfigName="Debug"/>
       <Project Name="Shapes_Exercise" ConfigName="Debug"/>
       <Project Name="SharedFutures" ConfigName="Debug"/>
+      <Project Name="SharedPointer_CustomDeleter" ConfigName="Debug"/>
       <Project Name="SharedPointers" ConfigName="Debug"/>
+      <Project Name="Shared_Unique_Ptrs" ConfigName="Debug"/>
+      <Project Name="Stack" ConfigName="Debug"/>
       <Project Name="StringStream" ConfigName="Debug"/>
       <Project Name="SwapBigEndianLittleEndian" ConfigName="Debug"/>
       <Project Name="TemplateDefaultArguments" ConfigName="Debug"/>
+      <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Debug"/>
       <Project Name="Template_Stack2" ConfigName="Debug"/>
       <Project Name="Template_StackNonType" ConfigName="Debug"/>
+      <Project Name="Template_Stack_Array_Auto" ConfigName="Debug"/>
+      <Project Name="Templates_Class_Array" ConfigName="Release"/>
+      <Project Name="Templates_Class_Templates" ConfigName="Debug"/>
+      <Project Name="Templates_Enable_if" ConfigName="Debug"/>
+      <Project Name="ThreadArguments" ConfigName="Debug"/>
+      <Project Name="Thread_Call_Once_Flag" ConfigName="Debug"/>
+      <Project Name="Thread_Conditional_Variable" ConfigName="Debug"/>
+      <Project Name="Thread_Creation" ConfigName="Debug"/>
       <Project Name="Thread_Join" ConfigName="Debug"/>
+      <Project Name="Thread_Local_Data" ConfigName="Debug"/>
+      <Project Name="Thread_Local_Scope_State" ConfigName="Debug"/>
+      <Project Name="Thread_Mutex_UniqueLock" ConfigName="Debug"/>
       <Project Name="Thread_PackagedTask_Future" ConfigName="Debug"/>
       <Project Name="Thread_Promise_Future" ConfigName="Debug"/>
-      <Project Name="VariadicTemplates" ConfigName="Debug"/>
-      <Project Name="Iterators" ConfigName="Debug"/>
-      <Project Name="Type_Traits_01" ConfigName="Debug"/>
-      <Project Name="Atomic-SpinlockMemoryOrder" ConfigName="Debug"/>
-      <Project Name="MemoryOrderRelease_Transistivity" ConfigName="Debug"/>
-      <Project Name="Algorithms" ConfigName="Debug"/>
-      <Project Name="MemoryOrderRelease_NoWaiting" ConfigName="Debug"/>
-      <Project Name="MemoryOrderRelease_Consume" ConfigName="Debug"/>
-      <Project Name="Array" ConfigName="Debug"/>
-      <Project Name="Memory_Order_Relaxed" ConfigName="Debug"/>
-      <Project Name="Vector" ConfigName="Debug"/>
-      <Project Name="MemoryOrder_Thread_Fence" ConfigName="Debug"/>
-      <Project Name="MemoryOrder_Signal_Fence" ConfigName="Debug"/>
-      <Project Name="Deque" ConfigName="Debug"/>
-      <Project Name="Thread_Creation" ConfigName="Debug"/>
-      <Project Name="Challenge_1" ConfigName="Debug"/>
-      <Project Name="Challenge_1_Soln" ConfigName="Debug"/>
-      <Project Name="ThreadArguments" ConfigName="Debug"/>
-      <Project Name="List" ConfigName="Debug"/>
-      <Project Name="Thread_SharedData" ConfigName="Debug"/>
-      <Project Name="Thread_Mutex_UniqueLock" ConfigName="Debug"/>
-      <Project Name="Challenge_2" ConfigName="Debug"/>
-      <Project Name="Set" ConfigName="Debug"/>
-      <Project Name="Thread_SharedMutex_SharedLock" ConfigName="Debug"/>
-      <Project Name="Map" ConfigName="Debug"/>
-      <Project Name="Thread_Safe_Initiliaze" ConfigName="Debug"/>
-      <Project Name="Thread_Call_Once_Flag" ConfigName="Debug"/>
-      <Project Name="Challenge_3" ConfigName="Debug"/>
-      <Project Name="Thread_Singleton_OnceFlag" ConfigName="Debug"/>
-      <Project Name="Stack" ConfigName="Debug"/>
-      <Project Name="Thread_Singleton_Scott_Meyers" ConfigName="Debug"/>
-      <Project Name="Thread_Local_Data" ConfigName="Debug"/>
-      <Project Name="Que" ConfigName="Debug"/>
-      <Project Name="Thread_Local_Scope_State" ConfigName="Debug"/>
-      <Project Name="Challenge_4" ConfigName="Debug"/>
-      <Project Name="Priority_Queue" ConfigName="Debug"/>
-      <Project Name="Thread_Safe_Stack_LockFree" ConfigName="Debug"/>
-      <Project Name="Thread_Conditional_Variable" ConfigName="Debug"/>
-      <Project Name="Unordered_Containers" ConfigName="Debug"/>
-      <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
-      <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Debug"/>
-      <Project Name="Future_Defered_Async" ConfigName="Debug"/>
-      <Project Name="Future_DotProduct_Async" ConfigName="Debug"/>
-      <Project Name="Pairs_Tuples" ConfigName="Debug"/>
-      <Project Name="Future_PackagedTask_Reuse" ConfigName="Debug"/>
-      <Project Name="Template_Stack_Array_Auto" ConfigName="Debug"/>
       <Project Name="Thread_Promise_Future_2" ConfigName="Debug"/>
-      <Project Name="Future_Promise_Wait_For" ConfigName="Debug"/>
-      <Project Name="Future_Shared_Promise" ConfigName="Debug"/>
-      <Project Name="Future_Promise_Exception" ConfigName="Debug"/>
-      <Project Name="Future_Promise_Synchronise" ConfigName="Debug"/>
-      <Project Name="Unique_Ptr_Implementation" ConfigName="Debug"/>
-      <Project Name="Weak_Ptr" ConfigName="Debug"/>
+      <Project Name="Thread_Safe_Initiliaze" ConfigName="Debug"/>
+      <Project Name="Thread_Safe_Stack_LockFree" ConfigName="Debug"/>
       <Project Name="Thread_Safe_Stack_With_Locks" ConfigName="Debug"/>
-      <Project Name="Variadic_Templates_2" ConfigName="Debug"/>
-      <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Debug"/>
-      <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Debug"/>
-      <Project Name="Lambda_Function_Pointers" ConfigName="Debug"/>
-      <Project Name="Allocators_Custom_New_Delete_Aligned" ConfigName="Debug"/>
-      <Project Name="Lambda_Template_Parameter_Invoke" ConfigName="Debug"/>
-      <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Debug"/>
-      <Project Name="Lambda_Function_Ref_Implementation" ConfigName="Debug"/>
-      <Project Name="Lambdas_Local_Functions" ConfigName="Debug"/>
-      <Project Name="Lambdas_Safer_InterFaces_HigherOrderFunctions" ConfigName="Debug"/>
-      <Project Name="ConstExpr_Compile_Time_Computation" ConfigName="Debug"/>
-      <Project Name="Constexpr_STL_Function_Algorithms" ConfigName="Debug"/>
-      <Project Name="Type_Traits_TypeCompute_Manipulate" ConfigName="Debug"/>
-      <Project Name="Type_Traits_Remove_Reference" ConfigName="Debug"/>
-      <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" ConfigName="Debug"/>
-      <Project Name="Type_Traits_MetaProgramming_Conditional" ConfigName="Debug"/>
-      <Project Name="Type_Traits_Conjuction_Disconjunction_Satisfy_All" ConfigName="Debug"/>
-      <Project Name="Type_Traits_Integer_Sequence" ConfigName="Debug"/>
+      <Project Name="Thread_SharedData" ConfigName="Debug"/>
+      <Project Name="Thread_SharedMutex_SharedLock" ConfigName="Debug"/>
+      <Project Name="Thread_Singleton_OnceFlag" ConfigName="Debug"/>
+      <Project Name="Thread_Singleton_Scott_Meyers" ConfigName="Debug"/>
+      <Project Name="Type_Traits2" ConfigName="Debug"/>
+      <Project Name="Type_Traits_01" ConfigName="Debug"/>
       <Project Name="Type_Traits_Compile_Time_Iteration" ConfigName="Debug"/>
       <Project Name="Type_Traits_Compile_Time_Set_Data_Structure" ConfigName="Debug"/>
-      <Project Name="Allocator_Memory_Arena_PBRT" ConfigName="Debug"/>
-      <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Debug"/>
-      <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Debug"/>
-      <Project Name="test01" ConfigName="Debug"/>
-      <Project Name="STL_Partition" ConfigName="Debug"/>
-      <Project Name="Pairs_Tuples_2" ConfigName="Debug"/>
-      <Project Name="vector_operations" ConfigName="Debug"/>
-      <Project Name="Shared_Unique_Ptrs" ConfigName="Debug"/>
-      <Project Name="Weak_Ptr_2" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Conjuction_Disconjunction_Satisfy_All" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Integer_Sequence" ConfigName="Debug"/>
+      <Project Name="Type_Traits_MetaProgramming_Conditional" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Meta_Functions_VariadicTemplates" ConfigName="Debug"/>
+      <Project Name="Type_Traits_Remove_Reference" ConfigName="Debug"/>
+      <Project Name="Type_Traits_TypeCompute_Manipulate" ConfigName="Debug"/>
+      <Project Name="Unique_Ptr_Implementation" ConfigName="Debug"/>
       <Project Name="Unique_ptr" ConfigName="Debug"/>
-      <Project Name="Type_Traits2" ConfigName="Debug"/>
-      <Project Name="STL_min_max" ConfigName="Debug"/>
-      <Project Name="Ref_Function_Wrappers" ConfigName="Debug"/>
-      <Project Name="test2" ConfigName="Debug"/>
+      <Project Name="Unordered_Containers" ConfigName="Debug"/>
+      <Project Name="Unordered_Map_Chaining_Hash_Table" ConfigName="Debug"/>
+      <Project Name="VariadicTemplates" ConfigName="Debug"/>
+      <Project Name="Variadic_Templates_2" ConfigName="Debug"/>
+      <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Debug"/>
+      <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Debug"/>
+      <Project Name="Variadics_Templates" ConfigName="Debug"/>
+      <Project Name="Vector" ConfigName="Debug"/>
+      <Project Name="Weak_Ptr" ConfigName="Debug"/>
+      <Project Name="Weak_Ptr_2" ConfigName="Debug"/>
       <Project Name="chrono_ratio" ConfigName="Debug"/>
       <Project Name="clocks_timepoints" ConfigName="Debug"/>
-      <Project Name="test3_extern" ConfigName="Debug"/>
       <Project Name="lambda_basics" ConfigName="Debug"/>
-      <Project Name="test4" ConfigName="Debug"/>
-      <Project Name="STL_Containers" ConfigName="Debug"/>
-      <Project Name="STL_Sequence_Containers" ConfigName="Debug"/>
       <Project Name="template_functions_01" ConfigName="Debug"/>
-      <Project Name="Input_Output_01" ConfigName="Debug"/>
-      <Project Name="Classes_Basics_01" ConfigName="Debug"/>
       <Project Name="template_functions_overloading" ConfigName="Debug"/>
-      <Project Name="Class_Basics_Shallow_Deep_Copy" ConfigName="Debug"/>
       <Project Name="template_functions_overloading2" ConfigName="Debug"/>
-      <Project Name="Class_Basics_Move_Constructor" ConfigName="Debug"/>
-      <Project Name="STL_Sets_Maps_Ordered_Unordered" ConfigName="Debug"/>
       <Project Name="template_functions_overloading3" ConfigName="Debug"/>
-      <Project Name="Class_Basics_Movie_Example" ConfigName="Debug"/>
-      <Project Name="Class_Basics_Mystring_Overloading" ConfigName="Debug"/>
-      <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" ConfigName="Debug"/>
-      <Project Name="Class_Inheritances_Derived_Classes" ConfigName="Debug"/>
-      <Project Name="Unordered_Map_Chaining_Hash_Table" ConfigName="Debug"/>
-      <Project Name="Templates_Class_Templates" ConfigName="Debug"/>
-      <Project Name="Class_Polymorhism_Virtual" ConfigName="Debug"/>
-      <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" ConfigName="Debug"/>
-      <Project Name="Class_Pure_Virtual_AbstractClasses" ConfigName="Debug"/>
-      <Project Name="Class_PureVirtual_AbstractInterfaceClass" ConfigName="Debug"/>
-      <Project Name="STL_Algorithms" ConfigName="Debug"/>
-      <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Debug"/>
-      <Project Name="Exception_Handling_Basics" ConfigName="Debug"/>
-      <Project Name="Graph_Algorithm_Breadth_First_Search" ConfigName="Debug"/>
-      <Project Name="Exception_Handling_Stack_Unwinding" ConfigName="Debug"/>
-      <Project Name="Exceptions_Class_Level" ConfigName="Debug"/>
-      <Project Name="Cocurrency_Future_Async_Basics" ConfigName="Debug"/>
-      <Project Name="Input_Output_Stream_Manipulators01" ConfigName="Debug"/>
-      <Project Name="Meta_Programming_for_each_argument_implementation" ConfigName="Debug"/>
-      <Project Name="Concurency_Shared_Futures" ConfigName="Debug"/>
-      <Project Name="Input_Output_Data_Table_Formatted" ConfigName="Debug"/>
-      <Project Name="Cocurency_Threads_Promises" ConfigName="Debug"/>
-      <Project Name="Input_Output_02_FileAccess" ConfigName="Debug"/>
       <Project Name="templates_stack_withArray" ConfigName="Debug"/>
-      <Project Name="Input_Output_File_Acces3" ConfigName="Debug"/>
-      <Project Name="Input_Output_File_WordSearch" ConfigName="Debug"/>
-      <Project Name="Concurency_PackagedTask_Future_Thread" ConfigName="Debug"/>
-      <Project Name="Meta_Programming_forNArgs" ConfigName="Debug"/>
-      <Project Name="Input_Output_String_Stream" ConfigName="Debug"/>
-      <Project Name="Concurrency_Mutex_Lockguar01" ConfigName="Debug"/>
-      <Project Name="Conccurency_Unique_Lock" ConfigName="Debug"/>
+      <Project Name="test01" ConfigName="Debug"/>
+      <Project Name="test2" ConfigName="Debug"/>
+      <Project Name="test3_extern" ConfigName="Debug"/>
+      <Project Name="test4" ConfigName="Debug"/>
+      <Project Name="vector_operations" ConfigName="Debug"/>
+      <Project Name="Concurrency_Condition_Variable_Queue_Impl" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_Basics_High_Level" ConfigName="Debug"/>
+      <Project Name="Variadics_Folding_Expressions" ConfigName="Debug"/>
+      <Project Name="STL_Algorithms_2" ConfigName="Debug"/>
+      <Project Name="Concurrency_SpinLock" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_CAS_Fetch_Mult" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_Shared_Ptr" ConfigName="Debug"/>
+      <Project Name="Variant_Visitation_vs_Struct_Enum" ConfigName="Debug"/>
+      <Project Name="Concurrency_Aqcuire_ReLease_Transitivity" ConfigName="Debug"/>
+      <Project Name="Concurrency_Release_Aqcuire_Relaxed" ConfigName="Debug"/>
+      <Project Name="Variadic_FoldTraverse_BinaryTree" ConfigName="Debug"/>
+      <Project Name="Variadic_Indices" ConfigName="Debug"/>
+      <Project Name="Concurrency_Relaxed_Semantic" ConfigName="Debug"/>
+      <Project Name="STL_Container_Deque_Palindrome" ConfigName="Debug"/>
+      <Project Name="Concurrency_Acquire_Release_Fences" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_Signal_Fence" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -509,6 +553,28 @@
       <Project Name="Input_Output_String_Stream" ConfigName="Release"/>
       <Project Name="Concurrency_Mutex_Lockguar01" ConfigName="Release"/>
       <Project Name="Conccurency_Unique_Lock" ConfigName="Release"/>
+      <Project Name="Templates_Enable_if" ConfigName="Release"/>
+      <Project Name="Concurrency_Once_Flag" ConfigName="Release"/>
+      <Project Name="Graph_Algorithm_Depth_First_Search" ConfigName="Release"/>
+      <Project Name="Concurrency_Condition_Variables" ConfigName="Release"/>
+      <Project Name="Templates_Class_Array" ConfigName="Release"/>
+      <Project Name="Variadics_Templates" ConfigName="Release"/>
+      <Project Name="Concurrency_Condition_Variable_Queue_Impl" ConfigName="Release"/>
+      <Project Name="Concurrency_Atomic_Basics_High_Level" ConfigName="Release"/>
+      <Project Name="Variadics_Folding_Expressions" ConfigName="Release"/>
+      <Project Name="STL_Algorithms_2" ConfigName="Release"/>
+      <Project Name="Concurrency_SpinLock" ConfigName="Release"/>
+      <Project Name="Concurrency_Atomic_CAS_Fetch_Mult" ConfigName="Release"/>
+      <Project Name="Concurrency_Atomic_Shared_Ptr" ConfigName="Release"/>
+      <Project Name="Variant_Visitation_vs_Struct_Enum" ConfigName="Release"/>
+      <Project Name="Concurrency_Aqcuire_ReLease_Transitivity" ConfigName="Release"/>
+      <Project Name="Concurrency_Release_Aqcuire_Relaxed" ConfigName="Release"/>
+      <Project Name="Variadic_FoldTraverse_BinaryTree" ConfigName="Release"/>
+      <Project Name="Variadic_Indices" ConfigName="Release"/>
+      <Project Name="Concurrency_Relaxed_Semantic" ConfigName="Release"/>
+      <Project Name="STL_Container_Deque_Palindrome" ConfigName="Release"/>
+      <Project Name="Concurrency_Acquire_Release_Fences" ConfigName="Release"/>
+      <Project Name="Concurrency_Atomic_Signal_Fence" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
