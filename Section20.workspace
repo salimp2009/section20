@@ -188,7 +188,25 @@
     <Project Name="Concurrency_Relaxed_Semantic" Path="Concurrency_Relaxed_Semantic/Concurrency_Relaxed_Semantic.project" Active="No"/>
     <Project Name="STL_Container_Deque_Palindrome" Path="STL_Container_Deque_Palindrome/STL_Container_Deque_Palindrome.project" Active="No"/>
     <Project Name="Concurrency_Acquire_Release_Fences" Path="Concurrency_Acquire_Release_Fences/Concurrency_Acquire_Release_Fences.project" Active="No"/>
-    <Project Name="Concurrency_Atomic_Signal_Fence" Path="Concurrency_Atomic_Signal_Fence/Concurrency_Atomic_Signal_Fence.project" Active="Yes"/>
+    <Project Name="Concurrency_Atomic_Signal_Fence" Path="Concurrency_Atomic_Signal_Fence/Concurrency_Atomic_Signal_Fence.project" Active="No"/>
+    <Project Name="Variants_Lambdas_Visit" Path="Variants_Lambdas_Visit/Variants_Lambdas_Visit.project" Active="No"/>
+    <Project Name="Concurrency_Shared_Lock_Reader_Writer_Locks" Path="Concurrency_Shared_Lock_Reader_Writer_Locks/Concurrency_Shared_Lock_Reader_Writer_Locks.project" Active="No"/>
+    <Project Name="Variants_RecursiveVariants" Path="Variants_RecursiveVariants/Variants_RecursiveVariants.project" Active="No"/>
+    <Project Name="Concurrency_ThreadSafe_Initialization_constexpr" Path="Concurrency_ThreadSafe_Initialization_constexpr/Concurrency_ThreadSafe_Initialization_constexpr.project" Active="No"/>
+    <Project Name="Conccurency_Thread_Safe_Singleton_CallOnce" Path="Conccurency_Thread_Safe_Singleton_CallOnce/Conccurency_Thread_Safe_Singleton_CallOnce.project" Active="No"/>
+    <Project Name="STL_Map_Set_Word_Count_FrmFile" Path="STL_Map_Set_Word_Count_FrmFile/STL_Map_Set_Word_Count_FrmFile.project" Active="No"/>
+    <Project Name="Variant_Visit_VariadicBases_Lambdas" Path="Variant_Visit_VariadicBases_Lambdas/Variant_Visit_VariadicBases_Lambdas.project" Active="No"/>
+    <Project Name="Concurrency_Thread_Local" Path="Concurrency_Thread_Local/Concurrency_Thread_Local.project" Active="No"/>
+    <Project Name="Concurrency_Packaged_Task_ReUse" Path="Concurrency_Packaged_Task_ReUse/Concurrency_Packaged_Task_ReUse.project" Active="No"/>
+    <Project Name="Concurrency_Promise_Future_Thread" Path="Concurrency_Promise_Future_Thread/Concurrency_Promise_Future_Thread.project" Active="No"/>
+    <Project Name="Concurrency_Shared_Future_Promise_Future" Path="Concurrency_Shared_Future_Promise_Future/Concurrency_Shared_Future_Promise_Future.project" Active="No"/>
+    <Project Name="Concurrency_Spinlock_GameEngineBook" Path="Concurrency_Spinlock_GameEngineBook/Concurrency_Spinlock_GameEngineBook.project" Active="No"/>
+    <Project Name="Concurrency_Renentrant_lock_GameEnginebook" Path="Concurrency_Renentrant_lock_GameEnginebook/Concurrency_Renentrant_lock_GameEnginebook.project" Active="No"/>
+    <Project Name="Variants_VariadicBases_Array_Lambdas" Path="Variants_VariadicBases_Array_Lambdas/Variants_VariadicBases_Array_Lambdas.project" Active="No"/>
+    <Project Name="Concurrency_Assert_Lock_Volatile" Path="Concurrency_Assert_Lock_Volatile/Concurrency_Assert_Lock_Volatile.project" Active="No"/>
+    <Project Name="Entity_Component_System" Path="Entity_Component_System/Entity_Component_System.project" Active="Yes"/>
+    <Project Name="Concurrency_Lock_Free_Stack" Path="Concurrency_Lock_Free_Stack/Concurrency_Lock_Free_Stack.project" Active="No"/>
+    <Project Name="SIMD_Basics_Dot_Product" Path="SIMD_Basics_Dot_Product/SIMD_Basics_Dot_Product.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -383,6 +401,24 @@
       <Project Name="STL_Container_Deque_Palindrome" ConfigName="Debug"/>
       <Project Name="Concurrency_Acquire_Release_Fences" ConfigName="Debug"/>
       <Project Name="Concurrency_Atomic_Signal_Fence" ConfigName="Debug"/>
+      <Project Name="Variants_Lambdas_Visit" ConfigName="Debug"/>
+      <Project Name="Concurrency_Shared_Lock_Reader_Writer_Locks" ConfigName="Debug"/>
+      <Project Name="Variants_RecursiveVariants" ConfigName="Debug"/>
+      <Project Name="Concurrency_ThreadSafe_Initialization_constexpr" ConfigName="Debug"/>
+      <Project Name="Conccurency_Thread_Safe_Singleton_CallOnce" ConfigName="Debug"/>
+      <Project Name="STL_Map_Set_Word_Count_FrmFile" ConfigName="Debug"/>
+      <Project Name="Variant_Visit_VariadicBases_Lambdas" ConfigName="Debug"/>
+      <Project Name="Concurrency_Thread_Local" ConfigName="Debug"/>
+      <Project Name="Concurrency_Packaged_Task_ReUse" ConfigName="Debug"/>
+      <Project Name="Concurrency_Promise_Future_Thread" ConfigName="Debug"/>
+      <Project Name="Concurrency_Shared_Future_Promise_Future" ConfigName="Debug"/>
+      <Project Name="Concurrency_Spinlock_GameEngineBook" ConfigName="Debug"/>
+      <Project Name="Concurrency_Renentrant_lock_GameEnginebook" ConfigName="Debug"/>
+      <Project Name="Variants_VariadicBases_Array_Lambdas" ConfigName="Debug"/>
+      <Project Name="Concurrency_Assert_Lock_Volatile" ConfigName="Debug"/>
+      <Project Name="Entity_Component_System" ConfigName="Debug"/>
+      <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Debug"/>
+      <Project Name="SIMD_Basics_Dot_Product" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -575,6 +611,24 @@
       <Project Name="STL_Container_Deque_Palindrome" ConfigName="Release"/>
       <Project Name="Concurrency_Acquire_Release_Fences" ConfigName="Release"/>
       <Project Name="Concurrency_Atomic_Signal_Fence" ConfigName="Release"/>
+      <Project Name="Variants_Lambdas_Visit" ConfigName="Release"/>
+      <Project Name="Concurrency_Shared_Lock_Reader_Writer_Locks" ConfigName="Release"/>
+      <Project Name="Variants_RecursiveVariants" ConfigName="Release"/>
+      <Project Name="Concurrency_ThreadSafe_Initialization_constexpr" ConfigName="Release"/>
+      <Project Name="Conccurency_Thread_Safe_Singleton_CallOnce" ConfigName="Release"/>
+      <Project Name="STL_Map_Set_Word_Count_FrmFile" ConfigName="Release"/>
+      <Project Name="Variant_Visit_VariadicBases_Lambdas" ConfigName="Release"/>
+      <Project Name="Concurrency_Thread_Local" ConfigName="Release"/>
+      <Project Name="Concurrency_Packaged_Task_ReUse" ConfigName="Release"/>
+      <Project Name="Concurrency_Promise_Future_Thread" ConfigName="Release"/>
+      <Project Name="Concurrency_Shared_Future_Promise_Future" ConfigName="Release"/>
+      <Project Name="Concurrency_Spinlock_GameEngineBook" ConfigName="Release"/>
+      <Project Name="Concurrency_Renentrant_lock_GameEnginebook" ConfigName="Release"/>
+      <Project Name="Variants_VariadicBases_Array_Lambdas" ConfigName="Release"/>
+      <Project Name="Concurrency_Assert_Lock_Volatile" ConfigName="Release"/>
+      <Project Name="Entity_Component_System" ConfigName="Release"/>
+      <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Release"/>
+      <Project Name="SIMD_Basics_Dot_Product" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

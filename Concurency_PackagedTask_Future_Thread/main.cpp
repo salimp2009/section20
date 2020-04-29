@@ -21,6 +21,7 @@ int main()
     SumUp sumUp2;
     SumUp sumUp3;
     SumUp sumUp4;
+    SumUp sumUp5;
     
     // create seperate package_task and pass the function object
     // the type of package task should match the function signature (return type and type of arguments)
@@ -28,6 +29,7 @@ int main()
     std::packaged_task<int(int, int)> pTask2(sumUp2);
     std::packaged_task<int(int, int)> pTask3(sumUp3);
     std::packaged_task<int(int, int)> pTask4(sumUp4);
+    std::packaged_task<int(int, int)> pTask5(sumUp5);
     
     // create  seperate futures  and tie the to each package task
     // the type of the future should match the type of the returned value from packaged task
@@ -43,7 +45,7 @@ int main()
     all_packTasks.push_back(std::move(pTask2));
     all_packTasks.push_back(std::move(pTask3));
     all_packTasks.push_back(std::move(pTask4));
-    
+
     // set values to be summed up by each thread
     int begin{1};
     int increment{2500};
@@ -65,7 +67,7 @@ int main()
     // get the results via future
    auto sum=fut1.get()+fut2.get()+fut3.get()+fut4.get();
     
-  std::cout<<"sum of 0... 1000= "<<sum<<'\n';
+  std::cout<<"sum of 0... 10000= "<<sum<<'\n';
     
     std::cout<<'\n';
     

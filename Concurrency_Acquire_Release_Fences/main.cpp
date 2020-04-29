@@ -31,9 +31,11 @@ int main()
     std::cout<<'\n';
     
     std::thread t1(consumer);
+    std::thread t3(consumer);
     std::thread t2(producer);
     
     t1.join();
+    t3.join();
     t2.join();
     
     

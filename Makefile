@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Concurrency_Atomic_Signal_Fence - Debug ]----------"
-	@cd "Concurrency_Atomic_Signal_Fence" && "$(MAKE)" -f  "Concurrency_Atomic_Signal_Fence.mk"
+	@echo "----------Building project:[ Entity_Component_System - Debug ]----------"
+	@cd "Entity_Component_System" && "$(MAKE)" -f  "Entity_Component_System.mk"
 clean:
-	@echo "----------Cleaning project:[ Concurrency_Atomic_Signal_Fence - Debug ]----------"
-	@cd "Concurrency_Atomic_Signal_Fence" && "$(MAKE)" -f  "Concurrency_Atomic_Signal_Fence.mk" clean
+	@echo "----------Cleaning project:[ Entity_Component_System - Debug ]----------"
+	@cd "Entity_Component_System" && "$(MAKE)" -f  "Entity_Component_System.mk" clean

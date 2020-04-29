@@ -1,12 +1,35 @@
 #include <iostream>
 #include "My_Stack1.hpp"
 #include <tuple>
+#include <string>
+
+class Person {
+private:
+    std::string name;
+    int age;
+public:
+    Person()=default;
+    Person(std::string nm, int ag):name{std::move(nm)}, age{ag} {std::cout<<"constructor: "<<name<<", age: "<<age<<'\n';}
+
+friend std::ostream& operator<<(std::ostream& os, const Person& obj) {
+    return os<<"name: "<<obj.name<<", age: "<<obj.age<<'\n';
+}
+
+};
+
 
 
 
 int main()
 {
+    Person p1{"Salim", 48};
     int i{88};
+    Stack<Person>personlist{ Person{"Salim", 48}, Person{"Didem", 47} };
+    std::cout<<personlist<<'\n';
+    
+    personlist.push(p1);
+    std::cout<<personlist<<'\n';
+    
     Stack<int> stack1{1,3,5,7,i};
     std::cout<<"stack1: "<<stack1<<'\n';
     

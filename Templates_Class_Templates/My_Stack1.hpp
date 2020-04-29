@@ -14,10 +14,23 @@ public:
     
     // Aternative variadic constructor we can use an initializer list
     // use one of them because the constructor will use the first matching constructor and skip the other one 
-//  Stack(std::initializer_list<T>ls):elems{ls} { std::cout<<"initializing with list...\n";}
+    // initializer list is better option since custom types can be passed without specifying the types
+    // initializer list will deduce the type from Stack template parameter T 
+    // if you want to overload then use enable if for initializer list to specify the if the type
+    // of args is initializer_list
+ //    Stack(std::initializer_list<T>ls):elems{ls} { std::cout<<"initializing with list...\n";}
     
-    template<typename... U>
-    Stack(U&& ...args): elems{std::forward<U>(args)...} { std::cout<<"initializing with variadic...\n";}
+      template<typename... U,
+             typename=std::enable_if_t<(std::is_convertible_v<U,T> && ...)>>
+   Stack(U&& ...args): elems{std::forward<U>(args)...} { std::cout<<"initializing with variadic...\n";}
+    
+//    template<typename... U,
+//             typename=std::enable_if_t<(std::is_convertible_v<U,T> && ...)>>
+//   Stack(U&& ...args){ 
+//                        elems.emplace_back(args...);
+//                        std::cout<<"initializing with variadic...\n";}
+
+    
     
     template<typename U>
     void push(U&& elem);

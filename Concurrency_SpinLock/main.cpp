@@ -5,21 +5,19 @@
 
 class Spinlock
 {
-std::atomic_flag flag=ATOMIC_FLAG_INIT;     // atomic_flag is always_lock_free boolean and 
-                                            // and can only be initialized this way; no store(), load() functions
-                                            // it is initialized to False
+    std::atomic_flag flag=ATOMIC_FLAG_INIT;     // atomic_flag is always_lock_free boolean and 
+                                                // and can only be initialized this way; no store(), load() functions
+                                                // it is initialized to False
 public: 
-
 
 constexpr void lock() {                                       
     while(flag.test_and_set(std::memory_order_acquire) )                    // atomically checks and sets the current value; 
            ; // this will make sure the while loop runs until locked       // if false, it wil be set true and return the od value
-} 
+    } 
 
 void release() {
     flag.clear(std::memory_order_release);                           // atomically sets the flag value to false
-}
-
+    }
 };
 
 Spinlock spin;

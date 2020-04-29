@@ -162,6 +162,18 @@ void STL_Array()
     }
   
   
+  // Example for rotating a container 
+  // second parameter is the new begin so the elements from the old begin to new begin will be shifted to right
+  // container will start with the new element to the end specified 
+  // followed by elements from the old begin to the new begin...
+  // Complexity linear swaps elements
+  std::array arr_r{1,3,5,7,9,13,15,17,23};
+  auto newpos=std::rotate(arr_r.begin(), arr_r.begin()+3, arr_r.end());
+  std::cout<<"new begin arr_r after rotate: ";
+  display2(arr_r);
+  std::cout<<"new begin arr_r after rotate: "<<*newpos<<'\n';
+  
+   
   
 }
 
@@ -374,6 +386,13 @@ void STL_Forward_List()
      std::forward_list<int>fwl1{1,3,5,6,9};
      std::forward_list<int>fwl2;
      
+     // assign an iterator to position before begin; before begin is not a valid location
+     // it is used as an anchor point to be able to get exact location we want in forward_list
+     // because it uses an forward iterator and all operation returns a position after not before; 
+     auto pos3=fwl1.before_begin();
+     std::advance(pos3, 3);             // advance has a return type void, and take position as a reference and it changes 
+     std::cout<<"pos3: "<<*pos3<<'\n';
+     
      // front() does not check if the list is empty
      // if the list is empty using front() is undefined behaviour
      // assert(fwl2.front()); // gives run-time error
@@ -434,7 +453,8 @@ void STL_Forward_List()
     auto pos_before=find_before_if(fwl3.before_begin(), fwl3.end(),
                                     [](int value){ return value%2==0;});
     fwl3.insert_after(pos_before, 88888);
-    display<int>(fwl3);
+//    display<int>(fwl3);
+    std::cout<<"fwl3 & fwl2 before splice fwl3.splice()..\n";
     display2(fwl3);
     display2(fwl2);
      
@@ -449,22 +469,28 @@ void STL_Forward_List()
     
       
       // to move elements from fwl3 to fwl2
-      fwl3.splice_after(++fwl2.begin(), fwl2, fwl3.before_begin(), fwl3.end());
+     // fwl3.splice_after(++fwl2.begin(), fwl2, fwl3.before_begin(), fwl3.end());
+      
+      // move elements of fwl3  to to flw2; the previous is too complicated
+      fwl2.splice_after(fwl2.cbegin(), fwl3, fwl3.cbegin(), fwl3.cend());
+      std::cout<<"\n fwl3 & fwl2 after splice fwl3.splice():\n";
+     std::cout<<"fwl3 : ";
      display2(fwl3);
+     std::cout<<"fwl2 : ";
      display2(fwl2);
     
     // error in visual studio; from Microsoft Developer; just experimenting 
     // if it works in Clang, in Microsoft lambda has to be mmodified as (auto*i)
     // otherwise it crashes according to MS Developer Blog
-    const auto d = [](auto i) { delete i; };
-    const auto s = std::shared_ptr<int*>(new int*(new int(42)), d);
-    std::cout<<**s<<'\n';
+//    const auto d = [](auto i) { delete i; };
+//    const auto s = std::shared_ptr<int*>(new int*(new int(42)), d);
+//    std::cout<<**s<<'\n';
 }
 int main()
 {
-//   STL_Array();
+     STL_Array();
 //   STL_Vector();
-     STL_Deque();
+//   STL_Deque();
 //   STL_List();
 //   STL_Forward_List();
 

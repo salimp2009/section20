@@ -17,8 +17,8 @@ public:
   Song(std::string name, std::string artist, int rating)
     : name{std::move(name)}, artist{std::move(artist)}, rating{std::move(rating)} 
     { }
-   std::string          get_name() const {return name;}
-   std::string   get_artist() const {return artist;}
+   const std::string&   get_name() const& {return name;}
+   const std::string&   get_artist() const& {return artist;}
    int get_rating() const {return rating;}
    
    bool operator<(const Song& rhs) const {

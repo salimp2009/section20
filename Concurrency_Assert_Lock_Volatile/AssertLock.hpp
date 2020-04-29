@@ -1,6 +1,8 @@
 #ifndef _ASSERT_LOCK_H
 #define _ASSERT_LOCK_H
 
+
+
 class AssertLock
 {
   // volatile is NOT ATOMIC but it will let us to detect if there were any attemps 
@@ -33,16 +35,18 @@ public:
         
         // unlock
         m_locked=false;
+        }
     };
     
     #if ASSERTIONS_ENABLED
-    #define BEGIN_ASSERT_LOCK_NOT_NECCESSARY(L)         (L).Acquire();
-    #define END_ASSERT_LOCK_NOT_NECCESARY(L)            (L).Release();
+    #define BEGIN_ASSERT_LOCK_NOT_NECESSARY(L)         (L).Acquire();
+    #define END_ASSERT_LOCK_NOT_NECESSARY(L)            (L).Release();
     #else
-    #define BEGIN_ASSERT_LOCK_NOT_NECCESSARY(L)
-    #define END_ASSERT_LOCK_NOT_NECCESSARY(L)
+    #define BEGIN_ASSERT_LOCK_NOT_NECESSARY(L)
+    #define END_ASSERT_LOCK_NOT_NECESSARY(L)
+    #endif
 
-};
+
 
 
 #endif //_ASSERT_LOCK_H

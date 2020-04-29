@@ -6,6 +6,9 @@
 #include <string_view>
 #include <iomanip>
 #include <type_traits>
+#include <stack>
+#include <queue>
+#include <algorithm>
 
 bool is_palindrome(std::string_view sv)
 {
@@ -25,7 +28,34 @@ bool is_palindrome(std::string_view sv)
         deq.pop_front();
         if(c1!=c2) return false;
     }
+    
+ 
      return true;   
+}
+
+bool is_palindrome2(std::string_view sv){
+    std::stack<char>stck;
+    std::queue<char>myqueue;
+    
+      for(const auto& c:sv) {
+        if(std::isalpha(c)) {
+            stck.push(std::toupper(c));
+            myqueue.push(std::toupper(c));
+        }
+    }
+        
+    char c1{};
+    char c2{};
+    while(!stck.empty()) {
+        c1=stck.top();
+        c2=myqueue.front();
+        stck.pop();
+        myqueue.pop();
+        if(c1!=c2) return false;
+    }
+        
+   return true;
+
 }
 
 int main()
@@ -34,10 +64,11 @@ int main()
             "bob", "ana","avid diva", "Amore, Roma", "A Toyota's a toyota", "A Santa at NASA", "C++",
             "A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!","This is a palindrome","palindrome" };
 
-    for(const auto& s:test_strings)
+    for(const auto& s:test_strings) 
         std::cout<<std::setw(20)<<std::left<<s<<' '
-                 <<std::boolalpha<<std::setw(5)<<std::right<<is_palindrome(s)<<'\n';
+                 <<std::boolalpha<<std::setw(5)<<std::right<<is_palindrome2(s)<<'\n';
     std::cout<<'\n';
 
+    
     return 0;
 }

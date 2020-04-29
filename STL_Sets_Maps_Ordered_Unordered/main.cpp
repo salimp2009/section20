@@ -139,7 +139,7 @@ void STL_Set_MultiSet()
     // set does not allow duplicates but multiset allows duplicates
     // sets & multisets dont provide direct access to element
     // cannot change value of element directly 
-    // implement as balanced binary tree(red-black tree); seraching is fast; logarithmic
+    // implement as balanced binary tree(red-black tree); searching is fast; logarithmic
     // 
     std::set<Person, PersonSort>set1{ {"Salim", "Pamukcu"}, {"Didem", "Pamukcu"},
                                         {"Sema", "Pamukcu"}, {"Demir", "Kızıloglu"}
@@ -183,7 +183,7 @@ void STL_Set_MultiSet()
     display2(set5);
     
     // in order to compare the comparision criteria they have to same type but can have different value
-    // the comparision criteria for set1 is PersonSort and set4 or set has RuntimeComps therefore
+    // the comparision criteria for set1 is PersonSort and set4 has RuntimeComps therefore
     // key_comp() or value_comp() member functions wont work but it can be checked first they have the same type
     // using type traits or decltype()
     std::cout<<"set5 comparision==set5 comparision: "<<std::boolalpha<<(set5.key_comp()==set4.key_comp())<<'\n';
@@ -280,7 +280,41 @@ void STL_Map_MultiMap()
     }
     std::cout<<'\n';
     
+    std::map<std::string, int>map3{{"Salim", 48}, {"Dido", 47}};
+    display3(map3);
     
+auto [position, success]=map3.insert(decltype(map3)::value_type("Sema", 65));
+    display3(map3);
+    if(success) 
+        std::cout<<"Added: "<<position->first<<", age: "<<position->second<<'\n';
+    else
+        std::cout<<"Not Added: "<<map3[position->first]<<'\n';
+        
+    auto position2=map3.find("Sema");
+    if(position2!=map3.end())
+        std::cout<<"Found: "<<position2->first<<", age:"<<position2->second<<'\n';
+    else
+        std::cout<<"Sorry does not exist..\n"; 
+   
+    // using std::tie with the structured binding updates the values
+   std::tie(position, success)= map3.insert(std::pair<const std::string, int>("Demir", 15));
+    if(success) 
+        std::cout<<"Added: "<<position->first<<", age: "<<position->second<<'\n';
+    else
+        std::cout<<"Not Added: "<<map3[position->first]<<'\n';
+        
+   std::map<std::string, std::set<int>>map4{ {"Salim", {1,2,3,4}}, {"Semos", {8,9,10}} }; 
+    auto position3=map4.find("Salim");
+    std::cout<<position3->first<<": ";
+    display2(position3->second);
+   
+    map4["Salim"].insert(125);
+    display2(position3->second);
+        
+    std::cout<<'\n';
+
+        
+        
 }
     
 

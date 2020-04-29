@@ -18,7 +18,6 @@ private:
     size_type numElems;            // current number of elements
 public:
    Stack();
-   
    void push(T elem);           
    void pop();
    T const& top() const&;
