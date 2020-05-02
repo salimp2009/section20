@@ -3,6 +3,8 @@
 // #include <xmmintrin.h> // for windows; but it works in clang too !!
 #include <cassert>
 
+
+//count is the number row of in array a and b which should be multiples of 4
 void DotArrays_SSE_Transpose(int count, float r[], const float a[], const float b[])
 {
     assert(count%4==0);

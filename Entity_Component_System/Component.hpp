@@ -13,7 +13,8 @@
 #include <type_traits>
 
 
-namespace CompositionArkonoid {
+namespace CompositionArkonoid 
+{
     
     struct Component;
     class Entity;

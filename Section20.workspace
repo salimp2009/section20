@@ -207,6 +207,7 @@
     <Project Name="Entity_Component_System" Path="Entity_Component_System/Entity_Component_System.project" Active="Yes"/>
     <Project Name="Concurrency_Lock_Free_Stack" Path="Concurrency_Lock_Free_Stack/Concurrency_Lock_Free_Stack.project" Active="No"/>
     <Project Name="SIMD_Basics_Dot_Product" Path="SIMD_Basics_Dot_Product/SIMD_Basics_Dot_Product.project" Active="No"/>
+    <Project Name="SIMD_Vector_Matrix_Multiplication" Path="SIMD_Vector_Matrix_Multiplication/SIMD_Vector_Matrix_Multiplication.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -419,6 +420,7 @@
       <Project Name="Entity_Component_System" ConfigName="Debug"/>
       <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Debug"/>
       <Project Name="SIMD_Basics_Dot_Product" ConfigName="Debug"/>
+      <Project Name="SIMD_Vector_Matrix_Multiplication" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -629,6 +631,7 @@
       <Project Name="Entity_Component_System" ConfigName="Release"/>
       <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Release"/>
       <Project Name="SIMD_Basics_Dot_Product" ConfigName="Release"/>
+      <Project Name="SIMD_Vector_Matrix_Multiplication" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
