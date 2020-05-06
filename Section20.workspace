@@ -204,10 +204,13 @@
     <Project Name="Concurrency_Renentrant_lock_GameEnginebook" Path="Concurrency_Renentrant_lock_GameEnginebook/Concurrency_Renentrant_lock_GameEnginebook.project" Active="No"/>
     <Project Name="Variants_VariadicBases_Array_Lambdas" Path="Variants_VariadicBases_Array_Lambdas/Variants_VariadicBases_Array_Lambdas.project" Active="No"/>
     <Project Name="Concurrency_Assert_Lock_Volatile" Path="Concurrency_Assert_Lock_Volatile/Concurrency_Assert_Lock_Volatile.project" Active="No"/>
-    <Project Name="Entity_Component_System" Path="Entity_Component_System/Entity_Component_System.project" Active="Yes"/>
+    <Project Name="Entity_Component_System" Path="Entity_Component_System/Entity_Component_System.project" Active="No"/>
     <Project Name="Concurrency_Lock_Free_Stack" Path="Concurrency_Lock_Free_Stack/Concurrency_Lock_Free_Stack.project" Active="No"/>
     <Project Name="SIMD_Basics_Dot_Product" Path="SIMD_Basics_Dot_Product/SIMD_Basics_Dot_Product.project" Active="No"/>
     <Project Name="SIMD_Vector_Matrix_Multiplication" Path="SIMD_Vector_Matrix_Multiplication/SIMD_Vector_Matrix_Multiplication.project" Active="No"/>
+    <Project Name="Variadic_BaseClasses_Using" Path="Variadic_BaseClasses_Using/Variadic_BaseClasses_Using.project" Active="No"/>
+    <Project Name="Allocators_Basics" Path="Allocators_Basics/Allocators_Basics.project" Active="No"/>
+    <Project Name="Allocator_Polymorphic_Memory_Resource" Path="Allocator_Polymorphic_Memory_Resource/Allocator_Polymorphic_Memory_Resource.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -215,7 +218,9 @@
       <Environment/>
       <Project Name="Algorithms" ConfigName="Debug"/>
       <Project Name="Allocator_Memory_Arena_PBRT" ConfigName="Debug"/>
+      <Project Name="Allocator_Polymorphic_Memory_Resource" ConfigName="Debug"/>
       <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Debug"/>
+      <Project Name="Allocators_Basics" ConfigName="Debug"/>
       <Project Name="Allocators_Custom_New_Delete_Aligned" ConfigName="Debug"/>
       <Project Name="Array" ConfigName="Debug"/>
       <Project Name="Assertion_Test" ConfigName="Debug"/>
@@ -241,16 +246,38 @@
       <Project Name="Classes_Basics_01" ConfigName="Debug"/>
       <Project Name="Cocurency_Threads_Promises" ConfigName="Debug"/>
       <Project Name="Cocurrency_Future_Async_Basics" ConfigName="Debug"/>
+      <Project Name="Conccurency_Thread_Safe_Singleton_CallOnce" ConfigName="Debug"/>
       <Project Name="Conccurency_Unique_Lock" ConfigName="Debug"/>
       <Project Name="Concurency_PackagedTask_Future_Thread" ConfigName="Debug"/>
       <Project Name="Concurency_Shared_Futures" ConfigName="Debug"/>
+      <Project Name="Concurrency_Acquire_Release_Fences" ConfigName="Debug"/>
+      <Project Name="Concurrency_Aqcuire_ReLease_Transitivity" ConfigName="Debug"/>
+      <Project Name="Concurrency_Assert_Lock_Volatile" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_Basics_High_Level" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_CAS_Fetch_Mult" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_Shared_Ptr" ConfigName="Debug"/>
+      <Project Name="Concurrency_Atomic_Signal_Fence" ConfigName="Debug"/>
+      <Project Name="Concurrency_Condition_Variable_Queue_Impl" ConfigName="Debug"/>
       <Project Name="Concurrency_Condition_Variables" ConfigName="Debug"/>
+      <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Debug"/>
       <Project Name="Concurrency_Mutex_Lockguar01" ConfigName="Debug"/>
       <Project Name="Concurrency_Once_Flag" ConfigName="Debug"/>
+      <Project Name="Concurrency_Packaged_Task_ReUse" ConfigName="Debug"/>
+      <Project Name="Concurrency_Promise_Future_Thread" ConfigName="Debug"/>
+      <Project Name="Concurrency_Relaxed_Semantic" ConfigName="Debug"/>
+      <Project Name="Concurrency_Release_Aqcuire_Relaxed" ConfigName="Debug"/>
+      <Project Name="Concurrency_Renentrant_lock_GameEnginebook" ConfigName="Debug"/>
+      <Project Name="Concurrency_Shared_Future_Promise_Future" ConfigName="Debug"/>
+      <Project Name="Concurrency_Shared_Lock_Reader_Writer_Locks" ConfigName="Debug"/>
+      <Project Name="Concurrency_SpinLock" ConfigName="Debug"/>
+      <Project Name="Concurrency_Spinlock_GameEngineBook" ConfigName="Debug"/>
+      <Project Name="Concurrency_ThreadSafe_Initialization_constexpr" ConfigName="Debug"/>
+      <Project Name="Concurrency_Thread_Local" ConfigName="Debug"/>
       <Project Name="ConstExpr_Compile_Time_Computation" ConfigName="Debug"/>
       <Project Name="Constexpr_STL_Function_Algorithms" ConfigName="Debug"/>
       <Project Name="Copyfile_1" ConfigName="Debug"/>
       <Project Name="Deque" ConfigName="Debug"/>
+      <Project Name="Entity_Component_System" ConfigName="Debug"/>
       <Project Name="Exception_Handling_Basics" ConfigName="Debug"/>
       <Project Name="Exception_Handling_Stack_Unwinding" ConfigName="Debug"/>
       <Project Name="Exceptions_Class_Level" ConfigName="Debug"/>
@@ -303,12 +330,17 @@
       <Project Name="Priority_Queue" ConfigName="Debug"/>
       <Project Name="Que" ConfigName="Debug"/>
       <Project Name="Ref_Function_Wrappers" ConfigName="Debug"/>
+      <Project Name="SIMD_Basics_Dot_Product" ConfigName="Debug"/>
       <Project Name="SIMD_DotArrays_sse" ConfigName="Debug"/>
+      <Project Name="SIMD_Vector_Matrix_Multiplication" ConfigName="Debug"/>
       <Project Name="SIMD_Vectors_Add_Multiply" ConfigName="Debug"/>
       <Project Name="STLErrors" ConfigName="Debug"/>
       <Project Name="STL_Algorithms" ConfigName="Debug"/>
+      <Project Name="STL_Algorithms_2" ConfigName="Debug"/>
       <Project Name="STL_Bind" ConfigName="Debug"/>
+      <Project Name="STL_Container_Deque_Palindrome" ConfigName="Debug"/>
       <Project Name="STL_Containers" ConfigName="Debug"/>
+      <Project Name="STL_Map_Set_Word_Count_FrmFile" ConfigName="Debug"/>
       <Project Name="STL_Partition" ConfigName="Debug"/>
       <Project Name="STL_Sequence_Containers" ConfigName="Debug"/>
       <Project Name="STL_Sets_Maps_Ordered_Unordered" ConfigName="Debug"/>
@@ -366,10 +398,19 @@
       <Project Name="Unordered_Containers" ConfigName="Debug"/>
       <Project Name="Unordered_Map_Chaining_Hash_Table" ConfigName="Debug"/>
       <Project Name="VariadicTemplates" ConfigName="Debug"/>
+      <Project Name="Variadic_BaseClasses_Using" ConfigName="Debug"/>
+      <Project Name="Variadic_FoldTraverse_BinaryTree" ConfigName="Debug"/>
+      <Project Name="Variadic_Indices" ConfigName="Debug"/>
       <Project Name="Variadic_Templates_2" ConfigName="Debug"/>
       <Project Name="Variadic_Templates_BinaryTree_Traverse" ConfigName="Debug"/>
       <Project Name="Variadic_Templates_FoldingExpressions" ConfigName="Debug"/>
+      <Project Name="Variadics_Folding_Expressions" ConfigName="Debug"/>
       <Project Name="Variadics_Templates" ConfigName="Debug"/>
+      <Project Name="Variant_Visit_VariadicBases_Lambdas" ConfigName="Debug"/>
+      <Project Name="Variant_Visitation_vs_Struct_Enum" ConfigName="Debug"/>
+      <Project Name="Variants_Lambdas_Visit" ConfigName="Debug"/>
+      <Project Name="Variants_RecursiveVariants" ConfigName="Debug"/>
+      <Project Name="Variants_VariadicBases_Array_Lambdas" ConfigName="Debug"/>
       <Project Name="Vector" ConfigName="Debug"/>
       <Project Name="Weak_Ptr" ConfigName="Debug"/>
       <Project Name="Weak_Ptr_2" ConfigName="Debug"/>
@@ -386,41 +427,6 @@
       <Project Name="test3_extern" ConfigName="Debug"/>
       <Project Name="test4" ConfigName="Debug"/>
       <Project Name="vector_operations" ConfigName="Debug"/>
-      <Project Name="Concurrency_Condition_Variable_Queue_Impl" ConfigName="Debug"/>
-      <Project Name="Concurrency_Atomic_Basics_High_Level" ConfigName="Debug"/>
-      <Project Name="Variadics_Folding_Expressions" ConfigName="Debug"/>
-      <Project Name="STL_Algorithms_2" ConfigName="Debug"/>
-      <Project Name="Concurrency_SpinLock" ConfigName="Debug"/>
-      <Project Name="Concurrency_Atomic_CAS_Fetch_Mult" ConfigName="Debug"/>
-      <Project Name="Concurrency_Atomic_Shared_Ptr" ConfigName="Debug"/>
-      <Project Name="Variant_Visitation_vs_Struct_Enum" ConfigName="Debug"/>
-      <Project Name="Concurrency_Aqcuire_ReLease_Transitivity" ConfigName="Debug"/>
-      <Project Name="Concurrency_Release_Aqcuire_Relaxed" ConfigName="Debug"/>
-      <Project Name="Variadic_FoldTraverse_BinaryTree" ConfigName="Debug"/>
-      <Project Name="Variadic_Indices" ConfigName="Debug"/>
-      <Project Name="Concurrency_Relaxed_Semantic" ConfigName="Debug"/>
-      <Project Name="STL_Container_Deque_Palindrome" ConfigName="Debug"/>
-      <Project Name="Concurrency_Acquire_Release_Fences" ConfigName="Debug"/>
-      <Project Name="Concurrency_Atomic_Signal_Fence" ConfigName="Debug"/>
-      <Project Name="Variants_Lambdas_Visit" ConfigName="Debug"/>
-      <Project Name="Concurrency_Shared_Lock_Reader_Writer_Locks" ConfigName="Debug"/>
-      <Project Name="Variants_RecursiveVariants" ConfigName="Debug"/>
-      <Project Name="Concurrency_ThreadSafe_Initialization_constexpr" ConfigName="Debug"/>
-      <Project Name="Conccurency_Thread_Safe_Singleton_CallOnce" ConfigName="Debug"/>
-      <Project Name="STL_Map_Set_Word_Count_FrmFile" ConfigName="Debug"/>
-      <Project Name="Variant_Visit_VariadicBases_Lambdas" ConfigName="Debug"/>
-      <Project Name="Concurrency_Thread_Local" ConfigName="Debug"/>
-      <Project Name="Concurrency_Packaged_Task_ReUse" ConfigName="Debug"/>
-      <Project Name="Concurrency_Promise_Future_Thread" ConfigName="Debug"/>
-      <Project Name="Concurrency_Shared_Future_Promise_Future" ConfigName="Debug"/>
-      <Project Name="Concurrency_Spinlock_GameEngineBook" ConfigName="Debug"/>
-      <Project Name="Concurrency_Renentrant_lock_GameEnginebook" ConfigName="Debug"/>
-      <Project Name="Variants_VariadicBases_Array_Lambdas" ConfigName="Debug"/>
-      <Project Name="Concurrency_Assert_Lock_Volatile" ConfigName="Debug"/>
-      <Project Name="Entity_Component_System" ConfigName="Debug"/>
-      <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Debug"/>
-      <Project Name="SIMD_Basics_Dot_Product" ConfigName="Debug"/>
-      <Project Name="SIMD_Vector_Matrix_Multiplication" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -632,6 +638,9 @@
       <Project Name="Concurrency_Lock_Free_Stack" ConfigName="Release"/>
       <Project Name="SIMD_Basics_Dot_Product" ConfigName="Release"/>
       <Project Name="SIMD_Vector_Matrix_Multiplication" ConfigName="Release"/>
+      <Project Name="Variadic_BaseClasses_Using" ConfigName="Release"/>
+      <Project Name="Allocators_Basics" ConfigName="Release"/>
+      <Project Name="Allocator_Polymorphic_Memory_Resource" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

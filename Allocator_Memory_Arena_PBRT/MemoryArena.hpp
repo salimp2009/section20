@@ -28,6 +28,15 @@ void FreeAligned(void*);  // defined in Aligned_Memory.cpp
 
 class MemoryArena
 {
+private:
+    // delete copy constructor and copy assignment ; only constructor and destructor allowed
+    MemoryArena(const MemoryArena& )=delete;
+    MemoryArena& operator=(const MemoryArena&)=delete;
+    
+    const std::size_t blockSize;
+    std::size_t currentBlockPos{0}, currentAllocSize{0};
+    std::uint8_t *currentBlock{nullptr};
+    std::list<std::pair<std::size_t, std::uint8_t *>> usedBlocks, availableBlocks;
 public:
     MemoryArena(std::size_t blockSize=262144): blockSize{blockSize} { }
     
@@ -140,16 +149,7 @@ public:
             total+=alloc.first;
         return total;
     }
-    
-private:
-    // delete copy constructor and copy assignment ; only constructor and destructor allowed
-    MemoryArena(const MemoryArena& )=delete;
-    MemoryArena& operator=(const MemoryArena&)=delete;
-    
-    const std::size_t blockSize;
-    std::size_t currentBlockPos{0}, currentAllocSize{0};
-    std::uint8_t *currentBlock{nullptr};
-    std::list<std::pair<std::size_t, std::uint8_t *>> usedBlocks, availableBlocks;
+
 };
 
 
