@@ -17,7 +17,7 @@
 template<typename Tint, 
          std::enable_if_t<std::is_integral<Tint>::value, int> = 0 >
 void sum(Tint a, Tint b) {
-    std::cout<<"Integ er sum: "<<a<<" + "<<b<<"= "<<a+b<<'\n';
+    std::cout<<"Integer sum: "<<a<<" + "<<b<<"= "<<a+b<<'\n';
 }
 
 template<typename Tfloat, 
@@ -27,10 +27,12 @@ void sum(Tfloat a, Tfloat b) {
 }
 
 
+
+
 int main()
 {
     ::sum(3,4);
     ::sum(3.2, 3.4);
-   
+    
     return 0;
 }
