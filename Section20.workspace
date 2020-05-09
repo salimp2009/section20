@@ -211,7 +211,6 @@
     <Project Name="Variadic_BaseClasses_Using" Path="Variadic_BaseClasses_Using/Variadic_BaseClasses_Using.project" Active="No"/>
     <Project Name="Allocators_Basics" Path="Allocators_Basics/Allocators_Basics.project" Active="No"/>
     <Project Name="Allocator_Polymorphic_Memory_Resource" Path="Allocator_Polymorphic_Memory_Resource/Allocator_Polymorphic_Memory_Resource.project" Active="No"/>
-    <Project Name="Compile_Time_If" Path="Compile_Time_If/Compile_Time_If.project" Active="No"/>
     <Project Name="Templates_Compile_Time_If" Path="Templates_Compile_Time_If/Templates_Compile_Time_If.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
@@ -364,8 +363,9 @@
       <Project Name="Template_Stack2" ConfigName="Debug"/>
       <Project Name="Template_StackNonType" ConfigName="Debug"/>
       <Project Name="Template_Stack_Array_Auto" ConfigName="Debug"/>
-      <Project Name="Templates_Class_Array" ConfigName="Release"/>
+      <Project Name="Templates_Class_Array" ConfigName="Debug"/>
       <Project Name="Templates_Class_Templates" ConfigName="Debug"/>
+      <Project Name="Templates_Compile_Time_If" ConfigName="Release"/>
       <Project Name="Templates_Enable_if" ConfigName="Debug"/>
       <Project Name="ThreadArguments" ConfigName="Debug"/>
       <Project Name="Thread_Call_Once_Flag" ConfigName="Debug"/>
@@ -429,8 +429,6 @@
       <Project Name="test3_extern" ConfigName="Debug"/>
       <Project Name="test4" ConfigName="Debug"/>
       <Project Name="vector_operations" ConfigName="Debug"/>
-      <Project Name="Templates_CompileTime_If" ConfigName="Debug"/>
-      <Project Name="Templates_Compile_Time_If" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -645,7 +643,6 @@
       <Project Name="Variadic_BaseClasses_Using" ConfigName="Release"/>
       <Project Name="Allocators_Basics" ConfigName="Release"/>
       <Project Name="Allocator_Polymorphic_Memory_Resource" ConfigName="Release"/>
-      <Project Name="Templates_CompileTime_If" ConfigName="Release"/>
       <Project Name="Templates_Compile_Time_If" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
