@@ -71,6 +71,10 @@ struct  S
 #endif
 
 // for an example of std::function
+// std::function is not a zero cost abstraction
+// if the object is big then dynamic allocation might be needed; not for small ones
+// hard to inline for compilers
+// try to avoid; use lambda and perforwarding or auto& to lambda
 class C 
 {
 public:
@@ -93,10 +97,12 @@ void open_model(int n)
 int main()
 {
     button b;
-    b.on_click.emplace_back(+[]{ open_model(1);});
-    b.on_click.emplace_back(+[] { std::cout<<"opening model...\n";});
-    b.on_click[0]();
-    b.on_click[1]();
+    b+=
+    b.on_click.emplace_back(+[]{ open_model(1);});                      // + unary operator in front of a lambda turns the lambda 
+    b.on_click.emplace_back(+[] { std::cout<<"opening model...\n";});  // into function pointer as long as it do it does not capture anything
+    
+    b.on_click[0]();    // get the function pointer from the container(std::vector) and instantiate
+    b.on_click[1]();    // get the next element in the container and instantiate
     
     // an example of std::function
     std::function<void(const C&, int, int)>funct_ptr=&C::memfunc;

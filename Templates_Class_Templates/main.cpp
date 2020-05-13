@@ -17,11 +17,27 @@ friend std::ostream& operator<<(std::ostream& os, const Person& obj) {
 
 };
 
+template<int* p> struct A { };
 
+int num;
+
+constexpr int* pNum() 
+{
+    return &num;
+} 
 
 
 int main()
 {
+    std::vector<&num> vec1;
+    
+   [[maybe_unused]] A<&num> a1;
+   
+   [[maybe_unused]] A<pNum()> a2;
+    
+    static int num1{0};
+   [[maybe_unused]]A<&num1> a3;
+   
     Person p1{"Salim", 48};
     int i{88};
     Stack<Person>personlist{ Person{"Salim", 48}, Person{"Didem", 47} };

@@ -141,7 +141,7 @@
     <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" Path="STL_Unordered_Containers_Sets_Maps_Hashing/STL_Unordered_Containers_Sets_Maps_Hashing.project" Active="No"/>
     <Project Name="Class_Inheritances_Derived_Classes" Path="Class_Inheritances_Derived_Classes/Class_Inheritances_Derived_Classes.project" Active="No"/>
     <Project Name="Unordered_Map_Chaining_Hash_Table" Path="Unordered_Map_Chaining_Hash_Table/Unordered_Map_Chaining_Hash_Table.project" Active="No"/>
-    <Project Name="Templates_Class_Templates" Path="Templates_Class_Templates/Templates_Class_Templates.project" Active="No"/>
+    <Project Name="Templates_Class_Templates" Path="Templates_Class_Templates/Templates_Class_Templates.project" Active="Yes"/>
     <Project Name="Class_Polymorhism_Virtual" Path="Class_Polymorhism_Virtual/Class_Polymorhism_Virtual.project" Active="No"/>
     <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" Path="STL_Special_Containers_Stacks_Queues_Priority_Queues/STL_Special_Containers_Stacks_Queues_Priority_Queues.project" Active="No"/>
     <Project Name="Class_Pure_Virtual_AbstractClasses" Path="Class_Pure_Virtual_AbstractClasses/Class_Pure_Virtual_AbstractClasses.project" Active="No"/>
@@ -211,7 +211,8 @@
     <Project Name="Variadic_BaseClasses_Using" Path="Variadic_BaseClasses_Using/Variadic_BaseClasses_Using.project" Active="No"/>
     <Project Name="Allocators_Basics" Path="Allocators_Basics/Allocators_Basics.project" Active="No"/>
     <Project Name="Allocator_Polymorphic_Memory_Resource" Path="Allocator_Polymorphic_Memory_Resource/Allocator_Polymorphic_Memory_Resource.project" Active="No"/>
-    <Project Name="Templates_Compile_Time_If" Path="Templates_Compile_Time_If/Templates_Compile_Time_If.project" Active="Yes"/>
+    <Project Name="Templates_Compile_Time_If" Path="Templates_Compile_Time_If/Templates_Compile_Time_If.project" Active="No"/>
+    <Project Name="Higher_Order_Functions_Basics" Path="Higher_Order_Functions_Basics/Higher_Order_Functions_Basics.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -429,6 +430,7 @@
       <Project Name="test3_extern" ConfigName="Debug"/>
       <Project Name="test4" ConfigName="Debug"/>
       <Project Name="vector_operations" ConfigName="Debug"/>
+      <Project Name="Higher_Order_Functions_Basics" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -644,6 +646,7 @@
       <Project Name="Allocators_Basics" ConfigName="Release"/>
       <Project Name="Allocator_Polymorphic_Memory_Resource" ConfigName="Release"/>
       <Project Name="Templates_Compile_Time_If" ConfigName="Release"/>
+      <Project Name="Higher_Order_Functions_Basics" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

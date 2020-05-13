@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <complex>
+#include <optional>
 
 template<typename... T>
 constexpr void foldsumLeft(T... args)
@@ -43,6 +44,21 @@ constexpr bool isHomogeneous(T1, TN...) {
     return (std::is_same_v<T1, TN> && ...);
 }
 
+
+// DONT DO THE FOLDING Expression like this !!!
+// When you print the expression evaluate 1<<'\n'
+// which means left shift 10 bits (ASCI value of n)
+// '\n' out of paranthesis whether you use left  fold or right fold
+template<typename... T>
+constexpr std::optional<int> printAny(T&&... args)
+{
+    if constexpr (sizeof...(args)!=0)
+       std::cout<<(args<< ... <<'\n');      // do not put '\n' inside the paranthesis 
+                                            // it might evaluate wrong/unexpected results
+    return false;
+}
+
+
 int main()
 {
 
@@ -50,7 +66,7 @@ int main()
     std::cout<<std::boolalpha<<isHomogeneous("Salim", " ", "HELLO")<<'\n';
     
     foldsumLeft(1, 3, 4, 5);
-    foldsumLeft();
+    foldsumLeft(1);
     foldsumRight(12.35, 45.55, 65);
     foldsumRight();
     
@@ -58,6 +74,7 @@ int main()
     
     using namespace std::literals;
     printDouble(7.5, "hello"s, std::complex<float>(4,2));
+    printAny(1);
     
     return 0;
 }

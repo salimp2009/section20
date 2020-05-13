@@ -36,13 +36,23 @@ inline void hash_val(std::size_t& seed, const T& val, const Types&...args)
 
 // function that returns a hash value out of any type and any amount of input
 template<typename... Types>
-inline std::size_t hash_val(const Types&... args)
+inline std::size_t hash_val(Types&&... args)
 {
     std::size_t seed=0;
-    hash_val(seed, args...);         // function forwards the seed (where the hash value will be stored)    
+ //   hash_val(seed, args...);          // function forwards the seed (where the hash value will be stored)    
 //    std::cout<<"seed: "<<seed<<'\n';
-    return seed;                      // and args into the function that will send args and seed 
-                                      // one by one into another generator function
+                                        // and args into the function that will send args and seed 
+                                        // one by one into another generator function
+
+//  Alternative use of folding and variadic with comma operator and calling
+// the hash_combine() function directly skipping helper functions for recursive calls
+// this approach is less stress on the stack since there is no recursion
+// but if the function returns a comma overloaded operator then it is better to cast the 
+// the return value hash_combine to void ; e.g (void)hash_combine(....)
+// here since we know that there is no case like it is ok 
+        (... , hash_combine(seed, std::forward<Types>(args)));
+
+    return seed; 
 }
 
 #endif // _MY_BOOSTHASH_H

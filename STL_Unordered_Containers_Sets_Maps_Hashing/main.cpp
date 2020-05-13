@@ -42,16 +42,16 @@ class PersonHash
 {
 public:
     std::size_t operator()(const Person& p) const {
-            return std::hash<std::string>{}(p.firstname()) +
-                    std::hash<std::string>{}(p.lastname());
+            return std::hash<std::string_view>{}(p.firstname()) +
+                   std::hash<std::string_view>{}(p.lastname());
     }
     
 };
 
 std::size_t person_hash_funct(const Person& p)
 {
-    return std::hash<std::string>{}(p.firstname()) ^
-           (std::hash<std::string>{}(p.lastname())<<1);
+    return std::hash<std::string_view>{}(p.firstname()) ^
+           (std::hash<std::string_view>{}(p.lastname())<<1);
 }
 
 class PersonHashBoost
@@ -195,7 +195,7 @@ void Unordered_Set_MultiSet()
     // lambda will get the key value as an input and return a hash value using boost hash
     // the type of the lambda function has to declared in the map type vy using decltype
     // because lambda function have anonymous types
-    auto hash=[](std::string x){ return hash_val(x); };
+    auto hash=[](std::string_view x){ return hash_val(x); };
     std::unordered_multimap<std::string, int, decltype(hash)>umulMap2(20, hash);
     umulMap2.max_load_factor(0.7);
     umulMap2.insert(std::make_pair("Salim", 25));
