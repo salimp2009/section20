@@ -58,7 +58,7 @@ int main()
                                                                         // it gives both ar equal since we used + operator in front of lambda expression l2
  
     std::function<int(int, int)> f;      // std::function is a function wrapper; it can be assigned to any callable object 
-                                        // as long as the signature of wrapper and oboject are same
+                                        // as long as the signature of wrapper and object are same
     f=[](int a, int b) {return a/b;};    // in this example object should return an int and take two int arguments
     
     std::cout<<f(20,5)<<'\n';

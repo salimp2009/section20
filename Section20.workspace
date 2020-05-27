@@ -141,7 +141,7 @@
     <Project Name="STL_Unordered_Containers_Sets_Maps_Hashing" Path="STL_Unordered_Containers_Sets_Maps_Hashing/STL_Unordered_Containers_Sets_Maps_Hashing.project" Active="No"/>
     <Project Name="Class_Inheritances_Derived_Classes" Path="Class_Inheritances_Derived_Classes/Class_Inheritances_Derived_Classes.project" Active="No"/>
     <Project Name="Unordered_Map_Chaining_Hash_Table" Path="Unordered_Map_Chaining_Hash_Table/Unordered_Map_Chaining_Hash_Table.project" Active="No"/>
-    <Project Name="Templates_Class_Templates" Path="Templates_Class_Templates/Templates_Class_Templates.project" Active="Yes"/>
+    <Project Name="Templates_Class_Templates" Path="Templates_Class_Templates/Templates_Class_Templates.project" Active="No"/>
     <Project Name="Class_Polymorhism_Virtual" Path="Class_Polymorhism_Virtual/Class_Polymorhism_Virtual.project" Active="No"/>
     <Project Name="STL_Special_Containers_Stacks_Queues_Priority_Queues" Path="STL_Special_Containers_Stacks_Queues_Priority_Queues/STL_Special_Containers_Stacks_Queues_Priority_Queues.project" Active="No"/>
     <Project Name="Class_Pure_Virtual_AbstractClasses" Path="Class_Pure_Virtual_AbstractClasses/Class_Pure_Virtual_AbstractClasses.project" Active="No"/>
@@ -213,6 +213,10 @@
     <Project Name="Allocator_Polymorphic_Memory_Resource" Path="Allocator_Polymorphic_Memory_Resource/Allocator_Polymorphic_Memory_Resource.project" Active="No"/>
     <Project Name="Templates_Compile_Time_If" Path="Templates_Compile_Time_If/Templates_Compile_Time_If.project" Active="No"/>
     <Project Name="Higher_Order_Functions_Basics" Path="Higher_Order_Functions_Basics/Higher_Order_Functions_Basics.project" Active="No"/>
+    <Project Name="Template_Parameters_Using_Auto" Path="Template_Parameters_Using_Auto/Template_Parameters_Using_Auto.project" Active="No"/>
+    <Project Name="Allocators_Memory_Pool" Path="Allocators_Memory_Pool/Allocators_Memory_Pool.project" Active="No"/>
+    <Project Name="FileSystem_Path_Basics" Path="FileSystem_Path_Basics/FileSystem_Path_Basics.project" Active="No"/>
+    <Project Name="Parallel_Serial_CVS_FilePath_Reader_C17" Path="Parallel_Serial_CVS_FilePath_Reader_C17/Parallel_Serial_CVS_FilePath_Reader_C17.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="STL_min_max" Path="STL_min_max/STL_min_max.project" Active="No"/>
   <BuildMatrix>
@@ -224,6 +228,7 @@
       <Project Name="Allocator_Stack_Allocator_MemoryPool" ConfigName="Debug"/>
       <Project Name="Allocators_Basics" ConfigName="Debug"/>
       <Project Name="Allocators_Custom_New_Delete_Aligned" ConfigName="Debug"/>
+      <Project Name="Allocators_Memory_Pool" ConfigName="Debug"/>
       <Project Name="Array" ConfigName="Debug"/>
       <Project Name="Assertion_Test" ConfigName="Debug"/>
       <Project Name="Atomic-SpinlockMemoryOrder" ConfigName="Debug"/>
@@ -298,6 +303,7 @@
       <Project Name="Graph_Algorithm_Depth_First_Search" ConfigName="Debug"/>
       <Project Name="Graphs_Bread_First_Search_Vertex" ConfigName="Debug"/>
       <Project Name="Graphs_Depth_First_Search_Vertex" ConfigName="Debug"/>
+      <Project Name="Higher_Order_Functions_Basics" ConfigName="Debug"/>
       <Project Name="Input_Output_01" ConfigName="Debug"/>
       <Project Name="Input_Output_02_FileAccess" ConfigName="Debug"/>
       <Project Name="Input_Output_Data_Table_Formatted" ConfigName="Debug"/>
@@ -361,6 +367,7 @@
       <Project Name="SwapBigEndianLittleEndian" ConfigName="Debug"/>
       <Project Name="TemplateDefaultArguments" ConfigName="Debug"/>
       <Project Name="Template_Default_Class_Template_Arguments" ConfigName="Debug"/>
+      <Project Name="Template_Parameters_Using_Auto" ConfigName="Debug"/>
       <Project Name="Template_Stack2" ConfigName="Debug"/>
       <Project Name="Template_StackNonType" ConfigName="Debug"/>
       <Project Name="Template_Stack_Array_Auto" ConfigName="Debug"/>
@@ -430,7 +437,8 @@
       <Project Name="test3_extern" ConfigName="Debug"/>
       <Project Name="test4" ConfigName="Debug"/>
       <Project Name="vector_operations" ConfigName="Debug"/>
-      <Project Name="Higher_Order_Functions_Basics" ConfigName="Debug"/>
+      <Project Name="FileSystem_Path_Basics" ConfigName="Debug"/>
+      <Project Name="Parallel_Serial_CVS_FilePath_Reader_C17" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -647,6 +655,10 @@
       <Project Name="Allocator_Polymorphic_Memory_Resource" ConfigName="Release"/>
       <Project Name="Templates_Compile_Time_If" ConfigName="Release"/>
       <Project Name="Higher_Order_Functions_Basics" ConfigName="Release"/>
+      <Project Name="Template_Parameters_Using_Auto" ConfigName="Release"/>
+      <Project Name="Allocators_Memory_Pool" ConfigName="Release"/>
+      <Project Name="FileSystem_Path_Basics" ConfigName="Release"/>
+      <Project Name="Parallel_Serial_CVS_FilePath_Reader_C17" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

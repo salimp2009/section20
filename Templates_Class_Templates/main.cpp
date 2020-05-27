@@ -22,6 +22,7 @@ template<int* p> struct A { };
 
 int num;
 
+
 constexpr int* pNum() 
 {
     return &num;
@@ -30,8 +31,9 @@ constexpr int* pNum()
 
 int main()
 {
-    std::vector<&num> vec1;
-    
+ 
+   [[maybe_unused]] constexpr static int aa=5;
+      
    [[maybe_unused]] A<&num> a1;
    
    [[maybe_unused]] A<pNum()> a2;

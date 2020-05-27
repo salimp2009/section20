@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Section20.workspace">
-  <int Value="222" Name="m_selectedTab"/>
+  <int Value="258" Name="m_selectedTab"/>
   <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Section20.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
@@ -61,8 +61,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm" Name="FileName"/>
-      <int Value="856" Name="FirstVisibleLine"/>
-      <int Value="858" Name="CurrentLine"/>
+      <int Value="1778" Name="FirstVisibleLine"/>
+      <int Value="1780" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -117,21 +117,21 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Class_Basics_Mystring_Overloading/Mystring.hpp" Name="FileName"/>
-      <int Value="34" Name="FirstVisibleLine"/>
+      <int Value="57" Name="FirstVisibleLine"/>
       <int Value="59" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Class_Basics_Mystring_Overloading/Mystring.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="15" Name="FirstVisibleLine"/>
       <int Value="17" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Class_Basics_Mystring_Overloading/main.cpp" Name="FileName"/>
-      <int Value="40" Name="FirstVisibleLine"/>
+      <int Value="78" Name="FirstVisibleLine"/>
       <int Value="80" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -213,15 +213,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/StackMemoryPool.hpp" Name="FileName"/>
-      <int Value="231" Name="FirstVisibleLine"/>
-      <int Value="233" Name="CurrentLine"/>
+      <int Value="96" Name="FirstVisibleLine"/>
+      <int Value="98" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="8" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -234,18 +234,17 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Unordered_Containers_Sets_Maps_Hashing/Utility.hpp" Name="FileName"/>
-      <int Value="32" Name="FirstVisibleLine"/>
-      <int Value="34" Name="CurrentLine"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Unordered_Containers_Sets_Maps_Hashing/main.cpp" Name="FileName"/>
-      <int Value="89" Name="FirstVisibleLine"/>
-      <int Value="91" Name="CurrentLine"/>
+      <int Value="44" Name="FirstVisibleLine"/>
+      <int Value="45" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds">
-        <IntVectorItem Value="8"/>
         <IntVectorItem Value="16"/>
         <IntVectorItem Value="24"/>
         <IntVectorItem Value="33"/>
@@ -281,8 +280,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__hash_table" Name="FileName"/>
-      <int Value="865" Name="FirstVisibleLine"/>
-      <int Value="867" Name="CurrentLine"/>
+      <int Value="864" Name="FirstVisibleLine"/>
+      <int Value="865" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -330,8 +329,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Unordered_Containers_Sets_Maps_Hashing/BoostHash.hpp" Name="FileName"/>
-      <int Value="29" Name="FirstVisibleLine"/>
-      <int Value="31" Name="CurrentLine"/>
+      <int Value="50" Name="FirstVisibleLine"/>
+      <int Value="52" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -441,8 +440,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory" Name="FileName"/>
-      <int Value="1823" Name="FirstVisibleLine"/>
-      <int Value="1825" Name="CurrentLine"/>
+      <int Value="1822" Name="FirstVisibleLine"/>
+      <int Value="1824" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -489,13 +488,6 @@
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple" Name="FileName"/>
-      <int Value="1010" Name="FirstVisibleLine"/>
-      <int Value="1012" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Unordered_Containers_Sets_Maps_Hashing/PrintHashTableState.hpp" Name="FileName"/>
       <int Value="26" Name="FirstVisibleLine"/>
       <int Value="28" Name="CurrentLine"/>
@@ -504,8 +496,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Templates_Class_Templates/My_Stack1.hpp" Name="FileName"/>
-      <int Value="23" Name="FirstVisibleLine"/>
-      <int Value="24" Name="CurrentLine"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="10" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -518,8 +510,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Templates_Class_Templates/main.cpp" Name="FileName"/>
-      <int Value="28" Name="FirstVisibleLine"/>
-      <int Value="30" Name="CurrentLine"/>
+      <int Value="32" Name="FirstVisibleLine"/>
+      <int Value="34" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -588,8 +580,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map" Name="FileName"/>
-      <int Value="1240" Name="FirstVisibleLine"/>
-      <int Value="1242" Name="CurrentLine"/>
+      <int Value="1239" Name="FirstVisibleLine"/>
+      <int Value="1240" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -609,15 +601,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Class_Pure_Virtual_AbstractClasses/main.cpp" Name="FileName"/>
-      <int Value="21" Name="FirstVisibleLine"/>
-      <int Value="22" Name="CurrentLine"/>
+      <int Value="30" Name="FirstVisibleLine"/>
+      <int Value="31" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/queue" Name="FileName"/>
-      <int Value="446" Name="FirstVisibleLine"/>
-      <int Value="447" Name="CurrentLine"/>
+      <int Value="444" Name="FirstVisibleLine"/>
+      <int Value="445" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -756,8 +748,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config" Name="FileName"/>
-      <int Value="878" Name="FirstVisibleLine"/>
-      <int Value="880" Name="CurrentLine"/>
+      <int Value="865" Name="FirstVisibleLine"/>
+      <int Value="866" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -791,7 +783,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Default_Class_Template_Arguments/main.cpp" Name="FileName"/>
-      <int Value="20" Name="FirstVisibleLine"/>
+      <int Value="21" Name="FirstVisibleLine"/>
       <int Value="22" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -938,7 +930,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Cocurrency_Future_Async_Basics/main.cpp" Name="FileName"/>
-      <int Value="60" Name="FirstVisibleLine"/>
+      <int Value="55" Name="FirstVisibleLine"/>
       <int Value="56" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds">
@@ -1012,8 +1004,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string" Name="FileName"/>
-      <int Value="676" Name="FirstVisibleLine"/>
-      <int Value="678" Name="CurrentLine"/>
+      <int Value="675" Name="FirstVisibleLine"/>
+      <int Value="676" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1061,8 +1053,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Pointers/main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="59" Name="FirstVisibleLine"/>
+      <int Value="60" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1196,8 +1188,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits" Name="FileName"/>
-      <int Value="1564" Name="FirstVisibleLine"/>
-      <int Value="1566" Name="CurrentLine"/>
+      <int Value="1554" Name="FirstVisibleLine"/>
+      <int Value="1555" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1308,7 +1300,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Variadics_Folding_Expressions/main.cpp" Name="FileName"/>
-      <int Value="46" Name="FirstVisibleLine"/>
+      <int Value="54" Name="FirstVisibleLine"/>
       <int Value="56" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -1343,15 +1335,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/thread" Name="FileName"/>
-      <int Value="362" Name="FirstVisibleLine"/>
-      <int Value="364" Name="CurrentLine"/>
+      <int Value="361" Name="FirstVisibleLine"/>
+      <int Value="362" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/atomic" Name="FileName"/>
-      <int Value="1880" Name="FirstVisibleLine"/>
-      <int Value="1882" Name="CurrentLine"/>
+      <int Value="1617" Name="FirstVisibleLine"/>
+      <int Value="1618" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1448,8 +1440,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/variant" Name="FileName"/>
-      <int Value="584" Name="FirstVisibleLine"/>
-      <int Value="586" Name="CurrentLine"/>
+      <int Value="583" Name="FirstVisibleLine"/>
+      <int Value="584" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1658,15 +1650,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Basics/main.cpp" Name="FileName"/>
-      <int Value="4" Name="FirstVisibleLine"/>
-      <int Value="5" Name="CurrentLine"/>
+      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="16" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Basics/MyAlloc2.hpp" Name="FileName"/>
-      <int Value="31" Name="FirstVisibleLine"/>
-      <int Value="33" Name="CurrentLine"/>
+      <int Value="4" Name="FirstVisibleLine"/>
+      <int Value="6" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1700,7 +1692,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Polymorphic_Memory_Resource/main.cpp" Name="FileName"/>
-      <int Value="51" Name="FirstVisibleLine"/>
+      <int Value="52" Name="FirstVisibleLine"/>
       <int Value="53" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -1721,8 +1713,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Polymorphic_Memory_Resource/tracknew.hpp" Name="FileName"/>
-      <int Value="40" Name="FirstVisibleLine"/>
-      <int Value="41" Name="CurrentLine"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="43" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1749,22 +1741,106 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Higher_Order_Functions_Basics/main.cpp" Name="FileName"/>
-      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="17" Name="FirstVisibleLine"/>
       <int Value="19" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Higher_Order_Functions_Basics/function_view.hpp" Name="FileName"/>
-      <int Value="15" Name="FirstVisibleLine"/>
-      <int Value="20" Name="CurrentLine"/>
+      <int Value="24" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/optional" Name="FileName"/>
-      <int Value="202" Name="FirstVisibleLine"/>
-      <int Value="212" Name="CurrentLine"/>
+      <int Value="209" Name="FirstVisibleLine"/>
+      <int Value="210" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Template_Parameters_Using_Auto/main.cpp" Name="FileName"/>
+      <int Value="31" Name="FirstVisibleLine"/>
+      <int Value="33" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/function_ref_org.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Lambda_Function_Ref_Implementation/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/STL_Bind/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocator_Stack_Allocator_MemoryPool/MyAllocator.hpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Memory_Pool/GAllocator.hpp" Name="FileName"/>
+      <int Value="24" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Memory_Pool/main.cpp" Name="FileName"/>
+      <int Value="45" Name="FirstVisibleLine"/>
+      <int Value="47" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Ref_Function_Wrappers/main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Memory_Pool/StackMemoryPool.hpp" Name="FileName"/>
+      <int Value="46" Name="FirstVisibleLine"/>
+      <int Value="47" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Allocators_Memory_Pool/StackAllocator.hpp" Name="FileName"/>
+      <int Value="88" Name="FirstVisibleLine"/>
+      <int Value="90" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Parallel_Serial_CVS_FilePath_Reader_C17/main.cpp" Name="FileName"/>
+      <int Value="149" Name="FirstVisibleLine"/>
+      <int Value="173" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FileSystem_Path_Basics/main.cpp" Name="FileName"/>
+      <int Value="30" Name="FirstVisibleLine"/>
+      <int Value="33" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

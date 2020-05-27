@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Templates_Class_Templates - Debug ]----------"
-	@cd "Templates_Class_Templates" && "$(MAKE)" -f  "Templates_Class_Templates.mk"
+	@echo "----------Building project:[ Parallel_Serial_CVS_FilePath_Reader_C17 - Debug ]----------"
+	@cd "Parallel_Serial_CVS_FilePath_Reader_C17" && "$(MAKE)" -f  "Parallel_Serial_CVS_FilePath_Reader_C17.mk"
 clean:
-	@echo "----------Cleaning project:[ Templates_Class_Templates - Debug ]----------"
-	@cd "Templates_Class_Templates" && "$(MAKE)" -f  "Templates_Class_Templates.mk" clean
+	@echo "----------Cleaning project:[ Parallel_Serial_CVS_FilePath_Reader_C17 - Debug ]----------"
+	@cd "Parallel_Serial_CVS_FilePath_Reader_C17" && "$(MAKE)" -f  "Parallel_Serial_CVS_FilePath_Reader_C17.mk" clean
