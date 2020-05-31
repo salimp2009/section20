@@ -440,8 +440,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory" Name="FileName"/>
-      <int Value="1822" Name="FirstVisibleLine"/>
-      <int Value="1824" Name="CurrentLine"/>
+      <int Value="2648" Name="FirstVisibleLine"/>
+      <int Value="2650" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -1832,15 +1832,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/Parallel_Serial_CVS_FilePath_Reader_C17/main.cpp" Name="FileName"/>
-      <int Value="149" Name="FirstVisibleLine"/>
-      <int Value="173" Name="CurrentLine"/>
+      <int Value="94" Name="FirstVisibleLine"/>
+      <int Value="107" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/salimp/Documents/cplusplus/CPPWorkspace/Section20/FileSystem_Path_Basics/main.cpp" Name="FileName"/>
-      <int Value="30" Name="FirstVisibleLine"/>
-      <int Value="33" Name="CurrentLine"/>
+      <int Value="37" Name="FirstVisibleLine"/>
+      <int Value="38" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

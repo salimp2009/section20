@@ -23,35 +23,6 @@ static constexpr char CSV_DELIM =';';
 namespace fs=std::filesystem;
 
 
-class Date
-{
-public:
-enum class Format {DayMonthYear, YearMonthDay};
-public:
-    Date()=default;
-    Date(uint8_t day, uint8_t month, uint16_t year): mDay{day}, mMonth{month}, mYear{year} {}
-    
-    explicit Date(std::string_view sv, char delim=DEFAULT_DATE_DELIM, Format fmt=Format::DayMonthYear);
-    
-    bool IsInValid() const noexcept { 
-        return mDay==0 || mMonth==0 || mYear==0 || mDay>31 || mMonth>12;
-        }
-    
-    friend bool operator<(const Date& lhs, const Date& rhs) noexcept {
-        return std::tie(lhs.mYear, lhs.mMonth, lhs.mDay)< std::tie(rhs.mYear, rhs.mMonth, rhs.mDay);
-    }
-    
-    friend bool operator<=(const Date& lhs, const Date& rhs) noexcept {
-        return std::tie(lhs.mYear, lhs.mMonth, lhs.mDay)<=std::tie(rhs.mYear, rhs.mMonth, rhs.mDay);
-    }
-    
-private:
-    uint8_t  mDay;
-    uint8_t  mMonth;
-    uint16_t mYear;
-};
-
-
 [[nodiscard ]] std::vector<std::string_view> SplitString(std::string_view str, char delim)
 {
     std::vector<std::string_view> output;
@@ -94,14 +65,53 @@ template<>
 }
 #endif 
 
+class Date
+{
+public:
+enum class Format {DayMonthYear, YearMonthDay};
+public:
+    Date()=default;
+    Date(uint8_t day, uint8_t month, uint16_t year): mDay{day}, mMonth{month}, mYear{year} {}
+    
+    explicit Date(std::string_view sv, char delim=DEFAULT_DATE_DELIM, Format fmt=Format::DayMonthYear);
+    
+    bool IsInValid() const noexcept 
+    { 
+        return mDay<=0 || mMonth<=0 || mYear<=0 || mDay>31 || mMonth>12;
+    }
+    
+    friend bool operator<(const Date& lhs, const Date& rhs) noexcept 
+    {
+        return std::tie(lhs.mYear, lhs.mMonth, lhs.mDay)< std::tie(rhs.mYear, rhs.mMonth, rhs.mDay);
+    }
+    
+    friend bool operator<=(const Date& lhs, const Date& rhs) noexcept 
+    {
+        return std::tie(lhs.mYear, lhs.mMonth, lhs.mDay)<=std::tie(rhs.mYear, rhs.mMonth, rhs.mDay);
+    }
+    
+    friend std::ostream& operator<<(std::ostream& os, const Date& d) 
+    {
+       //std::printf("%d-%d-%d", d.mDay, d.mMonth, d.mYear);
+       // return os;
+       return os<<(uint16_t)d.mDay<<DEFAULT_DATE_DELIM<<(uint16_t)d.mMonth<<DEFAULT_DATE_DELIM<<d.mYear;      // std::cout has problems with printing mDay and mYear because they are uint8_t casting to uint16_t worked; 
+       
+    }
+    
+private:
+    uint8_t  mDay{0};   // 0 is invalid; max value: 31
+    uint8_t  mMonth{0}; // 0 is invalid; max value: 12
+    uint16_t mYear{0};  // 0 is invalid;
+};
+
 Date::Date(std::string_view sv, char delim, Date::Format fmt)
 {
-    const auto columns = SplitString(sv, delim);
-    
-    if(columns.size()==3)
+    const auto columns = SplitString(sv, delim);            // type of columns is std::vector<std::string_view> 
+                                                            // although returning string_view from a function is dangerous, here 
+    if(columns.size()==3)                                   // we still own the original string and final return value will be a date therefore it is OK
     {
-        mDay=TryConvert<uint8_t>(columns[fmt==Format::DayMonthYear ? 0 : 2]).value_or(0);    //.value_or(0) is used for std::optional that we get frm TryConvert() function
-        mMonth=TryConvert<uint8_t>(columns[1]).value_or(0);                                   // if TryConvert() get an empty std::optional, value_or(0) assigns "zero" as a fallback
+        mDay=TryConvert<uint8_t>(columns[fmt==Format::DayMonthYear ? 0 : 2]).value_or(0);    // .value_or(0) is used for std::optional that we get frm TryConvert() function
+        mMonth=TryConvert<uint8_t>(columns[1]).value_or(0);                                  // if TryConvert() get an empty std::optional, value_or(0) assigns "zero" as a fallback
         mYear=TryConvert<uint16_t>(columns[fmt==Format::DayMonthYear ? 2: 0]).value_or(0);   // we could dereference the the result from TryConvert() function 
                                                                                             // but if the conversion is not successfull than it will cause undefined behaviour
         if(IsInValid())
@@ -110,10 +120,11 @@ Date::Date(std::string_view sv, char delim, Date::Format fmt)
     else 
     {
         //throw std::run_time_error("Cannot convert Date from "+std::string(sv));        // refactor this to nothrow; instead log the total lines failed and total lines processed
-        //std::printf("Cannot convert Date...");                                         // or just disable it via macro to switch on / off
-        std::cout<<"Cannot convert Date from: "<<sv<<'\n';
-}                                                                                     
+        std::printf("Cannot convert Date from %s...", sv.data());                                         // or just disable it via macro to switch on / off
+       // std::cout<<"Cannot convert Date from: "<<sv<<'\n';
+    }                                                                                     
 }
+
 
 struct Result
 {
@@ -123,11 +134,22 @@ struct Result
     double Sum{0.0};
 };
 
-void ShowResults(Date startDate, Date endDate, const std::vector<Result>& results)
+void ShowResults(const std::vector<Result>& results, Date startDate, Date endDate)
 {
-    
-    
-    
+   
+     const std::size_t maxStringLen=std::accumulate(std::cbegin(results), std::cend(results), 0,
+                                                       [](std::size_t l, const auto& result) { return std::max(l, result.mFilename.length()); } );  // lambda returns the maximum lentgth of the paths; it does not do adding
+                                                      
+     if(!startDate.IsInValid() && !endDate.IsInValid())
+         std::cout<<" | Total Orders Value Between "<<startDate<<" and "<<endDate<<'\n';
+     else if(!startDate.IsInValid())
+         std::cout<< " | Total Orders Value Between "<<startDate<<'\n';
+    else
+        std::cout<<" | Total Orders Value\n";
+        
+    for(const auto& [fileName, sum] : results)
+        std::cout<< std::setw(maxStringLen + 1)<<std::left <<fileName <<" | "<<std::fixed<<std::setprecision(2)<<sum<<'\n';
+  
 }
 
 [[nodiscard]] std::string GetFileContents(const fs::path& filePath)
@@ -198,8 +220,8 @@ enum Indices {DATE, COUPON, UNIT_PRICE, DISCOUNT, QUANTITY, ENUM_LENGTH};
     if(cols.size()==static_cast<std::size_t>(OrderRecord::ENUM_LENGTH))
     {
         const auto unitPrice = TryConvert<double>(cols[OrderRecord::UNIT_PRICE]);           // type of unitPrice is std::optional<T>; in order to access the value dereference it as a pointer *unitPrice
-        const auto discount = TryConvert<double>(cols[OrderRecord::DISCOUNT]);
-        const auto quantity = TryConvert<unsigned int>(cols[OrderRecord::QUANTITY]);
+        const auto discount  = TryConvert<double>(cols[OrderRecord::DISCOUNT]);
+        const auto quantity  = TryConvert<unsigned int>(cols[OrderRecord::QUANTITY]);
         
         if(unitPrice && discount && quantity)   // check if TryConvert was successfull; if not it returns nullopt thru std::optional
         {
@@ -208,14 +230,22 @@ enum Indices {DATE, COUPON, UNIT_PRICE, DISCOUNT, QUANTITY, ENUM_LENGTH};
     }
     
     std::printf("Cannot convert Record from %s", sv.data()); //TODO : check if string_view data() works with printf !!!! 
-    return OrderRecord{};
-}
-
+    return OrderRecord{};                                    // sv.data() with printf will return the full character array therefore if the str_view
+}                                                            // refers to a part of the original string then you will get still full string   
+                                                             // if part of the string will be printed then do this;
+                                                             // printf("%.*s\n....", static_cast<int>(sv.size()), sv.data() );
+                                                             // the * will get the casted size value as a precision therefore it wil only print the specified size of string_view
 [[nodiscard]] std::vector<OrderRecord> LinesToRecords(const std::vector<std::string_view>& lines)
 {
-    std::vector<OrderRecord> outRecords(lines.size());
-    std::transform(lines.begin(), lines.end(), std::begin(outRecords), LineToRecord);
-    
+      std::vector<OrderRecord> outRecords(lines.size());
+// paralel algorithms supported by Microsoft or GCC 9.1 + ; no support Mac Clang      
+#ifdef _MSC_VER_ 
+    // parallel version
+    std::transform(std::execution::par, lines.begin(), lines.end(), std::begin(outRecords), LineToRecord);  // back_inserter is not thread safe because i
+#else    
+    // serial version
+    std::transform(lines.begin(), lines.end(), std::back_inserter(outRecords), LineToRecord);
+#endif    
     return outRecords;
 }
 
@@ -266,7 +296,7 @@ enum Indices {DATE, COUPON, UNIT_PRICE, DISCOUNT, QUANTITY, ENUM_LENGTH};
     
     for(const auto& p: paths) 
     {
-        const auto records=LoadRecords(p);
+        const auto records    = LoadRecords(p);
         const auto totalValue = CalcTotalOrder(records, startDate, endDate);
         results.push_back({p.string(), totalValue});        // refactor with emplace_back but had to include constructor w/ args in Result struct so emplace_back can work
     }
@@ -293,11 +323,12 @@ bool IsCSVFile(const fs::path& p)
 
 int main(int argc, const char** argv)
 {
+    
     if(argc <=1)
         return 1;
     try {
         
-        const auto paths=CollectPaths(argv[1]);
+        const auto paths=CollectPaths(argv[1]);                          // type of paths=std::vector<fs::path>
         
         if (paths.empty()) 
         {
@@ -305,12 +336,12 @@ int main(int argc, const char** argv)
             return 0;
         }
         
-        const auto startDate =argc > 2 ? Date(argv[1]) : Date();
-        const auto endDate = argc  > 3 ? Date(argv[2]) : Date();
+        const Date startDate = argc > 2 ? Date(argv[2]) : Date();           // type of startDate is Date() class
+        const Date endDate   = argc > 3 ? Date(argv[3]) : Date();
 
-        const auto results = CalcResults(paths, startDate, endDate);
+        const auto results   = CalcResults(paths, startDate, endDate);      // type of results; std::vector<Result>
         
-        ShowResults(startDate, endDate, results);
+        ShowResults(results, startDate, endDate);
 
     }
     catch (const fs::filesystem_error& e) 

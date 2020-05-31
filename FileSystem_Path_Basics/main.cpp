@@ -7,11 +7,11 @@ namespace fs =std::filesystem;
 int main(int argc, char* argv[])
 {
     
-    if(argc <2) 
-    {
-        std::printf("Usage: %s <path> \n", argv[0]);
-        return EXIT_FAILURE;
-    }
+//    if(argc <2) 
+//    {
+//        std::printf("Usage: %s <path> \n", argv[0]);
+//        return EXIT_FAILURE;
+//    }
     
     
     
@@ -30,10 +30,19 @@ int main(int argc, char* argv[])
         //for(const auto&e : fs::directory_iterator{p})
         for(const auto&e : fs::recursive_directory_iterator{p})
         {
-            std::cout<<" "<<e.path().extension()
-            <<'\n';
-            // std::cout<<"\t\t "<<e.path().filename()<<'\n';
-            //std::cout<<"\t\t "<<e.path().filename().string()<<'\n';           // alternative way to print; no quotation marks
+            if(is_directory(e)) 
+            {
+                std::cout<<e.path().filename()<<"is a sub directory of "<<p<<" contaning \n";
+            }
+            else 
+            {
+                //std::cout<<" "<<e.path().extension()<<'\n';
+                std::cout<<"\t\t "<<e.path().filename()<<'\n';
+                //std::cout<<"\t\t "<<e.path().filename().string()<<'\n';           // alternative way to print; no quotation marks
+            }
+
+        // Alternative to recursive_diectory_iterator; 
+        // checks if there are any sub directories under the given path; prefer recursive_iterator
 //            if(is_directory(e.path())) 
 //            {
 //                std::cout<<e.path()<< " is a directory containing: \n";
