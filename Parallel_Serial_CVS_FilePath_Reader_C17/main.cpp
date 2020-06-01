@@ -262,7 +262,7 @@ enum Indices {DATE, COUPON, UNIT_PRICE, DISCOUNT, QUANTITY, ENUM_LENGTH};
 [[nodiscard]] double CalcTotalOrder(const std::vector<OrderRecord>& records, const Date& startDate, const Date& endDate)
 {
    
-    #ifdef _MSC_VER_
+    #ifdef _MSC_VER_ // TODO ; add timer and test on windows
          // paralel version supported MS only
          return std::transform_reduce(std::excecution::par, std::begin(records), std::end(records), 
                                      0.0,                                                       // initial value
